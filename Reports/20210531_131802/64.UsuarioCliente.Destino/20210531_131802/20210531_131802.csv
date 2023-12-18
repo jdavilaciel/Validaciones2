@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+64.UsuarioCliente.Destino,,"INdica el destino del usuario cliente. 0=turno, 1=servicio. Con 0 al colocar datos del usuario éstos se conservarán al realizar una nueva transacción.",,2021-05-31 13:18:25,2021-05-31 13:20:33,"2m - 7,279s",FAILED
+,,,,,,,
+Test Cases/64.UsuarioCliente.Destino 0Turno,,,,2021-05-31 13:18:33,2021-05-31 13:20:10,"1m - 36,166s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",,,,2021-05-31 13:18:37,2021-05-31 13:19:02,"25,865s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",,,,2021-05-31 13:19:02,2021-05-31 13:19:04,"1,801s",PASSED
+delay(3),,,,2021-05-31 13:19:04,2021-05-31 13:19:07,"3,004s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",,,,2021-05-31 13:19:07,2021-05-31 13:19:08,"0,729s",PASSED
+delay(3),,,,2021-05-31 13:19:08,2021-05-31 13:19:11,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",,,,2021-05-31 13:19:11,2021-05-31 13:19:12,"0,740s",PASSED
+delay(3),,,,2021-05-31 13:19:12,2021-05-31 13:19:15,"3,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",,Cambiar pestaña,,2021-05-31 13:19:15,2021-05-31 13:19:16,"1,102s",PASSED
+delay(3),,,,2021-05-31 13:19:16,2021-05-31 13:19:19,"3,017s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",,,,2021-05-31 13:19:19,2021-05-31 13:19:20,"1,033s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",,,,2021-05-31 13:19:20,2021-05-31 13:19:21,"1,490s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",,,,2021-05-31 13:19:21,2021-05-31 13:19:23,"1,364s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",,,,2021-05-31 13:19:23,2021-05-31 13:19:24,"1,167s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""UsuarioCliente.Destino"")",,UsuarioCliente.Destino,,2021-05-31 13:19:24,2021-05-31 13:19:26,"1,616s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",,,,2021-05-31 13:19:26,2021-05-31 13:19:27,"1,062s",PASSED
+delay(2),,,,2021-05-31 13:19:27,2021-05-31 13:19:29,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",,,,2021-05-31 13:19:29,2021-05-31 13:19:30,"1,047s",PASSED
+delay(2),,,,2021-05-31 13:19:30,2021-05-31 13:19:32,"2,012s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",,0 =el turno es asignado al mismo cliente aunque se haga una nueva transacción,,2021-05-31 13:19:32,2021-05-31 13:19:33,"0,883s",PASSED
+"sendKeys(findTestObject(null), ""0"")",,,,2021-05-31 13:19:33,2021-05-31 13:19:33,"0,939s",PASSED
+delay(2),,,,2021-05-31 13:19:33,2021-05-31 13:19:35,"2,012s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",,,,2021-05-31 13:19:35,2021-05-31 13:19:37,"1,333s",PASSED
+delay(3),,,,2021-05-31 13:19:37,2021-05-31 13:19:40,"3,006s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",,,,2021-05-31 13:19:40,2021-05-31 13:19:41,"0,724s",PASSED
+delay(3),,,,2021-05-31 13:19:41,2021-05-31 13:19:44,"3,007s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",,,,2021-05-31 13:19:44,2021-05-31 13:19:44,"0,739s",PASSED
+delay(3),,,,2021-05-31 13:19:44,2021-05-31 13:19:47,"3,007s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",,,,2021-05-31 13:19:47,2021-05-31 13:19:48,"0,689s",PASSED
+delay(3),,,,2021-05-31 13:19:48,2021-05-31 13:19:51,"3,008s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",,,,2021-05-31 13:19:51,2021-05-31 13:19:52,"1,181s",PASSED
+delay(3),,,,2021-05-31 13:19:52,2021-05-31 13:19:55,"3,007s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",,Escogemos oficina,,2021-05-31 13:19:55,2021-05-31 13:19:56,"1,117s",PASSED
+delay(3),,,,2021-05-31 13:19:56,2021-05-31 13:19:59,"3,008s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",,Abrimos Terminal,,2021-05-31 13:19:59,2021-05-31 13:20:00,"0,856s",PASSED
+delay(3),,,,2021-05-31 13:20:00,2021-05-31 13:20:03,"3,008s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",,,,2021-05-31 13:20:03,2021-05-31 13:20:05,"1,863s",PASSED
+delay(3),,,,2021-05-31 13:20:05,2021-05-31 13:20:08,"3,006s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",,,,2021-05-31 13:20:08,2021-05-31 13:20:10,"1,582s",FAILED
+,,,,,,,
+Test Cases/64.UsuarioCliente.Destino 1Servicio,,,,2021-05-31 13:20:10,2021-05-31 13:20:33,"22,548s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",,,,2021-05-31 13:20:12,2021-05-31 13:20:33,"20,532s",FAILED

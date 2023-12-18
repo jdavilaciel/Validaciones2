@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="99.Sistema.Login.Intentos.Limite" time="127.709" tests="1" failures="0" errors="0">
+   <testsuite name="99.Sistema.Login.Intentos.Limite" tests="1" failures="0" errors="0" time="127.709" skipped="0" timestamp="2021-06-08 15:43:10" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/99.Sistema.Login.Intentos.Limite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210608_154254\\99.Sistema.Login.Intentos.Limite\\20210608_154254"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210608_154254\\99.Sistema.Login.Intentos.Limite\\20210608_154254\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210608_154254\\99.Sistema.Login.Intentos.Limite\\20210608_154254\\1623185073517.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210608_154254\\99.Sistema.Login.Intentos.Limite\\20210608_154254\\1623185082447.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Chrome 91.0.4472.77"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="ca8a06626d6d7bdf5c838436842e491f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/99.Sistema.Login.Intentos.Limite" time="89.897" classname="Test Cases/99.Sistema.Login.Intentos.Limite" status="PASSED">
+         <system-out><![CDATA[2021-06-08 15:43:16 - [TEST_CASE][PASSED] - Test Cases/99.Sistema.Login.Intentos.Limite: Test Cases/99.Sistema.Login.Intentos.Limite
+
+2021-06-08 15:43:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-08 15:43:19 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-06-08 15:43:20 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-08 15:43:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-08 15:43:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-08 15:43:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-08 15:43:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-08 15:43:35 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-08 15:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-08 15:43:36 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-08 15:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-08 15:43:37 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-08 15:43:37 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-08 15:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-08 15:43:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:43:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:43:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-08 15:43:41 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-08 15:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-08 15:43:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:43:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-08 15:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-08 15:43:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:43:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-08 15:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-08 15:43:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:43:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-06-08 15:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-06-08 15:43:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:44:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:44:01 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-08 15:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-08 15:44:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-08 15:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-08 15:44:04 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-08 15:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-08 15:44:05 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-08 15:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-08 15:44:06 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "Sistema.Login.Intentos.Limite"): Text 'Sistema.Login.Intentos.Limite' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-08 15:44:07 - [MESSAGE][PASSED] - Text 'Sistema.Login.Intentos.Limite' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-08 15:44:07 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-08 15:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-08 15:44:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-08 15:44:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-08 15:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-08 15:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-08 15:44:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-08 15:44:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-08 15:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-06-08 15:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-06-08 15:44:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), "1"): Keys '1' sent to object: 'tempBody'
+
+2021-06-08 15:44:14 - [MESSAGE][WARNING] - Test object id is null
+
+2021-06-08 15:44:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-06-08 15:44:14 - [MESSAGE][PASSED] - Keys '1' sent to object: 'tempBody'
+
+2021-06-08 15:44:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-08 15:44:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-08 15:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-08 15:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-08 15:44:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:44:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:44:21 - [TEST_STEP][PASSED] - mouseOver(findTestObject("0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas' is hovered
+
+2021-06-08 15:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas' is hovered
+
+2021-06-08 15:44:22 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/Menu Tres Rayas/a_Cerrar sesion")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/a_Cerrar sesion' is clicked on
+
+2021-06-08 15:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/a_Cerrar sesion' is clicked on
+
+2021-06-08 15:44:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:44:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-08 15:44:28 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-08 15:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturn"): Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-08 15:44:29 - [MESSAGE][PASSED] - Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-08 15:44:29 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-08 15:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-08 15:44:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:44:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-06-08 15:44:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-08 15:44:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210608_154254\\99.Sistema.Login.Intentos.Limite\\20210608_154254\\1623185073517.png]]
+
+2021-06-08 15:44:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:44:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-08 15:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-08 15:44:38 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-08 15:44:38 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturn"): Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-08 15:44:39 - [MESSAGE][PASSED] - Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-08 15:44:39 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-08 15:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-08 15:44:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-08 15:44:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-08 15:44:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-06-08 15:44:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-08 15:44:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210608_154254\\99.Sistema.Login.Intentos.Limite\\20210608_154254\\1623185082447.png]]
+
+2021-06-08 15:44:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-08 15:44:46 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-08 15:43:10 - [TEST_SUITE][PASSED] - 99.Sistema.Login.Intentos.Limite: Test Cases/99.Sistema.Login.Intentos.Limite]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

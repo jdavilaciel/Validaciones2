@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visible en Terminal" time="184.126" tests="1" failures="0" errors="0">
+   <testsuite name="Visible en Terminal" tests="1" failures="0" errors="0" time="184.126" skipped="0" timestamp="2021-07-09 11:56:06" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/0 Información Clientes/Visible en Terminal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115547\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115547"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115547\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115547\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115547\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115547\\1625849910335.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="9b43745453fed3c3e55a612a487a4cc3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/0 Información clientes/Visible en Terminal" time="159.813" classname="Test Cases/0 Información clientes/Visible en Terminal" status="PASSED">
+         <system-out><![CDATA[2021-07-09 11:56:08 - [TEST_CASE][PASSED] - Test Cases/0 Información clientes/Visible en Terminal: Test Cases/0 Información clientes/Visible en Terminal
+
+2021-07-09 11:56:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-09 11:56:11 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-07-09 11:56:13 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-09 11:56:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-09 11:56:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-09 11:56:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-09 11:56:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-09 11:56:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-09 11:56:31 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-09 11:56:33 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-09 11:56:33 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-09 11:56:34 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-09 11:56:34 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-09 11:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-09 11:56:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:56:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:56:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-09 11:56:38 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-09 11:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-09 11:56:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:56:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:56:43 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Datos Complementarios")): Object: 'Object Repository/Configuracion/1Principal/img_Datos Complementarios' is clicked on
+
+2021-07-09 11:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Datos Complementarios' is clicked on
+
+2021-07-09 11:56:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:56:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:56:47 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Datos Complementarios/img_Informacion Clientes")): Object: 'Object Repository/Configuracion/Datos Complementarios/img_Informacion Clientes' is clicked on
+
+2021-07-09 11:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Datos Complementarios/img_Informacion Clientes' is clicked on
+
+2021-07-09 11:56:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:56:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:56:52 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente'
+
+2021-07-09 11:56:53 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente'
+
+2021-07-09 11:56:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:56:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:56:56 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_1Tipo Identificacion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_1Tipo Identificacion' is checked
+
+2021-07-09 11:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_1Tipo Identificacion' is checked
+
+2021-07-09 11:56:57 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_2Identificacion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_2Identificacion' is checked
+
+2021-07-09 11:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_2Identificacion' is checked
+
+2021-07-09 11:56:57 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_3Lugar de Expedicion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_3Lugar de Expedicion' is checked
+
+2021-07-09 11:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_3Lugar de Expedicion' is checked
+
+2021-07-09 11:56:58 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_4Primer nombre")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_4Primer nombre' is checked
+
+2021-07-09 11:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_4Primer nombre' is checked
+
+2021-07-09 11:56:59 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_5Segundo nombre")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_5Segundo nombre' is checked
+
+2021-07-09 11:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_5Segundo nombre' is checked
+
+2021-07-09 11:57:00 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_6Primer apellido")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_6Primer apellido' is checked
+
+2021-07-09 11:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_6Primer apellido' is checked
+
+2021-07-09 11:57:00 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_7Segundo apellido")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_7Segundo apellido' is checked
+
+2021-07-09 11:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_7Segundo apellido' is checked
+
+2021-07-09 11:57:01 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_8Direccion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_8Direccion' is checked
+
+2021-07-09 11:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_8Direccion' is checked
+
+2021-07-09 11:57:01 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_9Razon Social")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_9Razon Social' is checked
+
+2021-07-09 11:57:02 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_9Razon Social' is checked
+
+2021-07-09 11:57:02 - [TEST_STEP][PASSED] - scrollToPosition(0, 1200): Browser is scrolled to position x = 0, y = 1200
+
+2021-07-09 11:57:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1200
+
+2021-07-09 11:57:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:05 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo' is checked
+
+2021-07-09 11:57:06 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo' is checked
+
+2021-07-09 11:57:06 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_11Telefono Residencia")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_11Telefono Residencia' is checked
+
+2021-07-09 11:57:07 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_11Telefono Residencia' is checked
+
+2021-07-09 11:57:07 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_12Telefono Celular")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_12Telefono Celular' is checked
+
+2021-07-09 11:57:08 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_12Telefono Celular' is checked
+
+2021-07-09 11:57:08 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_13Fecha afiliacion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_13Fecha afiliacion' is checked
+
+2021-07-09 11:57:09 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_13Fecha afiliacion' is checked
+
+2021-07-09 11:57:09 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_14Fecha nacimiento")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_14Fecha nacimiento' is checked
+
+2021-07-09 11:57:09 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_14Fecha nacimiento' is checked
+
+2021-07-09 11:57:09 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_15E-mail")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_15E-mail' is checked
+
+2021-07-09 11:57:10 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_15E-mail' is checked
+
+2021-07-09 11:57:10 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_16Genero")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_16Genero' is checked
+
+2021-07-09 11:57:11 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_16Genero' is checked
+
+2021-07-09 11:57:11 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_17Estado cliente")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_17Estado cliente' is checked
+
+2021-07-09 11:57:12 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_17Estado cliente' is checked
+
+2021-07-09 11:57:12 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_18Codigo")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_18Codigo' is checked
+
+2021-07-09 11:57:12 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_18Codigo' is checked
+
+2021-07-09 11:57:12 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_19Barrio residencia")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_19Barrio residencia' is checked
+
+2021-07-09 11:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_19Barrio residencia' is checked
+
+2021-07-09 11:57:13 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_20Ciudad")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_20Ciudad' is checked
+
+2021-07-09 11:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_20Ciudad' is checked
+
+2021-07-09 11:57:14 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_21Tipo usuario cliente")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_21Tipo usuario cliente' is checked
+
+2021-07-09 11:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_21Tipo usuario cliente' is checked
+
+2021-07-09 11:57:14 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_22Tipo sangre")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_22Tipo sangre' is checked
+
+2021-07-09 11:57:16 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_22Tipo sangre' is checked
+
+2021-07-09 11:57:16 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_23Parametro 1")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_23Parametro 1' is checked
+
+2021-07-09 11:57:16 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_23Parametro 1' is checked
+
+2021-07-09 11:57:16 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_24Parametro 2")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_24Parametro 2' is checked
+
+2021-07-09 11:57:17 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_24Parametro 2' is checked
+
+2021-07-09 11:57:17 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_25Parametro 3")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_25Parametro 3' is checked
+
+2021-07-09 11:57:18 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_25Parametro 3' is checked
+
+2021-07-09 11:57:18 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2021-07-09 11:57:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2021-07-09 11:57:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/img_Actualizar")): Object: 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/img_Actualizar' is clicked on
+
+2021-07-09 11:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/img_Actualizar' is clicked on
+
+2021-07-09 11:57:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:25 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-09 11:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-09 11:57:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:29 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Operacion")): Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-09 11:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-09 11:57:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:33 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos Del Sistema")): Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-09 11:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-09 11:57:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:38 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/img_Terminales")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-09 11:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-09 11:57:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:42 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-09 11:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-09 11:57:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:46 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-09 11:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-09 11:57:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:49 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-09 11:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-09 11:57:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:55 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-09 11:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-09 11:57:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:57:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:57:59 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-09 11:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-09 11:58:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:58:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:58:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_1TipoIdentificacion")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_1TipoIdentificacion' is visible
+
+2021-07-09 11:58:04 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_1TipoIdentificacion' is visible
+
+2021-07-09 11:58:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_2Identificacion")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_2Identificacion' is visible
+
+2021-07-09 11:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_2Identificacion' is visible
+
+2021-07-09 11:58:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_3Lugar de expedicion")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_3Lugar de expedicion' is visible
+
+2021-07-09 11:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_3Lugar de expedicion' is visible
+
+2021-07-09 11:58:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_4Primer nombre")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_4Primer nombre' is visible
+
+2021-07-09 11:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_4Primer nombre' is visible
+
+2021-07-09 11:58:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_5Segundo nombre")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_5Segundo nombre' is visible
+
+2021-07-09 11:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_5Segundo nombre' is visible
+
+2021-07-09 11:58:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_6Primer apellido")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_6Primer apellido' is visible
+
+2021-07-09 11:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_6Primer apellido' is visible
+
+2021-07-09 11:58:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_7Segundo apellido")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_7Segundo apellido' is visible
+
+2021-07-09 11:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_7Segundo apellido' is visible
+
+2021-07-09 11:58:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_8Direccion")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_8Direccion' is visible
+
+2021-07-09 11:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_8Direccion' is visible
+
+2021-07-09 11:58:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_9Razon Social")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_9Razon Social' is visible
+
+2021-07-09 11:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_9Razon Social' is visible
+
+2021-07-09 11:58:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_10Telefono Trabajo")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_10Telefono Trabajo' is visible
+
+2021-07-09 11:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_10Telefono Trabajo' is visible
+
+2021-07-09 11:58:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_11Telefono Residencia")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_11Telefono Residencia' is visible
+
+2021-07-09 11:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_11Telefono Residencia' is visible
+
+2021-07-09 11:58:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_12Telefono Celular")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_12Telefono Celular' is visible
+
+2021-07-09 11:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_12Telefono Celular' is visible
+
+2021-07-09 11:58:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_13Fecha afiliacion ddmmaaaa")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_13Fecha afiliacion ddmmaaaa' is visible
+
+2021-07-09 11:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_13Fecha afiliacion ddmmaaaa' is visible
+
+2021-07-09 11:58:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_14Fecha nacimiento ddmmaaaa")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_14Fecha nacimiento ddmmaaaa' is visible
+
+2021-07-09 11:58:18 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_14Fecha nacimiento ddmmaaaa' is visible
+
+2021-07-09 11:58:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_15E-mail")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_15E-mail' is visible
+
+2021-07-09 11:58:19 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_15E-mail' is visible
+
+2021-07-09 11:58:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_16Genero")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_16Genero' is visible
+
+2021-07-09 11:58:20 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_16Genero' is visible
+
+2021-07-09 11:58:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_17EStado cliente")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_17EStado cliente' is visible
+
+2021-07-09 11:58:21 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_17EStado cliente' is visible
+
+2021-07-09 11:58:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_18Codigo")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_18Codigo' is visible
+
+2021-07-09 11:58:22 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_18Codigo' is visible
+
+2021-07-09 11:58:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_19Tipo usuario cliente")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_19Tipo usuario cliente' is visible
+
+2021-07-09 11:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_19Tipo usuario cliente' is visible
+
+2021-07-09 11:58:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_20Departamento")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_20Departamento' is visible
+
+2021-07-09 11:58:24 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_20Departamento' is visible
+
+2021-07-09 11:58:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_20Barrio residencia")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_20Barrio residencia' is visible
+
+2021-07-09 11:58:25 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_20Barrio residencia' is visible
+
+2021-07-09 11:58:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_21Ciudad")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_21Ciudad' is visible
+
+2021-07-09 11:58:26 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_21Ciudad' is visible
+
+2021-07-09 11:58:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_22Tipo sangre")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_22Tipo sangre' is visible
+
+2021-07-09 11:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/select_22Tipo sangre' is visible
+
+2021-07-09 11:58:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_23Parametro 1")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_23Parametro 1' is visible
+
+2021-07-09 11:58:28 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_23Parametro 1' is visible
+
+2021-07-09 11:58:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_24Parametro 2")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_24Parametro 2' is visible
+
+2021-07-09 11:58:29 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_24Parametro 2' is visible
+
+2021-07-09 11:58:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_25Parametro 3")): Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_25Parametro 3' is visible
+
+2021-07-09 11:58:30 - [MESSAGE][PASSED] - Object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/0Campos/0Cliente/input_25Parametro 3' is visible
+
+2021-07-09 11:58:30 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-09 11:58:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-09 11:58:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115547\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115547\\1625849910335.png]]
+
+2021-07-09 11:58:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:58:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:58:34 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-07-09 11:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-07-09 11:58:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:58:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:58:38 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-07-09 11:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-07-09 11:58:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:58:48 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-09 11:56:06 - [TEST_SUITE][PASSED] - Visible en Terminal: Test Cases/0 Información clientes/Visible en Terminal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

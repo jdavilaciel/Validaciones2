@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Visible en Terminal" time="87.215" tests="1" failures="1" errors="0">
+   <testsuite name="Visible en Terminal" tests="1" failures="1" errors="0" time="87.215" skipped="0" timestamp="2021-07-09 11:51:30" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/0 Información Clientes/Visible en Terminal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115111\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115111"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115111\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115111\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115111\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115111\\1625849553454.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="5006006703ab9c05fc06f4720f794075"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/0 Información clientes/Visible en Terminal" time="61.606" classname="Test Cases/0 Información clientes/Visible en Terminal" status="FAILED">
+         <failure type="FAILED" message="Test Cases/0 Información clientes/Visible en Terminal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;cPHPri_GridView_chkSeleccion_9&quot; type=&quot;checkbox&quot; name=&quot;ctl00$cPHPri$GridView$ctl11$chkSeleccion&quot; onclick=&quot;ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');&quot;> is not clickable at point (182, 646). Other element would receive the click: &lt;div class=&quot;piePaginaCopyRight&quot;>...&lt;/div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-09 11:51:32 - [TEST_CASE][FAILED] - Test Cases/0 Información clientes/Visible en Terminal: Test Cases/0 Información clientes/Visible en Terminal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="cPHPri_GridView_chkSeleccion_9" type="checkbox" name="ctl00$cPHPri$GridView$ctl11$chkSeleccion" onclick="ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');"> is not clickable at point (182, 646). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-09 11:51:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-09 11:51:35 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-07-09 11:51:36 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-09 11:51:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-09 11:51:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-09 11:51:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-09 11:51:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-09 11:51:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-09 11:51:55 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-09 11:51:57 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-09 11:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-09 11:51:59 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-09 11:51:59 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-09 11:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-09 11:52:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:52:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:52:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-09 11:52:03 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-09 11:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-09 11:52:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:52:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Datos Complementarios")): Object: 'Object Repository/Configuracion/1Principal/img_Datos Complementarios' is clicked on
+
+2021-07-09 11:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Datos Complementarios' is clicked on
+
+2021-07-09 11:52:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:52:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Datos Complementarios/img_Informacion Clientes")): Object: 'Object Repository/Configuracion/Datos Complementarios/img_Informacion Clientes' is clicked on
+
+2021-07-09 11:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Datos Complementarios/img_Informacion Clientes' is clicked on
+
+2021-07-09 11:52:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:52:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:52:17 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente'
+
+2021-07-09 11:52:19 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente'
+
+2021-07-09 11:52:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-09 11:52:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-09 11:52:22 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_1Tipo Identificacion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_1Tipo Identificacion' is checked
+
+2021-07-09 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_1Tipo Identificacion' is checked
+
+2021-07-09 11:52:23 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_2Identificacion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_2Identificacion' is checked
+
+2021-07-09 11:52:24 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_2Identificacion' is checked
+
+2021-07-09 11:52:24 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_3Lugar de Expedicion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_3Lugar de Expedicion' is checked
+
+2021-07-09 11:52:25 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_3Lugar de Expedicion' is checked
+
+2021-07-09 11:52:25 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_4Primer nombre")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_4Primer nombre' is checked
+
+2021-07-09 11:52:26 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_4Primer nombre' is checked
+
+2021-07-09 11:52:26 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_5Segundo nombre")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_5Segundo nombre' is checked
+
+2021-07-09 11:52:27 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_5Segundo nombre' is checked
+
+2021-07-09 11:52:27 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_6Primer apellido")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_6Primer apellido' is checked
+
+2021-07-09 11:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_6Primer apellido' is checked
+
+2021-07-09 11:52:28 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_7Segundo apellido")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_7Segundo apellido' is checked
+
+2021-07-09 11:52:29 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_7Segundo apellido' is checked
+
+2021-07-09 11:52:29 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_8Direccion")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_8Direccion' is checked
+
+2021-07-09 11:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_8Direccion' is checked
+
+2021-07-09 11:52:30 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_9Razon Social")): Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_9Razon Social' is checked
+
+2021-07-09 11:52:31 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_9Razon Social' is checked
+
+2021-07-09 11:52:31 - [TEST_STEP][FAILED] - check(findTestObject("Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo")): Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="cPHPri_GridView_chkSeleccion_9" type="checkbox" name="ctl00$cPHPri$GridView$ctl11$chkSeleccion" onclick="ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');"> is not clickable at point (182, 646). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Script1625845514822.run(Script1625845514822.groovy:57)
+	... 13 more
+)
+
+2021-07-09 11:52:33 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="cPHPri_GridView_chkSeleccion_9" type="checkbox" name="ctl00$cPHPri$GridView$ctl11$chkSeleccion" onclick="ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');"> is not clickable at point (182, 646). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Script1625845514822.run(Script1625845514822.groovy:57)
+	... 13 more
+)
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210709_115111\\0 Informaci\u00F3n Clientes\\Visible en Terminal\\20210709_115111\\1625849553454.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-09 11:51:32 - [TEST_CASE][FAILED] - Test Cases/0 Información clientes/Visible en Terminal: Test Cases/0 Información clientes/Visible en Terminal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="cPHPri_GridView_chkSeleccion_9" type="checkbox" name="ctl00$cPHPri$GridView$ctl11$chkSeleccion" onclick="ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');"> is not clickable at point (182, 646). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-09 11:51:30 - [TEST_SUITE][FAILED] - Visible en Terminal: Test Cases/0 Información clientes/Visible en Terminal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="cPHPri_GridView_chkSeleccion_9" type="checkbox" name="ctl00$cPHPri$GridView$ctl11$chkSeleccion" onclick="ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');"> is not clickable at point (182, 646). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-07-09 11:51:30 - [TEST_SUITE][FAILED] - Visible en Terminal: Test Cases/0 Información clientes/Visible en Terminal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/1Visible en terminal/chk_10Telefono Trabajo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$4.call(Unknown Source)
+	at Visible en Terminal.run(Visible en Terminal:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1625849471477.run(TempTestSuite1625849471477.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="cPHPri_GridView_chkSeleccion_9" type="checkbox" name="ctl00$cPHPri$GridView$ctl11$chkSeleccion" onclick="ValidarRequeridoSiNoEsVisible(this, 'chkSeleccionRequeridoTerminal', 'chkSeleccion');"> is not clickable at point (182, 646). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-HH1RJM2', ip: '169.254.12.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\BILIKI\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5006006703ab9c05fc06f4720f794075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

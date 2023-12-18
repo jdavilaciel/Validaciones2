@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="46.CrearUsuario.CrearTerminales" time="220.793" tests="2" failures="2" errors="0">
+   <testsuite name="46.CrearUsuario.CrearTerminales" tests="2" failures="2" errors="0" time="220.793" skipped="0" timestamp="2023-08-18 07:59:11" hostname="jdavila - PCPruebas101.ciel.cielingenieria.com" id="Test Suites/46.CrearUsuario.CrearTerminales">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\46.CrearUsuario.CrearTerminales\\20230818_073249"/>
+         <property name="logFiles" value="C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\46.CrearUsuario.CrearTerminales\\20230818_073249\\execution0.log"/>
+         <property name="attachments" value="C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\46.CrearUsuario.CrearTerminales\\20230818_073249\\1692363662644.png, C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\46.CrearUsuario.CrearTerminales\\20230818_073249\\1692363772536.png"/>
+         <property name="hostName" value="jdavila - PCPruebas101.ciel.cielingenieria.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.33"/>
+         <property name="sessionId" value="4a0c2482b1e220bf0d5d3f11c93dedf2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/46.CrearUsuario.CrearTerminales No" time="110.709" classname="Test Cases/46.CrearUsuario.CrearTerminales No" status="FAILED">
+         <failure type="FAILED" message="Test Cases/46.CrearUsuario.CrearTerminales No FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cPHPri$btnFiltrarOficinas&quot; value=&quot;Filtrar oficinas&quot; id=&quot;cPHPri_btnFiltrarOficinas&quot; class=&quot;boton&quot;> is not clickable at point (635, 584). Other element would receive the click: &lt;div class=&quot;piePaginaCopyRight&quot;>...&lt;/div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-18 07:59:12 - [TEST_CASE][FAILED] - Test Cases/46.CrearUsuario.CrearTerminales No: Test Cases/46.CrearUsuario.CrearTerminales No FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-18 07:59:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2023-08-18 07:59:12 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2023-08-18 07:59:12 - [TEST_STEP][PASSED] - openBrowser(Url): Browser is opened with url: 'https://pcpruebas101.ciel.cielingenieria.com:8610'
+
+2023-08-18 07:59:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-18 07:59:13 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-ui-for-media-stream, --disable-notifications]']
+
+2023-08-18 07:59:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-18 07:59:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pcpruebas101.ciel.cielingenieria.com:8610'
+
+2023-08-18 07:59:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-18 07:59:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-18 07:59:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:59:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:59:17 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:59:18 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:59:19 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:59:19 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:59:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2023-08-18 07:59:22 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 07:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 07:59:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2023-08-18 07:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2023-08-18 07:59:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2023-08-18 07:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2023-08-18 07:59:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:34 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "CrearUsuario.CrearTerminales"): Text 'CrearUsuario.CrearTerminales' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2023-08-18 07:59:35 - [MESSAGE][PASSED] - Text 'CrearUsuario.CrearTerminales' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2023-08-18 07:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2023-08-18 07:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2023-08-18 07:59:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:59:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2023-08-18 07:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2023-08-18 07:59:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:59:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2023-08-18 07:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2023-08-18 07:59:41 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_No"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_No' is clicked on
+
+2023-08-18 07:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_No' is clicked on
+
+2023-08-18 07:59:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:59:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2023-08-18 07:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2023-08-18 07:59:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:47 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2023-08-18 07:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2023-08-18 07:59:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:50 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 07:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 07:59:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/img_Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2023-08-18 07:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2023-08-18 07:59:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:59:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2023-08-18 07:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2023-08-18 07:59:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:01 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario"), "juan"): Text 'juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2023-08-18 08:00:02 - [MESSAGE][PASSED] - Text 'juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2023-08-18 08:00:02 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar"), "Juan"): Text 'Juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2023-08-18 08:00:03 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2023-08-18 08:00:03 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo"), "juan@gmail.com"): Text 'juan@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2023-08-18 08:00:04 - [MESSAGE][PASSED] - Text 'juan@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2023-08-18 08:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular"), "3197654321"): Text '3197654321' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2023-08-18 08:00:05 - [MESSAGE][PASSED] - Text '3197654321' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2023-08-18 08:00:05 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:00:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:00:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:10 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2023-08-18 08:00:11 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2023-08-18 08:00:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:14 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2023-08-18 08:00:15 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2023-08-18 08:00:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:18 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2023-08-18 08:00:19 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2023-08-18 08:00:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:00:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:00:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is clicked on
+
+2023-08-18 08:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is clicked on
+
+2023-08-18 08:00:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:00:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:00:30 - [TEST_STEP][FAILED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas"), STOP_ON_FAILURE): Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622062683559.run(Script1622062683559.groovy:117)
+	... 13 more
+)
+
+2023-08-18 08:01:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1622062683559.run(Script1622062683559.groovy:117)
+	... 13 more
+)
+[[ATTACHMENT|C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\46.CrearUsuario.CrearTerminales\\20230818_073249\\1692363662644.png]]
+
+2023-08-18 08:01:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2023-08-18 07:59:12 - [TEST_CASE][FAILED] - Test Cases/46.CrearUsuario.CrearTerminales No: Test Cases/46.CrearUsuario.CrearTerminales No FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/46.CrearUsuario.CrearTerminales Si" time="109.831" classname="Test Cases/46.CrearUsuario.CrearTerminales Si" status="FAILED">
+         <failure type="FAILED" message="Test Cases/46.CrearUsuario.CrearTerminales Si FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales Si.run(46.CrearUsuario.CrearTerminales Si:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cPHPri$btnFiltrarOficinas&quot; value=&quot;Filtrar oficinas&quot; id=&quot;cPHPri_btnFiltrarOficinas&quot; class=&quot;boton&quot;> is not clickable at point (635, 584). Other element would receive the click: &lt;div class=&quot;piePaginaCopyRight&quot;>...&lt;/div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a0c2482b1e220bf0d5d3f11c93dedf2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-18 08:01:02 - [TEST_CASE][FAILED] - Test Cases/46.CrearUsuario.CrearTerminales Si: Test Cases/46.CrearUsuario.CrearTerminales Si FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales Si.run(46.CrearUsuario.CrearTerminales Si:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a0c2482b1e220bf0d5d3f11c93dedf2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-18 08:01:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2023-08-18 08:01:03 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2023-08-18 08:01:03 - [TEST_STEP][PASSED] - openBrowser(Url): Browser is opened with url: 'https://pcpruebas101.ciel.cielingenieria.com:8610'
+
+2023-08-18 08:01:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-18 08:01:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-18 08:01:03 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-ui-for-media-stream, --disable-notifications]']
+
+2023-08-18 08:01:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-18 08:01:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pcpruebas101.ciel.cielingenieria.com:8610'
+
+2023-08-18 08:01:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-18 08:01:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-18 08:01:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 08:01:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 08:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 08:01:08 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 08:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 08:01:09 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 08:01:09 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 08:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 08:01:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2023-08-18 08:01:12 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 08:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 08:01:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2023-08-18 08:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2023-08-18 08:01:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2023-08-18 08:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2023-08-18 08:01:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "CrearUsuario.CrearTerminales"): Text 'CrearUsuario.CrearTerminales' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2023-08-18 08:01:25 - [MESSAGE][PASSED] - Text 'CrearUsuario.CrearTerminales' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2023-08-18 08:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2023-08-18 08:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2023-08-18 08:01:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 08:01:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 08:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2023-08-18 08:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2023-08-18 08:01:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 08:01:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 08:01:30 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2023-08-18 08:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2023-08-18 08:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si' is clicked on
+
+2023-08-18 08:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si' is clicked on
+
+2023-08-18 08:01:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 08:01:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 08:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2023-08-18 08:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2023-08-18 08:01:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:37 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2023-08-18 08:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2023-08-18 08:01:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:41 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 08:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 08:01:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/img_Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2023-08-18 08:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2023-08-18 08:01:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2023-08-18 08:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2023-08-18 08:01:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:01:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario"), "juan2"): Text 'juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2023-08-18 08:01:52 - [MESSAGE][PASSED] - Text 'juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2023-08-18 08:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar"), "Juan2"): Text 'Juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2023-08-18 08:01:53 - [MESSAGE][PASSED] - Text 'Juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2023-08-18 08:01:53 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo"), "juan2@gmail.com"): Text 'juan2@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2023-08-18 08:01:54 - [MESSAGE][PASSED] - Text 'juan2@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2023-08-18 08:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular"), "3192222222"): Text '3192222222' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2023-08-18 08:01:55 - [MESSAGE][PASSED] - Text '3192222222' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2023-08-18 08:01:55 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:01:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:01:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:00 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2023-08-18 08:02:01 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2023-08-18 08:02:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:04 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2023-08-18 08:02:05 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2023-08-18 08:02:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:08 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2023-08-18 08:02:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2023-08-18 08:02:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:12 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:02:14 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2023-08-18 08:02:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is clicked on
+
+2023-08-18 08:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is clicked on
+
+2023-08-18 08:02:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:20 - [TEST_STEP][FAILED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas"), STOP_ON_FAILURE): Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales Si.run(46.CrearUsuario.CrearTerminales Si:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a0c2482b1e220bf0d5d3f11c93dedf2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1621367002874.run(Script1621367002874.groovy:117)
+	... 13 more
+)
+
+2023-08-18 08:02:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales Si.run(46.CrearUsuario.CrearTerminales Si:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a0c2482b1e220bf0d5d3f11c93dedf2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1621367002874.run(Script1621367002874.groovy:117)
+	... 13 more
+)
+[[ATTACHMENT|C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\46.CrearUsuario.CrearTerminales\\20230818_073249\\1692363772536.png]]
+
+2023-08-18 08:02:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2023-08-18 08:01:02 - [TEST_CASE][FAILED] - Test Cases/46.CrearUsuario.CrearTerminales Si: Test Cases/46.CrearUsuario.CrearTerminales Si FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales Si.run(46.CrearUsuario.CrearTerminales Si:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a0c2482b1e220bf0d5d3f11c93dedf2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-18 07:59:11 - [TEST_SUITE][FAILED] - 46.CrearUsuario.CrearTerminales: Test Cases/46.CrearUsuario.CrearTerminales No FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-18 07:59:11 - [TEST_SUITE][FAILED] - 46.CrearUsuario.CrearTerminales: Test Cases/46.CrearUsuario.CrearTerminales No FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 46.CrearUsuario.CrearTerminales No.run(46.CrearUsuario.CrearTerminales No:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692361969210.run(TempTestSuite1692361969210.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$cPHPri$btnFiltrarOficinas" value="Filtrar oficinas" id="cPHPri_btnFiltrarOficinas" class="boton"> is not clickable at point (635, 584). Other element would receive the click: <div class="piePaginaCopyRight">...</div>
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PCPRUEBAS101', ip: '192.168.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JDavila\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da97a31ce429ac7bdcfeb034b0a74075
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

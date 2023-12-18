@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suspension -Con,Chrome 92.0.4515.107,Proceso en el cual se relacionan los motivos de suspensión con una oficina y posteriormente en la terminala aparecerá el botón de Suspender.,,2021-07-28 09:34:23,2021-07-28 09:37:19,"2m - 56,434s",PASSED
+,,,,,,,
+Test Cases/0 Motivos/Suspension - Con,Chrome 92.0.4515.107,Proceso en el cual se muestra los motivos de suspension asociados a la oficina en la terminal,,2021-07-28 09:34:24,2021-07-28 09:37:19,"2m - 54,910s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 92.0.4515.107,,,2021-07-28 09:34:26,2021-07-28 09:34:52,"25,671s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 92.0.4515.107,,,2021-07-28 09:34:52,2021-07-28 09:34:55,"3,430s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:34:55,2021-07-28 09:34:58,"3,017s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Elementos del Sistema""))",Chrome 92.0.4515.107,,,2021-07-28 09:34:58,2021-07-28 09:34:59,"1,437s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:34:59,2021-07-28 09:35:02,"3,018s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/1Principal/img_Motivos""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:02,2021-07-28 09:35:04,"1,769s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:04,2021-07-28 09:35:07,"3,026s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Motivos/span_Motivos""))",Chrome 92.0.4515.107,Mostramos los motivos creados,,2021-07-28 09:35:07,2021-07-28 09:35:09,"1,292s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:09,2021-07-28 09:35:12,"3,075s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-28 09:35:12,2021-07-28 09:35:14,"2,712s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:14,2021-07-28 09:35:17,"3,017s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:17,2021-07-28 09:35:21,"3,678s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:21,2021-07-28 09:35:24,"3,044s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:24,2021-07-28 09:35:27,"2,684s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:27,2021-07-28 09:35:30,"3,036s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Distribucion Geografica""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:30,2021-07-28 09:35:34,"3,908s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:34,2021-07-28 09:35:37,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/1Principal/img_Oficinas""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:37,2021-07-28 09:35:41,"3,945s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:41,2021-07-28 09:35:44,"3,015s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/2Lista de Oficinas/a_Seleccionar""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:44,2021-07-28 09:35:45,"1,170s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:45,2021-07-28 09:35:48,"3,022s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/1Pestanas/span_Motivos""))",Chrome 92.0.4515.107,Agregamos Motivos de Suspensión,,2021-07-28 09:35:48,2021-07-28 09:35:50,"2,528s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:50,2021-07-28 09:35:53,"3,025s",PASSED
+"setText(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar""), ""Suspensión"")",Chrome 92.0.4515.107,,,2021-07-28 09:35:53,2021-07-28 09:35:55,"1,775s",PASSED
+"sendKeys(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar""), Keys.chord(ENTER))",Chrome 92.0.4515.107,,,2021-07-28 09:35:55,2021-07-28 09:35:56,"0,971s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:35:56,2021-07-28 09:35:59,"3,034s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/a__SeleccionarTodo""))",Chrome 92.0.4515.107,,,2021-07-28 09:35:59,2021-07-28 09:36:00,"1,224s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:00,2021-07-28 09:36:03,"3,013s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/img_Nuevo""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:03,2021-07-28 09:36:05,"1,584s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:05,2021-07-28 09:36:08,"3,025s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-28 09:36:08,2021-07-28 09:36:12,"4,164s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:12,2021-07-28 09:36:15,"3,015s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 92.0.4515.107,Abrimos la terminal,,2021-07-28 09:36:15,2021-07-28 09:36:19,"3,360s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:19,2021-07-28 09:36:22,"3,008s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:22,2021-07-28 09:36:24,"2,431s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:24,2021-07-28 09:36:27,"3,012s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:27,2021-07-28 09:36:30,"3,019s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:30,2021-07-28 09:36:33,"3,017s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:33,2021-07-28 09:36:36,"2,696s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:36,2021-07-28 09:36:39,"3,027s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:39,2021-07-28 09:36:40,"1,079s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:40,2021-07-28 09:36:43,"3,015s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:43,2021-07-28 09:36:44,"1,055s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:44,2021-07-28 09:36:47,"3,094s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:47,2021-07-28 09:36:52,"5,013s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:52,2021-07-28 09:36:55,"3,013s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",Chrome 92.0.4515.107,,,2021-07-28 09:36:55,2021-07-28 09:36:57,"1,948s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:36:57,2021-07-28 09:37:00,"3,025s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos""))",Chrome 92.0.4515.107,,,2021-07-28 09:37:00,2021-07-28 09:37:01,"1,151s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:37:01,2021-07-28 09:37:04,"3,027s",PASSED
+"verifyElementVisible(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender""))",Chrome 92.0.4515.107,,,2021-07-28 09:37:04,2021-07-28 09:37:06,"1,549s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-28 09:37:06,2021-07-28 09:37:07,"1,087s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:37:07,2021-07-28 09:37:10,"3,018s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar""))",Chrome 92.0.4515.107,,,2021-07-28 09:37:10,2021-07-28 09:37:11,"1,110s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:37:11,2021-07-28 09:37:14,"3,037s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada""))",Chrome 92.0.4515.107,,,2021-07-28 09:37:14,2021-07-28 09:37:16,"1,853s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 09:37:16,2021-07-28 09:37:19,"3,021s",PASSED

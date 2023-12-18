@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Distribucion Geografica</name>
+   <tag></tag>
+   <elementGuidId>f948d439-387f-42b8-b7fd-2909482b91ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/img/iconos/Secciones/DistribucionGeografica.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cPHPri_MenuNavegacionImagenes1_Panel1']/a[6]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>985052c9-92f8-4ab0-bba7-e9ee0adc2fcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/img/iconos/Secciones/DistribucionGeografica.svg</value>
+      <webElementGuid>6a99bb2f-2bd2-44cf-9675-4084197ef054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_MenuNavegacionImagenes1_Panel1&quot;)/a[6]/img[1]</value>
+      <webElementGuid>3600d50d-25d3-45b1-9fe1-048a0fba03d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cPHPri_MenuNavegacionImagenes1_Panel1']/a[6]/img</value>
+      <webElementGuid>7a18b9cc-17bf-4700-a383-1d4dc854d0a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]/img</value>
+      <webElementGuid>8a7b87e1-332c-48b9-aa5b-d1cbaa827a3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

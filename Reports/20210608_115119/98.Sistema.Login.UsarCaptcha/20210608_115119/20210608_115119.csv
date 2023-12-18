@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+98.Sistema.Login.UsarCaptcha,Edge Chromiume 18,Habilita la imagen captcha para un inicio de sesión,,2021-06-08 11:51:33,2021-06-08 11:52:36,"1m - 2,493s",FAILED
+,,,,,,,
+Test Cases/98.Sistema.Login.UsarCaptcha,Edge Chromiume 18,,,2021-06-08 11:51:38,2021-06-08 11:52:36,"58,147s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-08 11:51:39,2021-06-08 11:51:58,"18,810s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-06-08 11:51:58,2021-06-08 11:51:58,"0,585s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 11:51:58,2021-06-08 11:52:01,"3,008s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-06-08 11:52:01,2021-06-08 11:52:02,"0,562s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 11:52:02,2021-06-08 11:52:05,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-06-08 11:52:05,2021-06-08 11:52:05,"0,469s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 11:52:05,2021-06-08 11:52:08,"3,010s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios""))",Edge Chromiume 18,Cambiar pestaña,,2021-06-08 11:52:08,2021-06-08 11:52:09,"0,631s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 11:52:09,2021-06-08 11:52:12,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-06-08 11:52:12,2021-06-08 11:52:13,"0,678s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-06-08 11:52:13,2021-06-08 11:52:14,"1,090s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-06-08 11:52:14,2021-06-08 11:52:15,"0,768s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-06-08 11:52:15,2021-06-08 11:52:15,"0,638s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Sistema.Login.UsarCaptcha"")",Edge Chromiume 18,Sistema.Login.UsarCaptcha,,2021-06-08 11:52:15,2021-06-08 11:52:16,"1,210s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-06-08 11:52:16,2021-06-08 11:52:17,"0,973s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-08 11:52:17,2021-06-08 11:52:19,"2,020s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-06-08 11:52:19,2021-06-08 11:52:20,"0,620s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-08 11:52:20,2021-06-08 11:52:22,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Cambiamos a Si= Habilitado; No=No habilitado,,2021-06-08 11:52:22,2021-06-08 11:52:23,"0,508s",PASSED
+"sendKeys(findTestObject(null), ""Si"")",Edge Chromiume 18,,,2021-06-08 11:52:23,2021-06-08 11:52:23,"0,624s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-08 11:52:23,2021-06-08 11:52:25,"2,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-06-08 11:52:25,2021-06-08 11:52:26,"0,850s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 11:52:26,2021-06-08 11:52:29,"3,005s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-06-08 11:52:29,2021-06-08 11:52:30,"0,475s",PASSED
+delay(5),Edge Chromiume 18,,,2021-06-08 11:52:30,2021-06-08 11:52:35,"5,004s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Edge Chromiume 18,,,2021-06-08 11:52:35,2021-06-08 11:52:35,"0,408s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/a_Cerrar sesion""))",Edge Chromiume 18,,,2021-06-08 11:52:35,2021-06-08 11:52:36,"0,912s",FAILED

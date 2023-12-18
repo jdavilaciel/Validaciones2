@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+100.Sistema.Login.Intentos.Tiempo,Chrome 115.0.0.0,Tiempo que tarda en habilitarse luego de bloquear por mal ingreso de clave o usuario,,2023-08-18 07:45:23,2023-08-18 07:47:15,"1m - 51,519s",PASSED
+,,,,,,,
+Test Cases/100.Sistema.Login.Intentos.Tiempo,Chrome 115.0.0.0,,,2023-08-18 07:45:23,2023-08-18 07:47:15,"1m - 51,277s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:45:24,2023-08-18 07:45:34,"10,538s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:45:34,2023-08-18 07:45:35,"0,631s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:45:35,2023-08-18 07:45:38,"3,014s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 07:45:38,2023-08-18 07:45:53,"15,190s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:45:53,2023-08-18 07:45:56,"3,008s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 07:45:56,2023-08-18 07:45:57,"1,324s",PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-18 07:45:57,2023-08-18 07:46:02,"5,004s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Sistema.Login.Intentos.Tiempo"")",Chrome 115.0.0.0,Sistema.Login.Intentos.Tiempo,,2023-08-18 07:46:02,2023-08-18 07:46:03,"1,074s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 07:46:03,2023-08-18 07:46:04,"0,525s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:46:04,2023-08-18 07:46:06,"2,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 07:46:06,2023-08-18 07:46:06,"0,548s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:46:06,2023-08-18 07:46:08,"2,012s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro HHMMSS/input_HHMMSS""), ""00:00:10"")",Chrome 115.0.0.0,"Formato HH:MM:SS, para el ejemplo 00:00:10",,2023-08-18 07:46:08,2023-08-18 07:46:10,"1,220s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:46:10,2023-08-18 07:46:12,"2,008s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 07:46:12,2023-08-18 07:46:12,"0,820s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:46:12,2023-08-18 07:46:15,"3,005s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Chrome 115.0.0.0,,,2023-08-18 07:46:15,2023-08-18 07:46:16,"0,512s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:46:16,2023-08-18 07:46:19,"3,016s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/nuevos/a_Cerrar sesion""))",Chrome 115.0.0.0,,,2023-08-18 07:46:19,2023-08-18 07:46:20,"0,511s",PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-18 07:46:20,2023-08-18 07:46:30,"10,017s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Usuario""), ""ciel"")",Chrome 115.0.0.0,,,2023-08-18 07:46:30,2023-08-18 07:46:31,"0,953s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Clave""), ""digiturn"")",Chrome 115.0.0.0,,,2023-08-18 07:46:31,2023-08-18 07:46:31,"0,986s",PASSED
+"click(findTestObject(""0Inicio Sesion/btn_IniciarSesion""))",Chrome 115.0.0.0,,,2023-08-18 07:46:31,2023-08-18 07:46:32,"0,520s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:46:32,2023-08-18 07:46:35,"3,011s",PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-18 07:46:35,2023-08-18 07:46:36,"0,733s",PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-18 07:46:36,2023-08-18 07:46:46,"10,012s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Usuario""), ""ciel"")",Chrome 115.0.0.0,,,2023-08-18 07:46:46,2023-08-18 07:46:47,"1,004s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Clave""), ""digiturn"")",Chrome 115.0.0.0,,,2023-08-18 07:46:47,2023-08-18 07:46:48,"0,950s",PASSED
+"click(findTestObject(""0Inicio Sesion/btn_IniciarSesion""))",Chrome 115.0.0.0,,,2023-08-18 07:46:48,2023-08-18 07:46:48,"0,470s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:46:48,2023-08-18 07:46:50,"2,014s",PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-18 07:46:50,2023-08-18 07:46:51,"0,543s",PASSED
+delay(13),Chrome 115.0.0.0,,,2023-08-18 07:46:51,2023-08-18 07:47:04,"13,007s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Usuario""), ""ciel"")",Chrome 115.0.0.0,,,2023-08-18 07:47:04,2023-08-18 07:47:05,"1,050s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Clave""), ""digiturno"")",Chrome 115.0.0.0,,,2023-08-18 07:47:05,2023-08-18 07:47:06,"0,971s",PASSED
+"click(findTestObject(""0Inicio Sesion/btn_IniciarSesion""))",Chrome 115.0.0.0,,,2023-08-18 07:47:06,2023-08-18 07:47:06,"0,495s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:47:06,2023-08-18 07:47:09,"3,011s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:47:09,2023-08-18 07:47:10,"0,617s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:47:10,2023-08-18 07:47:12,"2,018s",PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-18 07:47:12,2023-08-18 07:47:12,"0,555s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:47:12,2023-08-18 07:47:15,"2,028s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:47:15,2023-08-18 07:47:15,"0,000s",PASSED

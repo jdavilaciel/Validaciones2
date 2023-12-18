@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Cerrar selector</name>
+   <tag></tag>
+   <elementGuidId>e2286ffe-2714-415c-bac2-c2285d7f9bbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='cPHPri_MenuEdicionCerrarSelector_lnkCerrarSelector']/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cPHPri_MenuEdicionCerrarSelector_lnkCerrarSelector > img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '../../../img/Iconos/Terminal/btnCerrarRojo.svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f07b1139-4aac-4038-ba24-2fc4f2c73d19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../img/Iconos/Terminal/btnCerrarRojo.svg</value>
+      <webElementGuid>93a8af2c-a1f1-4a57-bbcf-eae4e9c8b141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_MenuEdicionCerrarSelector_lnkCerrarSelector&quot;)/img[1]</value>
+      <webElementGuid>552c709e-0d14-42ba-9128-db1214d6430d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='cPHPri_MenuEdicionCerrarSelector_lnkCerrarSelector']/img</value>
+      <webElementGuid>8f9b0e02-068f-4319-a385-a9228d3e73d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/div/a/img</value>
+      <webElementGuid>daa8a612-d670-4301-9c93-961588436f66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

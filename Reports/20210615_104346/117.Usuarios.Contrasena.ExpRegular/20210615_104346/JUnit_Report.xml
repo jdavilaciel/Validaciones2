@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="117.Usuarios.Contrasena.ExpRegular" time="112.226" tests="1" failures="0" errors="0">
+   <testsuite name="117.Usuarios.Contrasena.ExpRegular" tests="1" failures="0" errors="0" time="112.226" skipped="0" timestamp="2021-06-15 10:44:06" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/117.Usuarios.Contrasena.ExpRegular">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210615_104346\\117.Usuarios.Contrasena.ExpRegular\\20210615_104346"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210615_104346\\117.Usuarios.Contrasena.ExpRegular\\20210615_104346\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210615_104346\\117.Usuarios.Contrasena.ExpRegular\\20210615_104346\\1623771935724.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="21f768580e1519bc924b37b8f4e09ed4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/117.Usuarios.Contrasena.ExpRegular" time="87.785" classname="Test Cases/117.Usuarios.Contrasena.ExpRegular" status="PASSED">
+         <system-out><![CDATA[2021-06-15 10:44:12 - [TEST_CASE][PASSED] - Test Cases/117.Usuarios.Contrasena.ExpRegular: Test Cases/117.Usuarios.Contrasena.ExpRegular
+
+2021-06-15 10:44:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-15 10:44:16 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-06-15 10:44:18 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-15 10:44:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-15 10:44:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-15 10:44:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-15 10:44:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-15 10:44:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-15 10:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-15 10:44:34 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-15 10:44:34 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-15 10:44:35 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-15 10:44:35 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-15 10:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-15 10:44:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:44:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:44:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-15 10:44:39 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-15 10:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-15 10:44:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:44:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-15 10:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-15 10:44:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:44:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-15 10:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-15 10:44:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:44:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-06-15 10:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-06-15 10:44:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:45:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-15 10:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-15 10:45:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-15 10:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-15 10:45:02 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-15 10:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-15 10:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-15 10:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-15 10:45:05 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "Usuarios.Contrasena.ExpRegular"): Text 'Usuarios.Contrasena.ExpRegular' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-15 10:45:06 - [MESSAGE][PASSED] - Text 'Usuarios.Contrasena.ExpRegular' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-15 10:45:06 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-15 10:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-15 10:45:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-15 10:45:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-15 10:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-15 10:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-15 10:45:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:45:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-15 10:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-15 10:45:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:45:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:45:17 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-06-15 10:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-06-15 10:45:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:45:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:45:22 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas' is clicked on
+
+2021-06-15 10:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas' is clicked on
+
+2021-06-15 10:45:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-15 10:45:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-15 10:45:24 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/Menu Tres Rayas/a_Cambiar Clave")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/a_Cambiar Clave' is clicked on
+
+2021-06-15 10:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/a_Cambiar Clave' is clicked on
+
+2021-06-15 10:45:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-15 10:45:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-15 10:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ContrasenaActual"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ContrasenaActual'
+
+2021-06-15 10:45:29 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ContrasenaActual'
+
+2021-06-15 10:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_NuevaContrasena"), "digi"): Text 'digi' is set on object 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_NuevaContrasena'
+
+2021-06-15 10:45:30 - [MESSAGE][PASSED] - Text 'digi' is set on object 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_NuevaContrasena'
+
+2021-06-15 10:45:30 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ConfirmarContrasenaNueva"), "digi"): Text 'digi' is set on object 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ConfirmarContrasenaNueva'
+
+2021-06-15 10:45:31 - [MESSAGE][PASSED] - Text 'digi' is set on object 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ConfirmarContrasenaNueva'
+
+2021-06-15 10:45:31 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/Menu Tres Rayas/CambiarClave/img_CambiarContrasena")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/img_CambiarContrasena' is clicked on
+
+2021-06-15 10:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/CambiarClave/img_CambiarContrasena' is clicked on
+
+2021-06-15 10:45:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:45:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-15 10:45:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-06-15 10:45:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-15 10:45:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210615_104346\\117.Usuarios.Contrasena.ExpRegular\\20210615_104346\\1623771935724.png]]
+
+2021-06-15 10:45:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-15 10:45:40 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-15 10:44:06 - [TEST_SUITE][PASSED] - 117.Usuarios.Contrasena.ExpRegular: Test Cases/117.Usuarios.Contrasena.ExpRegular]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

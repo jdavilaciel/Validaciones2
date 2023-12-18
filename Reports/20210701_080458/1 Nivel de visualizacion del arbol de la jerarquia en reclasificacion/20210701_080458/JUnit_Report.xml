@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion" time="207.12" tests="1" failures="0" errors="0">
+   <testsuite name="1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion" tests="1" failures="0" errors="0" time="207.12" skipped="0" timestamp="2021-07-01 08:05:13" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210701_080458\\1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion\\20210701_080458"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210701_080458\\1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion\\20210701_080458\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210701_080458\\1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion\\20210701_080458\\1625144808748.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210701_080458\\1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion\\20210701_080458\\1625144887444.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="6c804c62f1e361e0fa8c7e3fae93a4d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion" time="188.889" classname="Test Cases/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion" status="PASSED">
+         <system-out><![CDATA[2021-07-01 08:05:14 - [TEST_CASE][PASSED] - Test Cases/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion: Test Cases/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion
+
+2021-07-01 08:05:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-01 08:05:16 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-07-01 08:05:17 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-01 08:05:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-01 08:05:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-01 08:05:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-01 08:05:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-01 08:05:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-01 08:05:31 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-01 08:05:33 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-01 08:05:33 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-01 08:05:34 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-01 08:05:34 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-01 08:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-01 08:05:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:05:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:05:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-01 08:05:38 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-01 08:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-01 08:05:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:05:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:05:42 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Distribucion Geografica")): Object: 'Object Repository/Configuracion/1Principal/img_Distribucion Geografica' is clicked on
+
+2021-07-01 08:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Distribucion Geografica' is clicked on
+
+2021-07-01 08:05:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:05:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/1Principal/img_Grupos")): Object: 'Object Repository/Configuracion/Distribucion Geografica/1Principal/img_Grupos' is clicked on
+
+2021-07-01 08:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/1Principal/img_Grupos' is clicked on
+
+2021-07-01 08:05:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:05:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-07-01 08:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-07-01 08:05:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:05:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar' is clicked on
+
+2021-07-01 08:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar' is clicked on
+
+2021-07-01 08:05:56 - [TEST_STEP][PASSED] - scrollToPosition(10, 800): Browser is scrolled to position x = 10, y = 800
+
+2021-07-01 08:05:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 800
+
+2021-07-01 08:05:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:05:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:05:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion"), "Todos", false): All options with label 'Todos' are selected in object 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion' 
+
+2021-07-01 08:06:00 - [MESSAGE][PASSED] - All options with label 'Todos' are selected in object 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion' 
+
+2021-07-01 08:06:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:03 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2021-07-01 08:06:03 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2021-07-01 08:06:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar' is clicked on
+
+2021-07-01 08:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar' is clicked on
+
+2021-07-01 08:06:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:10 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-01 08:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-01 08:06:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:13 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Operacion")): Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-01 08:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-01 08:06:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:18 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos Del Sistema")): Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-01 08:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-01 08:06:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:21 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/img_Terminales")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-01 08:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-01 08:06:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:25 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-01 08:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-01 08:06:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:29 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-01 08:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-01 08:06:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:32 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-01 08:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-01 08:06:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:36 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-01 08:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-01 08:06:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:41 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-01 08:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-01 08:06:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:44 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Reclasificar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Reclasificar' is clicked on
+
+2021-07-01 08:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Reclasificar' is clicked on
+
+2021-07-01 08:06:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-01 08:06:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-01 08:06:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210701_080458\\1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion\\20210701_080458\\1625144808748.png]]
+
+2021-07-01 08:06:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-07-01 08:06:52 - [MESSAGE][WARNING] - Test object id is null
+
+2021-07-01 08:06:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-07-01 08:06:53 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-07-01 08:06:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:06:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:06:56 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-07-01 08:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-07-01 08:06:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:00 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-07-01 08:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-07-01 08:07:01 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8810/Paginas/Configuracion/DistribucionGeografica/Grupos.aspx"): Navigate to 'http://localhost:8810/Paginas/Configuracion/DistribucionGeografica/Grupos.aspx' successfully
+
+2021-07-01 08:07:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8810/Paginas/Configuracion/DistribucionGeografica/Grupos.aspx' successfully
+
+2021-07-01 08:07:02 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-07-01 08:07:02 - [MESSAGE][PASSED] - Alert accepted
+
+2021-07-01 08:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-07-01 08:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-07-01 08:07:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar' is clicked on
+
+2021-07-01 08:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar' is clicked on
+
+2021-07-01 08:07:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:13 - [TEST_STEP][PASSED] - scrollToPosition(10, 800): Browser is scrolled to position x = 10, y = 800
+
+2021-07-01 08:07:13 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 800
+
+2021-07-01 08:07:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:16 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion"), 2, STOP_ON_FAILURE): All options with index in [2] are selected on object 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion'
+
+2021-07-01 08:07:17 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion'
+
+2021-07-01 08:07:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:20 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2021-07-01 08:07:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2021-07-01 08:07:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar' is clicked on
+
+2021-07-01 08:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar' is clicked on
+
+2021-07-01 08:07:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:27 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-01 08:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-01 08:07:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:31 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Operacion")): Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-01 08:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-01 08:07:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:35 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos Del Sistema")): Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-01 08:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-01 08:07:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:39 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/img_Terminales")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-01 08:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-01 08:07:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:43 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-01 08:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-01 08:07:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:47 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-01 08:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-01 08:07:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:50 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-01 08:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-01 08:07:51 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-01 08:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-01 08:07:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:07:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:07:59 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-01 08:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-01 08:08:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:08:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:08:03 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Reclasificar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Reclasificar' is clicked on
+
+2021-07-01 08:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Reclasificar' is clicked on
+
+2021-07-01 08:08:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:08:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:08:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-01 08:08:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-01 08:08:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210701_080458\\1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion\\20210701_080458\\1625144887444.png]]
+
+2021-07-01 08:08:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:08:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:08:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-07-01 08:08:11 - [MESSAGE][WARNING] - Test object id is null
+
+2021-07-01 08:08:11 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-07-01 08:08:11 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-07-01 08:08:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:08:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:08:14 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-07-01 08:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-07-01 08:08:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:08:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-01 08:08:18 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-07-01 08:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-07-01 08:08:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-01 08:08:22 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-01 08:05:13 - [TEST_SUITE][PASSED] - 1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion: Test Cases/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

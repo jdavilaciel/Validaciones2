@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+95.Terminal.RegistrarIpAlAbrir,Chrome 91.0.4472.77,Proceso para permitir registrar IP de la terminal,,2021-06-09 11:09:19,2021-06-09 11:10:57,"1m - 38,529s",PASSED
+,,,,,,,
+Test Cases/95.Terminal.RegistrarIpAlAbrir,Chrome 91.0.4472.77,,,2021-06-09 11:09:25,2021-06-09 11:10:57,"1m - 32,691s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 91.0.4472.77,,,2021-06-09 11:09:26,2021-06-09 11:09:52,"25,674s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 91.0.4472.77,,,2021-06-09 11:09:52,2021-06-09 11:09:59,"7,218s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:09:59,2021-06-09 11:10:02,"3,008s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:02,2021-06-09 11:10:04,"1,814s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:04,2021-06-09 11:10:07,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:07,2021-06-09 11:10:10,"3,048s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:10,2021-06-09 11:10:13,"3,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Chrome 91.0.4472.77,Cambiar pestaña,,2021-06-09 11:10:13,2021-06-09 11:10:14,"0,859s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:14,2021-06-09 11:10:17,"3,003s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:17,2021-06-09 11:10:18,"0,820s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:18,2021-06-09 11:10:19,"1,220s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:19,2021-06-09 11:10:20,"0,875s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:20,2021-06-09 11:10:21,"0,751s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.RegistrarIpAlAbrir"")",Chrome 91.0.4472.77,Terminal.RegistrarIpAlAbrir,,2021-06-09 11:10:21,2021-06-09 11:10:22,"1,316s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:22,2021-06-09 11:10:23,"0,730s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-09 11:10:23,2021-06-09 11:10:25,"2,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:25,2021-06-09 11:10:26,"0,943s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-09 11:10:26,2021-06-09 11:10:28,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 91.0.4472.77,Cambiamos a Si= Habilitado; No=No habilitado,,2021-06-09 11:10:28,2021-06-09 11:10:29,"0,718s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si""), STOP_ON_FAILURE)",Chrome 91.0.4472.77,,,2021-06-09 11:10:29,2021-06-09 11:10:29,"0,757s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-09 11:10:29,2021-06-09 11:10:31,"2,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:31,2021-06-09 11:10:32,"0,780s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:32,2021-06-09 11:10:35,"3,011s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:35,2021-06-09 11:10:36,"1,350s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:36,2021-06-09 11:10:39,"3,006s",PASSED
+"navigateToUrl(""http://localhost:8810/Paginas/Configuracion/ElementosSistema/Terminales.aspx"")",Chrome 91.0.4472.77,,,2021-06-09 11:10:39,2021-06-09 11:10:41,"1,957s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:41,2021-06-09 11:10:44,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/Oficinas/a_Seleccionar""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:44,2021-06-09 11:10:45,"0,703s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:45,2021-06-09 11:10:48,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/a_Seleccionar""))",Chrome 91.0.4472.77,,,2021-06-09 11:10:48,2021-06-09 11:10:49,"0,626s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:49,2021-06-09 11:10:52,"3,005s",PASSED
+takeFullPageScreenshot(),Chrome 91.0.4472.77,,,2021-06-09 11:10:52,2021-06-09 11:10:54,"2,712s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 11:10:54,2021-06-09 11:10:57,"3,013s",PASSED

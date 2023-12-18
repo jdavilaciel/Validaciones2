@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+117.Usuarios.Contrasena.ExpRegular,Chrome 91.0.4472.101,Establece la expresión regular que debe tener la contraseña.,,2021-06-15 09:53:21,2021-06-15 09:54:55,"1m - 33,381s",FAILED
+,,,,,,,
+Test Cases/117.Usuarios.Contrasena.ExpRegular,Chrome 91.0.4472.101,,,2021-06-15 09:53:26,2021-06-15 09:54:55,"1m - 28,981s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 91.0.4472.101,,,2021-06-15 09:53:28,2021-06-15 09:53:52,"23,868s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 91.0.4472.101,,,2021-06-15 09:53:52,2021-06-15 09:53:56,"4,587s",PASSED
+delay(3),Chrome 91.0.4472.101,,,2021-06-15 09:53:56,2021-06-15 09:53:59,"3,006s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 91.0.4472.101,,,2021-06-15 09:53:59,2021-06-15 09:54:01,"1,535s",PASSED
+delay(3),Chrome 91.0.4472.101,,,2021-06-15 09:54:01,2021-06-15 09:54:04,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:04,2021-06-15 09:54:06,"2,141s",PASSED
+delay(3),Chrome 91.0.4472.101,,,2021-06-15 09:54:06,2021-06-15 09:54:09,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios""))",Chrome 91.0.4472.101,Cambiar pestaña,,2021-06-15 09:54:09,2021-06-15 09:54:10,"0,824s",PASSED
+delay(3),Chrome 91.0.4472.101,,,2021-06-15 09:54:10,2021-06-15 09:54:13,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:13,2021-06-15 09:54:13,"0,787s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:13,2021-06-15 09:54:15,"1,238s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:15,2021-06-15 09:54:15,"0,739s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:15,2021-06-15 09:54:16,"1,044s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Usuarios.Contrasena.ExpRegular"")",Chrome 91.0.4472.101,Usuarios.Contrasena.ExpRegular,,2021-06-15 09:54:16,2021-06-15 09:54:18,"1,155s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:18,2021-06-15 09:54:18,"0,589s",PASSED
+delay(2),Chrome 91.0.4472.101,,,2021-06-15 09:54:18,2021-06-15 09:54:20,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 91.0.4472.101,,,2021-06-15 09:54:20,2021-06-15 09:54:21,"0,778s",PASSED
+delay(2),Chrome 91.0.4472.101,,,2021-06-15 09:54:21,2021-06-15 09:54:23,"2,004s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), ""^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,}$"")",Chrome 91.0.4472.101,,,2021-06-15 09:54:23,2021-06-15 09:54:55,"31,703s",FAILED

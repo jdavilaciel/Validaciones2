@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Usuarios por Terminales</name>
+   <tag></tag>
+   <elementGuidId>c0099bd0-eabf-4814-b45b-5748edbb5178</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cPHPri_MenuNavegacionImagenes1_Panel1']/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cPHPri_MenuNavegacionImagenes1_Panel1 > a > img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/img/iconos/Secciones/usuarioTerminal.svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>055c50ab-f0f6-428e-b131-efb1e13c42fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/img/iconos/Secciones/usuarioTerminal.svg</value>
+      <webElementGuid>72bf7610-9331-4b4c-8775-e29b8eb03188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_MenuNavegacionImagenes1_Panel1&quot;)/a[1]/img[1]</value>
+      <webElementGuid>57fbe524-4682-4766-883f-29610ed012f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cPHPri_MenuNavegacionImagenes1_Panel1']/a/img</value>
+      <webElementGuid>93a0087e-ea2c-4bc7-9fcf-885215e9bed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/a/img</value>
+      <webElementGuid>ac877a60-e8a6-4577-b3d1-c1385c3fe8d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

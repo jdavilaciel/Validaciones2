@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+17.Terminal.Abrir Terminal PopUp,Edge Chromiume 18,"Proceso con el cual se cambia la forma de abrir la terminal 
+0=PopUp y 1=Emergente",,2021-05-28 13:14:43,2021-05-28 13:16:28,"1m - 45,349s",FAILED
+,,,,,,,
+Test Cases/17.Terminal.Abrir Terminal PopUp,Edge Chromiume 18,"0= popup
+1=emergente",,2021-05-28 13:14:52,2021-05-28 13:16:28,"1m - 36,352s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-05-28 13:14:55,2021-05-28 13:15:19,"24,358s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-05-28 13:15:19,2021-05-28 13:15:22,"2,942s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:15:22,2021-05-28 13:15:25,"3,025s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-05-28 13:15:25,2021-05-28 13:15:26,"0,782s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:15:26,2021-05-28 13:15:29,"3,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-05-28 13:15:29,2021-05-28 13:15:30,"1,073s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:15:30,2021-05-28 13:15:33,"3,023s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Edge Chromiume 18,,,2021-05-28 13:15:33,2021-05-28 13:15:34,"1,289s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:15:34,2021-05-28 13:15:37,"3,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-05-28 13:15:37,2021-05-28 13:15:38,"0,926s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-05-28 13:15:38,2021-05-28 13:15:40,"1,409s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-05-28 13:15:40,2021-05-28 13:15:41,"1,141s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-05-28 13:15:41,2021-05-28 13:15:42,"0,755s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.AbrirTerminalPopUp"")",Edge Chromiume 18,Buscar la terminal Popup,,2021-05-28 13:15:42,2021-05-28 13:15:43,"1,519s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-05-28 13:15:43,2021-05-28 13:15:44,"0,834s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-28 13:15:44,2021-05-28 13:15:46,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-05-28 13:15:46,2021-05-28 13:15:47,"0,981s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-28 13:15:47,2021-05-28 13:15:49,"2,018s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Cambiamos a 1= ventana emergente; 0=PopUp,,2021-05-28 13:15:49,2021-05-28 13:15:50,"0,811s",PASSED
+"sendKeys(findTestObject(null), ""1"")",Edge Chromiume 18,,,2021-05-28 13:15:50,2021-05-28 13:15:51,"0,701s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-28 13:15:51,2021-05-28 13:15:53,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-05-28 13:15:53,2021-05-28 13:15:53,"0,796s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:15:53,2021-05-28 13:15:56,"3,005s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-05-28 13:15:56,2021-05-28 13:15:57,"0,841s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:15:57,2021-05-28 13:16:00,"3,007s",PASSED
+"callTestCase(findTestCase(""0 Llamar Turno""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-05-28 13:16:00,2021-05-28 13:16:28,"28,056s",FAILED

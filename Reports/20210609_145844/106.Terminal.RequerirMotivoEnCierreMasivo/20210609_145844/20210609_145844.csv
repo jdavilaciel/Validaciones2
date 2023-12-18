@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+106.Terminal.RequerirMotivoEnCierreMasivo,Edge Chromiume 18,Al colocar paraámetro en No Permitirá cerrar la terminal con el boton cambvio de estado a cerrado sin solicitar motivo de cierre.,,2021-06-09 14:58:58,2021-06-09 15:00:22,"1m - 23,290s",FAILED
+,,,,,,,
+Test Cases/106.Terminal.RequerirMotivoEnCierreMasivo,Edge Chromiume 18,,,2021-06-09 14:59:03,2021-06-09 15:00:22,"1m - 18,867s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-09 14:59:04,2021-06-09 14:59:25,"20,789s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-06-09 14:59:25,2021-06-09 14:59:26,"0,655s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-09 14:59:26,2021-06-09 14:59:29,"3,012s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-06-09 14:59:29,2021-06-09 14:59:29,"0,547s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-09 14:59:29,2021-06-09 14:59:32,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-06-09 14:59:32,2021-06-09 14:59:33,"0,612s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-09 14:59:33,2021-06-09 14:59:36,"3,002s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Edge Chromiume 18,Cambiar pestaña,,2021-06-09 14:59:36,2021-06-09 14:59:37,"0,637s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-09 14:59:37,2021-06-09 14:59:40,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-06-09 14:59:40,2021-06-09 14:59:40,"0,758s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-06-09 14:59:40,2021-06-09 14:59:41,"0,949s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-06-09 14:59:41,2021-06-09 14:59:42,"0,759s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-06-09 14:59:42,2021-06-09 14:59:43,"0,638s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.RequerirMotivoEnCierreMasivo"")",Edge Chromiume 18,Terminal.RequerirMotivoEnCierreMasivo,,2021-06-09 14:59:43,2021-06-09 14:59:44,"1,297s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-06-09 14:59:44,2021-06-09 14:59:45,"0,571s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-09 14:59:45,2021-06-09 14:59:47,"2,012s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-06-09 14:59:47,2021-06-09 14:59:47,"0,584s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-09 14:59:47,2021-06-09 14:59:49,"2,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Cambiamos a Si= Habilitado; No=No habilitado,,2021-06-09 14:59:49,2021-06-09 14:59:50,"0,495s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_No""), STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-09 14:59:50,2021-06-09 15:00:21,"31,682s",FAILED

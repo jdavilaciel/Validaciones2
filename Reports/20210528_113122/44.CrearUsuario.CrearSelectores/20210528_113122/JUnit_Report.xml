@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="44.CrearUsuario.CrearSelectores" time="372.117" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="44.CrearUsuario.CrearSelectores" tests="2" failures="0" errors="0" time="372.117" skips="0" timestamp="2021-05-28 11:31:46" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/44.CrearUsuario.CrearSelectores">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210528_113122\\44.CrearUsuario.CrearSelectores\\20210528_113122"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210528_113122\\44.CrearUsuario.CrearSelectores\\20210528_113122\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210528_113122\\44.CrearUsuario.CrearSelectores\\20210528_113122\\1622219682852.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210528_113122\\44.CrearUsuario.CrearSelectores\\20210528_113122\\1622219835603.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Edge Chromiume 18"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="EE1BF519-CFFF-40D0-9A69-F0839E1182A2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/44.CrearUsuario.CrearSelectores No" time="172.5" classname="Test Cases/44.CrearUsuario.CrearSelectores No" status="PASSED">
+         <system-out><![CDATA[2021-05-28 11:31:56 - [TEST_CASE][PASSED] - Test Cases/44.CrearUsuario.CrearSelectores No: Test Cases/44.CrearUsuario.CrearSelectores No
+
+2021-05-28 11:32:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-05-28 11:32:02 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-05-28 11:32:04 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-05-28 11:32:05 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2021-05-28 11:32:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 11:32:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-05-28 11:32:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-28 11:32:24 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-28 11:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-05-28 11:32:27 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-05-28 11:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-05-28 11:32:29 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-05-28 11:32:29 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-05-28 11:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-05-28 11:32:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:32:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:32:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-05-28 11:32:33 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:32:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:32:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-05-28 11:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-05-28 11:32:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:32:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-05-28 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-05-28 11:32:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:32:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-05-28 11:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-05-28 11:32:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:32:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-05-28 11:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-05-28 11:32:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-05-28 11:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-05-28 11:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-05-28 11:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-05-28 11:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-05-28 11:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-05-28 11:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "CrearUsuario.CrearSelectores"): Text 'CrearUsuario.CrearSelectores' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-05-28 11:32:56 - [MESSAGE][PASSED] - Text 'CrearUsuario.CrearSelectores' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-05-28 11:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-05-28 11:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-05-28 11:32:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-28 11:32:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-28 11:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-05-28 11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-05-28 11:33:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-28 11:33:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-28 11:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-05-28 11:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-05-28 11:33:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), "No"): Keys 'No' sent to object: 'tempBody'
+
+2021-05-28 11:33:03 - [MESSAGE][WARNING] - Test object id is null
+
+2021-05-28 11:33:04 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-05-28 11:33:04 - [MESSAGE][PASSED] - Keys 'No' sent to object: 'tempBody'
+
+2021-05-28 11:33:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-28 11:33:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-28 11:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-05-28 11:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-05-28 11:33:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:10 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-05-28 11:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-05-28 11:33:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:14 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:33:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Seguridad")): Object: 'Object Repository/Configuracion/1Principal/img_Seguridad' is clicked on
+
+2021-05-28 11:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Seguridad' is clicked on
+
+2021-05-28 11:33:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/img_Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2021-05-28 11:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2021-05-28 11:33:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2021-05-28 11:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2021-05-28 11:33:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario"), "juan"): Text 'juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2021-05-28 11:33:37 - [MESSAGE][PASSED] - Text 'juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2021-05-28 11:33:37 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar"), "Juan"): Text 'Juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2021-05-28 11:33:38 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2021-05-28 11:33:38 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo"), "juan@gmail.com"): Text 'juan@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2021-05-28 11:33:40 - [MESSAGE][PASSED] - Text 'juan@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2021-05-28 11:33:40 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular"), "3197654321"): Text '3197654321' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2021-05-28 11:33:41 - [MESSAGE][PASSED] - Text '3197654321' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2021-05-28 11:33:41 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:33:43 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:33:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:46 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2021-05-28 11:33:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2021-05-28 11:33:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:50 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2021-05-28 11:33:51 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2021-05-28 11:33:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:54 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2021-05-28 11:33:56 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2021-05-28 11:33:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:33:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:33:59 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:34:01 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:34:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:04 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota"), STOP_ON_FAILURE): Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is checked
+
+2021-05-28 11:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is checked
+
+2021-05-28 11:34:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' is clicked on
+
+2021-05-28 11:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' is clicked on
+
+2021-05-28 11:34:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:11 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota-Ciel"), STOP_ON_FAILURE): Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota-Ciel' is checked
+
+2021-05-28 11:34:16 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota-Ciel' is checked
+
+2021-05-28 11:34:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/img_Nuevo"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/img_Nuevo' is clicked on
+
+2021-05-28 11:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/img_Nuevo' is clicked on
+
+2021-05-28 11:34:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:23 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-05-28 11:34:25 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-05-28 11:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/1Principal/img_Usuarios por Terminales")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Usuarios por Terminales' is clicked on
+
+2021-05-28 11:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Usuarios por Terminales' is clicked on
+
+2021-05-28 11:34:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:29 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/1Oficinas/chk_Seleccionar")): Object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/1Oficinas/chk_Seleccionar' is checked
+
+2021-05-28 11:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/1Oficinas/chk_Seleccionar' is checked
+
+2021-05-28 11:34:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/input__TextoABuscar"), "juan"): Text 'juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/input__TextoABuscar'
+
+2021-05-28 11:34:35 - [MESSAGE][PASSED] - Text 'juan' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/input__TextoABuscar'
+
+2021-05-28 11:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/img_Filtrar")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/img_Filtrar' is clicked on
+
+2021-05-28 11:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/img_Filtrar' is clicked on
+
+2021-05-28 11:34:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/a_Seleccionar")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/a_Seleccionar' is clicked on
+
+2021-05-28 11:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/a_Seleccionar' is clicked on
+
+2021-05-28 11:34:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:34:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-05-28 11:34:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-05-28 11:34:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210528_113122\\44.CrearUsuario.CrearSelectores\\20210528_113122\\1622219682852.png]]
+
+2021-05-28 11:34:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:34:49 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/44.CrearUsuario.CrearSelectores Si" time="151.807" classname="Test Cases/44.CrearUsuario.CrearSelectores Si" status="PASSED">
+         <system-out><![CDATA[2021-05-28 11:34:49 - [TEST_CASE][PASSED] - Test Cases/44.CrearUsuario.CrearSelectores Si: Test Cases/44.CrearUsuario.CrearSelectores Si
+
+2021-05-28 11:34:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-05-28 11:34:51 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-05-28 11:34:51 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-05-28 11:34:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-28 11:34:59 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2021-05-28 11:34:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-05-28 11:35:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-05-28 11:35:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-28 11:35:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-28 11:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-05-28 11:35:10 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-05-28 11:35:10 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-05-28 11:35:12 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-05-28 11:35:12 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-05-28 11:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-05-28 11:35:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:35:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:35:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-05-28 11:35:16 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:35:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:35:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-05-28 11:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-05-28 11:35:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:35:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-05-28 11:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-05-28 11:35:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:35:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-05-28 11:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios' is clicked on
+
+2021-05-28 11:35:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:35:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-05-28 11:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-05-28 11:35:39 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-05-28 11:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-05-28 11:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-05-28 11:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-05-28 11:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-05-28 11:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-05-28 11:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "CrearUsuario.CrearSelectores"): Text 'CrearUsuario.CrearSelectores' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-05-28 11:35:43 - [MESSAGE][PASSED] - Text 'CrearUsuario.CrearSelectores' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-05-28 11:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-05-28 11:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-05-28 11:35:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-28 11:35:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-28 11:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-05-28 11:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-05-28 11:35:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-28 11:35:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-28 11:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-05-28 11:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-05-28 11:35:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), "Si"): Keys 'Si' sent to object: 'tempBody'
+
+2021-05-28 11:35:50 - [MESSAGE][WARNING] - Test object id is null
+
+2021-05-28 11:35:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-05-28 11:35:51 - [MESSAGE][PASSED] - Keys 'Si' sent to object: 'tempBody'
+
+2021-05-28 11:35:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-28 11:35:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-28 11:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-05-28 11:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-05-28 11:35:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:35:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:35:57 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-05-28 11:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-05-28 11:35:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:01 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-05-28 11:36:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Seguridad")): Object: 'Object Repository/Configuracion/1Principal/img_Seguridad' is clicked on
+
+2021-05-28 11:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Seguridad' is clicked on
+
+2021-05-28 11:36:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/img_Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2021-05-28 11:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/img_Usuarios' is clicked on
+
+2021-05-28 11:36:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2021-05-28 11:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios' is clicked on
+
+2021-05-28 11:36:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario"), "juan2"): Text 'juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2021-05-28 11:36:17 - [MESSAGE][PASSED] - Text 'juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario'
+
+2021-05-28 11:36:17 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar"), "Juan2"): Text 'Juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2021-05-28 11:36:18 - [MESSAGE][PASSED] - Text 'Juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar'
+
+2021-05-28 11:36:18 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo"), "juan2@gmail.com"): Text 'juan2@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2021-05-28 11:36:20 - [MESSAGE][PASSED] - Text 'juan2@gmail.com' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo'
+
+2021-05-28 11:36:20 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular"), "3192222222"): Text '3192222222' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2021-05-28 11:36:21 - [MESSAGE][PASSED] - Text '3192222222' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular'
+
+2021-05-28 11:36:21 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:36:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:36:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2021-05-28 11:36:27 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos'
+
+2021-05-28 11:36:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:30 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2021-05-28 11:36:31 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades'
+
+2021-05-28 11:36:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:34 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2021-05-28 11:36:36 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas'
+
+2021-05-28 11:36:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:39 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia"), 1): All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:36:40 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia'
+
+2021-05-28 11:36:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:43 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota"), STOP_ON_FAILURE): Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is checked
+
+2021-05-28 11:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota' is checked
+
+2021-05-28 11:36:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' is clicked on
+
+2021-05-28 11:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas' is clicked on
+
+2021-05-28 11:36:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:50 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota-Ciel"), STOP_ON_FAILURE): Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota-Ciel' is checked
+
+2021-05-28 11:36:51 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota-Ciel' is checked
+
+2021-05-28 11:36:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/img_Nuevo"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/img_Nuevo' is clicked on
+
+2021-05-28 11:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/img_Nuevo' is clicked on
+
+2021-05-28 11:36:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:36:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:36:57 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-05-28 11:36:59 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-05-28 11:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/1Principal/img_Usuarios por Terminales")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Usuarios por Terminales' is clicked on
+
+2021-05-28 11:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/1Principal/img_Usuarios por Terminales' is clicked on
+
+2021-05-28 11:37:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:37:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:37:03 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/1Oficinas/chk_Seleccionar")): Object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/1Oficinas/chk_Seleccionar' is checked
+
+2021-05-28 11:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/1Oficinas/chk_Seleccionar' is checked
+
+2021-05-28 11:37:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:37:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/input__TextoABuscar"), "juan2"): Text 'juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/input__TextoABuscar'
+
+2021-05-28 11:37:08 - [MESSAGE][PASSED] - Text 'juan2' is set on object 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/input__TextoABuscar'
+
+2021-05-28 11:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/img_Filtrar")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/img_Filtrar' is clicked on
+
+2021-05-28 11:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/img_Filtrar' is clicked on
+
+2021-05-28 11:37:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:37:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/a_Seleccionar")): Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/a_Seleccionar' is clicked on
+
+2021-05-28 11:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Seguridad/Usuarios/Usuarios por Terminales/2Usuarios/a_Seleccionar' is clicked on
+
+2021-05-28 11:37:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:37:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-28 11:37:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-05-28 11:37:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-05-28 11:37:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210528_113122\\44.CrearUsuario.CrearSelectores\\20210528_113122\\1622219835603.png]]
+
+2021-05-28 11:37:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-28 11:37:21 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-28 11:31:46 - [TEST_SUITE][PASSED] - 44.CrearUsuario.CrearSelectores: Test Cases/44.CrearUsuario.CrearSelectores Si]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

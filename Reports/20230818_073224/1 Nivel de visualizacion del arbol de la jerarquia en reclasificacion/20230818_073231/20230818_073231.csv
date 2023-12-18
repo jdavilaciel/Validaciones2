@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion,Chrome 115.0.0.0,,,2023-08-18 07:39:24,2023-08-18 07:40:51,"1m - 26,349s",FAILED
+,,,,,,,
+Test Cases/1 Nivel de visualizacion del arbol de la jerarquia en reclasificacion,Chrome 115.0.0.0,,,2023-08-18 07:39:24,2023-08-18 07:40:51,"1m - 26,070s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:39:25,2023-08-18 07:39:36,"11,053s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:39:36,2023-08-18 07:39:37,"0,648s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:37,2023-08-18 07:39:40,"3,005s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Distribucion Geografica""))",Chrome 115.0.0.0,,,2023-08-18 07:39:40,2023-08-18 07:39:40,"0,656s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:40,2023-08-18 07:39:43,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/1Principal/img_Grupos""))",Chrome 115.0.0.0,,,2023-08-18 07:39:43,2023-08-18 07:39:44,"0,727s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:44,2023-08-18 07:39:47,"3,013s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar""))",Chrome 115.0.0.0,,,2023-08-18 07:39:47,2023-08-18 07:39:47,"0,535s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:47,2023-08-18 07:39:50,"3,012s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar""))",Chrome 115.0.0.0,Grupo Información,,2023-08-18 07:39:50,2023-08-18 07:39:51,"0,520s",PASSED
+"scrollToPosition(10, 800)",Chrome 115.0.0.0,,,2023-08-18 07:39:51,2023-08-18 07:39:51,"0,047s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:51,2023-08-18 07:39:54,"3,015s",PASSED
+"selectOptionByLabel(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Edicion/select_NivelVisualizacinenReclasificacion""), ""Todos"", false)",Chrome 115.0.0.0,,,2023-08-18 07:39:54,2023-08-18 07:39:55,"0,802s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:55,2023-08-18 07:39:58,"3,026s",PASSED
+"scrollToPosition(0, 0)",Chrome 115.0.0.0,,,2023-08-18 07:39:58,2023-08-18 07:39:58,"0,026s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:39:58,2023-08-18 07:40:01,"3,019s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar""))",Chrome 115.0.0.0,,,2023-08-18 07:40:01,2023-08-18 07:40:01,"0,554s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:40:01,2023-08-18 07:40:04,"3,018s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:40:04,2023-08-18 07:40:05,"0,638s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:40:05,2023-08-18 07:40:08,"3,007s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 115.0.0.0,,,2023-08-18 07:40:08,2023-08-18 07:40:09,"0,640s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:40:09,2023-08-18 07:40:12,"3,009s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 115.0.0.0,,,2023-08-18 07:40:12,2023-08-18 07:40:12,"0,638s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:40:12,2023-08-18 07:40:15,"3,011s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL""))",Chrome 115.0.0.0,Escogemos oficina,,2023-08-18 07:40:15,2023-08-18 07:40:16,"0,541s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:40:16,2023-08-18 07:40:19,"3,017s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01""))",Chrome 115.0.0.0,,,2023-08-18 07:40:19,2023-08-18 07:40:20,"0,510s",PASSED
+switchToWindowIndex(1),Chrome 115.0.0.0,,,2023-08-18 07:40:20,2023-08-18 07:40:50,"30,992s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:40:50,2023-08-18 07:40:50,"0,000s",PASSED

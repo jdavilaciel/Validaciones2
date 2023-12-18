@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="100.Sistema.Login.Intentos.Tiempo" time="111.519" tests="1" failures="0" errors="0">
+   <testsuite name="100.Sistema.Login.Intentos.Tiempo" tests="1" failures="0" errors="0" time="111.519" skipped="0" timestamp="2023-08-18 07:45:23" hostname="jdavila - PCPruebas101.ciel.cielingenieria.com" id="Test Suites/100.Sistema.Login.Intentos.Tiempo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237"/>
+         <property name="logFiles" value="C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\execution0.log"/>
+         <property name="attachments" value="C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\1692362795549.png, C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\1692362810709.png, C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\1692362832430.png"/>
+         <property name="hostName" value="jdavila - PCPruebas101.ciel.cielingenieria.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.33"/>
+         <property name="sessionId" value="ec81270b0acb1889b7e4ac000ca6d5f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/100.Sistema.Login.Intentos.Tiempo" time="111.277" classname="Test Cases/100.Sistema.Login.Intentos.Tiempo" status="PASSED">
+         <system-out><![CDATA[2023-08-18 07:45:23 - [TEST_CASE][PASSED] - Test Cases/100.Sistema.Login.Intentos.Tiempo: Test Cases/100.Sistema.Login.Intentos.Tiempo
+
+2023-08-18 07:45:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2023-08-18 07:45:24 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2023-08-18 07:45:24 - [TEST_STEP][PASSED] - openBrowser(Url): Browser is opened with url: 'https://pcpruebas101.ciel.cielingenieria.com:8610'
+
+2023-08-18 07:45:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-18 07:45:24 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-ui-for-media-stream, --disable-notifications]']
+
+2023-08-18 07:45:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-18 07:45:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pcpruebas101.ciel.cielingenieria.com:8610'
+
+2023-08-18 07:45:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-18 07:45:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-18 07:45:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:45:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:45:30 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:45:30 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:45:31 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:45:31 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:45:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:45:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:45:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2023-08-18 07:45:34 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 07:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2023-08-18 07:45:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:45:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2023-08-18 07:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2023-08-18 07:45:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:45:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2023-08-18 07:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2023-08-18 07:45:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-18 07:46:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-18 07:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "Sistema.Login.Intentos.Tiempo"): Text 'Sistema.Login.Intentos.Tiempo' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2023-08-18 07:46:03 - [MESSAGE][PASSED] - Text 'Sistema.Login.Intentos.Tiempo' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2023-08-18 07:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2023-08-18 07:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2023-08-18 07:46:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:46:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2023-08-18 07:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2023-08-18 07:46:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:46:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro HHMMSS/input_HHMMSS"), "00:00:10"): Text '00:00:10' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro HHMMSS/input_HHMMSS'
+
+2023-08-18 07:46:10 - [MESSAGE][PASSED] - Text '00:00:10' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro HHMMSS/input_HHMMSS'
+
+2023-08-18 07:46:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:46:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2023-08-18 07:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2023-08-18 07:46:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:46:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:46:15 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas' is clicked on
+
+2023-08-18 07:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas' is clicked on
+
+2023-08-18 07:46:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:46:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:46:19 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/Menu Tres Rayas/nuevos/a_Cerrar sesion")): Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/nuevos/a_Cerrar sesion' is clicked on
+
+2023-08-18 07:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/Menu Tres Rayas/nuevos/a_Cerrar sesion' is clicked on
+
+2023-08-18 07:46:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-18 07:46:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-18 07:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:46:31 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturn"): Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:46:31 - [MESSAGE][PASSED] - Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:46:31 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:46:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:46:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:46:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-18 07:46:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-18 07:46:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\1692362795549.png]]
+
+2023-08-18 07:46:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-18 07:46:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-18 07:46:46 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:46:47 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:46:47 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturn"): Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:46:48 - [MESSAGE][PASSED] - Text 'digiturn' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:46:48 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:46:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:46:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:46:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-18 07:46:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-18 07:46:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\1692362810709.png]]
+
+2023-08-18 07:46:51 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2023-08-18 07:47:04 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2023-08-18 07:47:04 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:47:05 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2023-08-18 07:47:05 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:47:06 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2023-08-18 07:47:06 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2023-08-18 07:47:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 07:47:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 07:47:09 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2023-08-18 07:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2023-08-18 07:47:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:47:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:47:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-18 07:47:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-18 07:47:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\CIEL INGENIERIA\\Katalon\\Validaciones2\\Reports\\20230818_073224\\100.Sistema.Login.Intentos.Tiempo\\20230818_073237\\1692362832430.png]]
+
+2023-08-18 07:47:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 07:47:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 07:47:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-18 07:45:23 - [TEST_SUITE][PASSED] - 100.Sistema.Login.Intentos.Tiempo: Test Cases/100.Sistema.Login.Intentos.Tiempo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

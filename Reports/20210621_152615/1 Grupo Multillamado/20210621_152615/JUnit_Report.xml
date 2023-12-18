@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 Grupo Multillamado" time="108.783" tests="1" failures="0" errors="0">
+   <testsuite name="1 Grupo Multillamado" tests="1" failures="0" errors="0" time="108.783" skipped="0" timestamp="2021-06-21 15:26:36" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/1 Grupo Multillamado">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210621_152615\\1 Grupo Multillamado\\20210621_152615"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210621_152615\\1 Grupo Multillamado\\20210621_152615\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210621_152615\\1 Grupo Multillamado\\20210621_152615\\1624307271621.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.106"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="bd057687d0bf4c53958d2716dbd20590"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1 Grupo Multillamado" time="85.125" classname="Test Cases/1 Grupo Multillamado" status="PASSED">
+         <system-out><![CDATA[2021-06-21 15:26:37 - [TEST_CASE][PASSED] - Test Cases/1 Grupo Multillamado: Test Cases/1 Grupo Multillamado
+
+2021-06-21 15:26:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-21 15:26:40 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-06-21 15:26:41 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-21 15:26:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-21 15:26:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-21 15:26:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-21 15:26:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-21 15:26:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-21 15:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-21 15:27:01 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-21 15:27:01 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-21 15:27:02 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-21 15:27:02 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-21 15:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-21 15:27:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-21 15:27:06 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-21 15:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-21 15:27:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Distribucion Geografica")): Object: 'Object Repository/Configuracion/1Principal/img_Distribucion Geografica' is clicked on
+
+2021-06-21 15:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Distribucion Geografica' is clicked on
+
+2021-06-21 15:27:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:18 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/1Principal/img_Grupos")): Object: 'Object Repository/Configuracion/Distribucion Geografica/1Principal/img_Grupos' is clicked on
+
+2021-06-21 15:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/1Principal/img_Grupos' is clicked on
+
+2021-06-21 15:27:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:24 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-06-21 15:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-06-21 15:27:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:29 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar' is clicked on
+
+2021-06-21 15:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar' is clicked on
+
+2021-06-21 15:27:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:32 - [TEST_STEP][PASSED] - check(findTestObject("Configuracion/Distribucion Geografica/Grupos/Edicion/input_Multillamado")): Object 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Edicion/input_Multillamado' is checked
+
+2021-06-21 15:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Edicion/input_Multillamado' is checked
+
+2021-06-21 15:27:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar' is clicked on
+
+2021-06-21 15:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar' is clicked on
+
+2021-06-21 15:27:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8810/Paginas/Operacion/ElementosSistema/Terminales.aspx"): Navigate to 'http://localhost:8810/Paginas/Operacion/ElementosSistema/Terminales.aspx' successfully
+
+2021-06-21 15:27:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8810/Paginas/Operacion/ElementosSistema/Terminales.aspx' successfully
+
+2021-06-21 15:27:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:43 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-06-21 15:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-06-21 15:27:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:47 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Grupos de Terminales Multillamado/a_Abrir")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Grupos de Terminales Multillamado/a_Abrir' is clicked on
+
+2021-06-21 15:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Grupos de Terminales Multillamado/a_Abrir' is clicked on
+
+2021-06-21 15:27:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:27:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-21 15:27:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-06-21 15:27:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-21 15:27:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210621_152615\\1 Grupo Multillamado\\20210621_152615\\1624307271621.png]]
+
+2021-06-21 15:27:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-21 15:28:02 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-21 15:26:36 - [TEST_SUITE][PASSED] - 1 Grupo Multillamado: Test Cases/1 Grupo Multillamado]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

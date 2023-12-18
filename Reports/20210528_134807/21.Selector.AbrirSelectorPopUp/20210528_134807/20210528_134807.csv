@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+21.Selector.AbrirSelectorPopUp,Edge Chromiume 18,Proceso para abrir el selector 0=PopUp y 1=emergente,,2021-05-28 13:48:21,2021-05-28 13:50:12,"1m - 50,953s",FAILED
+,,,,,,,
+Test Cases/21.Selector.AbrirSelectorPopUp1,Edge Chromiume 18,,,2021-05-28 13:48:27,2021-05-28 13:49:47,"1m - 20,618s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-05-28 13:48:28,2021-05-28 13:48:47,"18,275s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-05-28 13:48:47,2021-05-28 13:48:47,"0,674s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:48:47,2021-05-28 13:48:50,"3,007s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-05-28 13:48:50,2021-05-28 13:48:51,"0,607s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:48:51,2021-05-28 13:48:54,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-05-28 13:48:54,2021-05-28 13:48:54,"0,576s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:48:54,2021-05-28 13:48:57,"3,001s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Edge Chromiume 18,,,2021-05-28 13:48:57,2021-05-28 13:48:58,"0,593s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:48:58,2021-05-28 13:49:01,"3,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-05-28 13:49:01,2021-05-28 13:49:02,"0,649s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-05-28 13:49:02,2021-05-28 13:49:03,"0,873s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-05-28 13:49:03,2021-05-28 13:49:03,"0,731s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-05-28 13:49:03,2021-05-28 13:49:04,"0,635s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Selector.Abrir"")",Edge Chromiume 18,Buscar la selector Popup,,2021-05-28 13:49:04,2021-05-28 13:49:05,"1,151s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-05-28 13:49:05,2021-05-28 13:49:06,"0,570s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-28 13:49:06,2021-05-28 13:49:08,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-05-28 13:49:08,2021-05-28 13:49:08,"0,602s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-28 13:49:08,2021-05-28 13:49:10,"2,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Cambiamos a 1= ventana emergente,,2021-05-28 13:49:10,2021-05-28 13:49:11,"0,529s",PASSED
+"sendKeys(findTestObject(null), ""1"")",Edge Chromiume 18,,,2021-05-28 13:49:11,2021-05-28 13:49:11,"0,721s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-28 13:49:11,2021-05-28 13:49:13,"2,002s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-05-28 13:49:13,2021-05-28 13:49:15,"1,031s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:49:15,2021-05-28 13:49:18,"3,002s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-05-28 13:49:18,2021-05-28 13:49:18,"0,660s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:49:18,2021-05-28 13:49:21,"3,006s",PASSED
+"callTestCase(findTestCase(""0 Generar Turno Ventana Emergente""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,Para abrir el selector y generar un turno,,2021-05-28 13:49:21,2021-05-28 13:49:47,"26,007s",FAILED
+,,,,,,,
+Test Cases/21.Selector.AbrirSelectorPopUp0,Edge Chromiume 18,,,2021-05-28 13:49:47,2021-05-28 13:50:12,"24,533s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-05-28 13:49:48,2021-05-28 13:50:04,"16,027s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-05-28 13:50:04,2021-05-28 13:50:05,"0,591s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:50:05,2021-05-28 13:50:08,"3,004s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-05-28 13:50:08,2021-05-28 13:50:09,"0,567s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-28 13:50:09,2021-05-28 13:50:12,"3,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-05-28 13:50:12,2021-05-28 13:50:12,"0,328s",FAILED

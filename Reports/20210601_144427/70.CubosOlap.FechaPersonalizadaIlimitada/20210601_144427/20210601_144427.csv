@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+70.CubosOlap.FechaPersonalizadaIlimitada,Edge Chromiume 18,,,2021-06-01 14:44:47,2021-06-01 14:47:56,"3m - 9,870s",PASSED
+,,,,,,,
+Test Cases/70.CubosOLAP.FechaPersonalizadaIlimitada No,Edge Chromiume 18,,,2021-06-01 14:44:52,2021-06-01 14:46:34,"1m - 42,246s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-01 14:44:54,2021-06-01 14:45:27,"33,155s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-06-01 14:45:27,2021-06-01 14:45:29,"1,887s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:45:29,2021-06-01 14:45:32,"3,017s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-06-01 14:45:32,2021-06-01 14:45:33,"0,591s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:45:33,2021-06-01 14:45:36,"3,015s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-06-01 14:45:36,2021-06-01 14:45:36,"0,652s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:45:36,2021-06-01 14:45:40,"3,157s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Sistema""))",Edge Chromiume 18,Cambiar pestaña,,2021-06-01 14:45:40,2021-06-01 14:45:41,"1,039s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:45:41,2021-06-01 14:45:44,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-06-01 14:45:44,2021-06-01 14:45:45,"0,869s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-06-01 14:45:45,2021-06-01 14:45:46,"1,362s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-06-01 14:45:46,2021-06-01 14:45:47,"0,980s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-06-01 14:45:47,2021-06-01 14:45:48,"0,920s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""CubosOlap.FechaPersonalizadaIlimitada"")",Edge Chromiume 18,CubosOlap.FechaPersonalizadaIlimitada,,2021-06-01 14:45:48,2021-06-01 14:45:49,"1,417s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-06-01 14:45:49,2021-06-01 14:45:50,"0,771s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-01 14:45:50,2021-06-01 14:45:52,"2,014s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-06-01 14:45:52,2021-06-01 14:45:53,"0,766s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-01 14:45:53,2021-06-01 14:45:55,"2,018s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Si o No,,2021-06-01 14:45:55,2021-06-01 14:45:55,"0,626s",PASSED
+"sendKeys(findTestObject(null), ""No"")",Edge Chromiume 18,,,2021-06-01 14:45:55,2021-06-01 14:45:56,"0,789s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-01 14:45:56,2021-06-01 14:45:58,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-06-01 14:45:58,2021-06-01 14:45:59,"1,087s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:45:59,2021-06-01 14:46:02,"3,010s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-06-01 14:46:02,2021-06-01 14:46:03,"0,578s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:03,2021-06-01 14:46:06,"3,014s",PASSED
+"click(findTestObject(""1Inicio/img_Gestion""))",Edge Chromiume 18,,,2021-06-01 14:46:06,2021-06-01 14:46:06,"0,548s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:06,2021-06-01 14:46:09,"3,007s",PASSED
+"click(findTestObject(""Gestion/1Principal/img_Cubos OLAP""))",Edge Chromiume 18,,,2021-06-01 14:46:09,2021-06-01 14:46:10,"0,751s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:10,2021-06-01 14:46:13,"3,018s",PASSED
+"check(findTestObject(""Gestion/Cubos OLAP/Fecha/rbt_Personalizada""))",Edge Chromiume 18,,,2021-06-01 14:46:13,2021-06-01 14:46:16,"2,252s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:16,2021-06-01 14:46:19,"3,009s",PASSED
+"click(findTestObject(""Gestion/Cubos OLAP/Personalizar Fecha/input_Fecha Inicial_ddmmaaaa""))",Edge Chromiume 18,,,2021-06-01 14:46:19,2021-06-01 14:46:20,"1,072s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:20,2021-06-01 14:46:23,"3,005s",PASSED
+"click(findTestObject(""Gestion/Cubos OLAP/Personalizar Fecha/div_1_mes_anio""))",Edge Chromiume 18,,,2021-06-01 14:46:23,2021-06-01 14:46:23,"0,543s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:23,2021-06-01 14:46:26,"3,009s",PASSED
+"click(findTestObject(""Gestion/Cubos OLAP/Personalizar Fecha/div_2_anio""))",Edge Chromiume 18,,,2021-06-01 14:46:26,2021-06-01 14:46:27,"0,538s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:27,2021-06-01 14:46:30,"3,008s",PASSED
+takeFullPageScreenshot(),Edge Chromiume 18,,,2021-06-01 14:46:30,2021-06-01 14:46:31,"1,524s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:31,2021-06-01 14:46:34,"3,010s",PASSED
+,,,,,,,
+Test Cases/70.CubosOLAP.FechaPersonalizadaIlimitada Si,Edge Chromiume 18,,,2021-06-01 14:46:34,2021-06-01 14:47:56,"1m - 22,027s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-01 14:46:36,2021-06-01 14:46:54,"17,884s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-06-01 14:46:54,2021-06-01 14:46:55,"1,743s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:55,2021-06-01 14:46:58,"3,011s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-06-01 14:46:58,2021-06-01 14:46:59,"0,550s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:46:59,2021-06-01 14:47:02,"3,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-06-01 14:47:02,2021-06-01 14:47:03,"0,717s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:03,2021-06-01 14:47:06,"3,043s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Sistema""))",Edge Chromiume 18,Cambiar pestaña,,2021-06-01 14:47:06,2021-06-01 14:47:07,"1,202s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:07,2021-06-01 14:47:10,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-06-01 14:47:10,2021-06-01 14:47:11,"0,794s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-06-01 14:47:11,2021-06-01 14:47:12,"1,255s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-06-01 14:47:12,2021-06-01 14:47:13,"1,044s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-06-01 14:47:13,2021-06-01 14:47:14,"0,759s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""CubosOlap.FechaPersonalizadaIlimitada"")",Edge Chromiume 18,CubosOlap.FechaPersonalizadaIlimitada,,2021-06-01 14:47:14,2021-06-01 14:47:15,"1,336s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-06-01 14:47:15,2021-06-01 14:47:16,"0,740s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-01 14:47:16,2021-06-01 14:47:18,"2,010s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-06-01 14:47:18,2021-06-01 14:47:19,"0,894s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-01 14:47:19,2021-06-01 14:47:21,"2,014s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Si o No,,2021-06-01 14:47:21,2021-06-01 14:47:21,"0,541s",PASSED
+"sendKeys(findTestObject(null), ""Si"")",Edge Chromiume 18,,,2021-06-01 14:47:21,2021-06-01 14:47:22,"0,699s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-01 14:47:22,2021-06-01 14:47:24,"2,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-06-01 14:47:24,2021-06-01 14:47:25,"0,907s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:25,2021-06-01 14:47:28,"3,006s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-06-01 14:47:28,2021-06-01 14:47:28,"0,506s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:28,2021-06-01 14:47:31,"3,005s",PASSED
+"click(findTestObject(""1Inicio/img_Gestion""))",Edge Chromiume 18,,,2021-06-01 14:47:31,2021-06-01 14:47:32,"0,657s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:32,2021-06-01 14:47:35,"3,006s",PASSED
+"click(findTestObject(""Gestion/1Principal/img_Cubos OLAP""))",Edge Chromiume 18,,,2021-06-01 14:47:35,2021-06-01 14:47:36,"0,490s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:36,2021-06-01 14:47:39,"3,007s",PASSED
+"check(findTestObject(""Gestion/Cubos OLAP/Fecha/rbt_Personalizada""))",Edge Chromiume 18,,,2021-06-01 14:47:39,2021-06-01 14:47:39,"0,521s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:39,2021-06-01 14:47:42,"3,012s",PASSED
+"click(findTestObject(""Gestion/Cubos OLAP/Personalizar Fecha/input_Fecha Inicial_ddmmaaaa""))",Edge Chromiume 18,,,2021-06-01 14:47:42,2021-06-01 14:47:43,"0,543s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:43,2021-06-01 14:47:46,"3,005s",PASSED
+"click(findTestObject(""Gestion/Cubos OLAP/Personalizar Fecha/div_1_mes_anio""))",Edge Chromiume 18,,,2021-06-01 14:47:46,2021-06-01 14:47:46,"0,437s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:46,2021-06-01 14:47:49,"3,009s",PASSED
+"click(findTestObject(""Gestion/Cubos OLAP/Personalizar Fecha/div_2_anio""))",Edge Chromiume 18,,,2021-06-01 14:47:49,2021-06-01 14:47:50,"0,518s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:50,2021-06-01 14:47:53,"3,003s",PASSED
+takeFullPageScreenshot(),Edge Chromiume 18,,,2021-06-01 14:47:53,2021-06-01 14:47:53,"0,770s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-01 14:47:53,2021-06-01 14:47:56,"3,031s",PASSED

@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+86.UsuarioCliente.CrearOActualizarAutomaticamente,Chrome 115.0.0.0,"El proceso por Si, realiza los cambios que se hagan en los datos del usuario sin que tengamos que dar click en el botón actualizar.",,2023-08-18 08:12:16,2023-08-18 08:13:41,"1m - 25,047s",FAILED
+,,,,,,,
+Test Cases/86.UsuarioCliente.CrearOActualizarAutomaticamente,Chrome 115.0.0.0,,,2023-08-18 08:12:16,2023-08-18 08:13:41,"1m - 24,791s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:12:17,2023-08-18 08:12:27,"10,634s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 08:12:27,2023-08-18 08:12:28,"0,654s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:12:28,2023-08-18 08:12:31,"3,012s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 08:12:31,2023-08-18 08:12:32,"0,652s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:12:32,2023-08-18 08:12:35,"3,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 08:12:35,2023-08-18 08:12:36,"1,087s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:12:36,2023-08-18 08:12:39,"3,012s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""UsuarioCliente.CrearOActualizarAutomaticamente"")",Chrome 115.0.0.0,UsuarioCliente.CrearOActualizarAutomaticamente,,2023-08-18 08:12:39,2023-08-18 08:12:40,"1,371s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 08:12:40,2023-08-18 08:12:41,"0,518s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:12:41,2023-08-18 08:12:43,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 08:12:43,2023-08-18 08:12:43,"0,589s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:12:43,2023-08-18 08:12:45,"2,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Si o No,,2023-08-18 08:12:45,2023-08-18 08:12:46,"0,505s",PASSED
+"sendKeys(findTestObject(null), ""Si"")",Chrome 115.0.0.0,,,2023-08-18 08:12:46,2023-08-18 08:12:46,"0,570s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:12:46,2023-08-18 08:12:48,"2,010s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 08:12:48,2023-08-18 08:12:49,"0,555s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:12:49,2023-08-18 08:12:52,"3,007s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 08:12:52,2023-08-18 08:12:53,"0,656s",PASSED
+delay(3),Chrome 115.0.0.0,Llamar turno,,2023-08-18 08:12:53,2023-08-18 08:12:56,"3,000s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 115.0.0.0,,,2023-08-18 08:12:56,2023-08-18 08:12:56,"0,655s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:12:56,2023-08-18 08:12:59,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 115.0.0.0,,,2023-08-18 08:12:59,2023-08-18 08:13:00,"0,648s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:13:00,2023-08-18 08:13:03,"3,012s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 115.0.0.0,Escogemos oficina,,2023-08-18 08:13:03,2023-08-18 08:13:03,"0,492s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:13:03,2023-08-18 08:13:06,"3,006s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",Chrome 115.0.0.0,Abrimos Terminal,,2023-08-18 08:13:06,2023-08-18 08:13:07,"0,485s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:13:07,2023-08-18 08:13:10,"3,011s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",Chrome 115.0.0.0,,,2023-08-18 08:13:10,2023-08-18 08:13:41,"31,286s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 08:13:41,2023-08-18 08:13:41,"0,000s",PASSED

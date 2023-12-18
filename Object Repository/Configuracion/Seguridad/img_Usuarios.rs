@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Usuarios</name>
+   <tag></tag>
+   <elementGuidId>d327994d-691b-4778-8fb3-783f69914f23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/img/iconos/Secciones/Usuario.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cPHPri_MenuNavegacionImagenes1_Panel1 > a > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cPHPri_MenuNavegacionImagenes1_Panel1']/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>a1139360-8f24-4a12-b216-75eb3d0cf898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/img/iconos/Secciones/Usuario.svg</value>
+      <webElementGuid>73b80f08-f54d-4440-9e87-f8a9b4813af1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_MenuNavegacionImagenes1_Panel1&quot;)/a[1]/img[1]</value>
+      <webElementGuid>dd9a8064-1c2b-47b9-8612-0bf6e3ea8ff7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cPHPri_MenuNavegacionImagenes1_Panel1']/a/img</value>
+      <webElementGuid>6a2cfa7d-aba6-4041-800a-5b356553bf66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/a/img</value>
+      <webElementGuid>2afb486b-9b34-4141-ae4b-467f5751bfa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

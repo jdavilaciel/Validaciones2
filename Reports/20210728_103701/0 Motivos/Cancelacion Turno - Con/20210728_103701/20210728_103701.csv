@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancelacion Turno - Con,Chrome 92.0.4515.107,Proceso mediante el cual se agregan los motivos de cancelación de turno a la oficina y posteriormente se verifica que aprezca en la terminal.,,2021-07-28 10:37:18,2021-07-28 10:40:05,"2m - 47,178s",PASSED
+,,,,,,,
+Test Cases/0 Motivos/Cancelacion Turno - Con,Chrome 92.0.4515.107,,,2021-07-28 10:37:19,2021-07-28 10:40:05,"2m - 46,080s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 92.0.4515.107,,,2021-07-28 10:37:21,2021-07-28 10:37:39,"18,661s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 92.0.4515.107,,,2021-07-28 10:37:39,2021-07-28 10:37:41,"1,404s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:37:41,2021-07-28 10:37:44,"3,023s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Elementos del Sistema""))",Chrome 92.0.4515.107,,,2021-07-28 10:37:44,2021-07-28 10:37:54,"10,242s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:37:54,2021-07-28 10:37:57,"3,017s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/1Principal/img_Motivos""))",Chrome 92.0.4515.107,,,2021-07-28 10:37:57,2021-07-28 10:37:58,"1,366s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:37:58,2021-07-28 10:38:01,"3,020s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Motivos/span_Motivos""))",Chrome 92.0.4515.107,Mostramos los motivos creados,,2021-07-28 10:38:01,2021-07-28 10:38:02,"0,623s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:02,2021-07-28 10:38:05,"3,015s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-28 10:38:05,2021-07-28 10:38:06,"1,497s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:06,2021-07-28 10:38:10,"3,050s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:10,2021-07-28 10:38:11,"1,446s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:11,2021-07-28 10:38:14,"3,010s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:14,2021-07-28 10:38:15,"0,986s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:15,2021-07-28 10:38:18,"3,013s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Distribucion Geografica""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:18,2021-07-28 10:38:20,"1,729s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:20,2021-07-28 10:38:23,"3,018s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/1Principal/img_Oficinas""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:23,2021-07-28 10:38:26,"3,659s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:26,2021-07-28 10:38:29,"3,035s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/2Lista de Oficinas/a_Seleccionar""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:29,2021-07-28 10:38:31,"1,351s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:31,2021-07-28 10:38:34,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/1Pestanas/span_Motivos""))",Chrome 92.0.4515.107,Agregamos Motivos de Cancelación de Turno,,2021-07-28 10:38:34,2021-07-28 10:38:36,"1,734s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:36,2021-07-28 10:38:39,"3,024s",PASSED
+"setText(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar""), ""Turno"")",Chrome 92.0.4515.107,,,2021-07-28 10:38:39,2021-07-28 10:38:40,"1,630s",PASSED
+"sendKeys(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar""), Keys.chord(ENTER))",Chrome 92.0.4515.107,,,2021-07-28 10:38:40,2021-07-28 10:38:41,"0,986s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:41,2021-07-28 10:38:44,"3,037s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/a__SeleccionarTodo""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:44,2021-07-28 10:38:45,"1,027s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:45,2021-07-28 10:38:48,"3,022s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/img_Nuevo""))",Chrome 92.0.4515.107,,,2021-07-28 10:38:48,2021-07-28 10:38:49,"1,010s",PASSED
+delay(2),Chrome 92.0.4515.107,,,2021-07-28 10:38:49,2021-07-28 10:38:51,"2,022s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-28 10:38:51,2021-07-28 10:38:55,"3,866s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:38:55,2021-07-28 10:38:58,"3,015s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 92.0.4515.107,Abrimos la terminal,,2021-07-28 10:38:58,2021-07-28 10:39:01,"2,786s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:01,2021-07-28 10:39:04,"3,024s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:04,2021-07-28 10:39:06,"1,794s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:06,2021-07-28 10:39:09,"3,022s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:09,2021-07-28 10:39:11,"2,093s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:11,2021-07-28 10:39:14,"3,016s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:14,2021-07-28 10:39:16,"1,737s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:16,2021-07-28 10:39:19,"3,021s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:19,2021-07-28 10:39:20,"1,072s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:20,2021-07-28 10:39:23,"3,027s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:23,2021-07-28 10:39:24,"0,931s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:24,2021-07-28 10:39:27,"3,036s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:27,2021-07-28 10:39:28,"1,270s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:28,2021-07-28 10:39:31,"3,006s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:31,2021-07-28 10:39:33,"1,927s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:33,2021-07-28 10:39:36,"3,024s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:36,2021-07-28 10:39:37,"1,047s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:37,2021-07-28 10:39:40,"3,020s",PASSED
+"verifyElementVisible(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cancelacion/img_CancelarTurno""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:40,2021-07-28 10:39:42,"1,805s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cancelacion/img_CancelarTurno""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:42,2021-07-28 10:39:43,"1,157s",PASSED
+delay(2),Chrome 92.0.4515.107,,,2021-07-28 10:39:43,2021-07-28 10:39:45,"2,051s",PASSED
+"verifyElementVisible(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cancelacion/imgCancelarTurno/btn_Cancelar""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:45,2021-07-28 10:39:47,"1,616s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-28 10:39:47,2021-07-28 10:39:48,"1,526s",PASSED
+delay(8),Chrome 92.0.4515.107,,,2021-07-28 10:39:48,2021-07-28 10:39:56,"8,008s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar""))",Chrome 92.0.4515.107,,,2021-07-28 10:39:56,2021-07-28 10:39:58,"1,752s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:39:58,2021-07-28 10:40:01,"3,012s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada""))",Chrome 92.0.4515.107,,,2021-07-28 10:40:01,2021-07-28 10:40:02,"0,980s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-28 10:40:02,2021-07-28 10:40:05,"3,012s",PASSED

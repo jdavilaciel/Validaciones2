@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+85.Terminal.TransfDistGeoArbolExpandido,,"Al transferir un turno saldrá el arbol, Si=Expandido, No=Contraído.",,2021-06-02 12:02:17,2021-06-02 12:04:47,"2m - 30,452s",FAILED
+,,,,,,,
+Test Cases/85.Terminal.TransfDistGeoArbolExpandido No,,,,2021-06-02 12:02:28,2021-06-02 12:04:21,"1m - 53,003s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",,,,2021-06-02 12:02:32,2021-06-02 12:03:06,"33,627s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",,,,2021-06-02 12:03:06,2021-06-02 12:03:08,"1,965s",PASSED
+delay(3),,,,2021-06-02 12:03:08,2021-06-02 12:03:11,"3,011s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",,,,2021-06-02 12:03:11,2021-06-02 12:03:13,"2,144s",PASSED
+delay(3),,,,2021-06-02 12:03:13,2021-06-02 12:03:16,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",,,,2021-06-02 12:03:16,2021-06-02 12:03:17,"0,969s",PASSED
+delay(3),,,,2021-06-02 12:03:17,2021-06-02 12:03:20,"3,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",,Cambiar pestaña,,2021-06-02 12:03:20,2021-06-02 12:03:22,"1,935s",PASSED
+delay(3),,,,2021-06-02 12:03:22,2021-06-02 12:03:25,"3,010s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",,,,2021-06-02 12:03:25,2021-06-02 12:03:26,"1,119s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",,,,2021-06-02 12:03:26,2021-06-02 12:03:28,"1,991s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",,,,2021-06-02 12:03:28,2021-06-02 12:03:30,"1,468s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",,,,2021-06-02 12:03:30,2021-06-02 12:03:31,"1,265s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.TransfDistGeoArbolExpandido"")",,Terminal.TransfDistGeoArbolExpandido,,2021-06-02 12:03:31,2021-06-02 12:03:33,"1,875s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",,,,2021-06-02 12:03:33,2021-06-02 12:03:34,"1,043s",PASSED
+delay(2),,,,2021-06-02 12:03:34,2021-06-02 12:03:36,"2,022s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",,,,2021-06-02 12:03:36,2021-06-02 12:03:37,"1,036s",PASSED
+delay(2),,,,2021-06-02 12:03:37,2021-06-02 12:03:39,"2,022s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",,Si o No,,2021-06-02 12:03:39,2021-06-02 12:03:40,"0,910s",PASSED
+"sendKeys(findTestObject(null), ""No"")",,,,2021-06-02 12:03:40,2021-06-02 12:03:41,"0,892s",PASSED
+delay(2),,,,2021-06-02 12:03:41,2021-06-02 12:03:43,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",,,,2021-06-02 12:03:43,2021-06-02 12:03:44,"1,821s",PASSED
+delay(3),,,,2021-06-02 12:03:44,2021-06-02 12:03:47,"3,007s",PASSED
+"navigateToUrl(""http://Localhost:8810"")",,,,2021-06-02 12:03:47,2021-06-02 12:03:49,"1,373s",PASSED
+delay(3),,,,2021-06-02 12:03:49,2021-06-02 12:03:52,"3,020s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",,,,2021-06-02 12:03:52,2021-06-02 12:03:53,"0,812s",PASSED
+delay(3),,,,2021-06-02 12:03:53,2021-06-02 12:03:56,"3,011s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",,,,2021-06-02 12:03:56,2021-06-02 12:03:57,"0,853s",PASSED
+delay(3),,,,2021-06-02 12:03:57,2021-06-02 12:04:00,"3,002s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",,,,2021-06-02 12:04:00,2021-06-02 12:04:01,"0,970s",PASSED
+delay(3),,,,2021-06-02 12:04:01,2021-06-02 12:04:04,"3,016s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",,Escogemos oficina,,2021-06-02 12:04:04,2021-06-02 12:04:05,"1,370s",PASSED
+delay(3),,,,2021-06-02 12:04:05,2021-06-02 12:04:08,"3,001s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",,Abrimos Terminal,,2021-06-02 12:04:08,2021-06-02 12:04:09,"0,707s",PASSED
+delay(3),,,,2021-06-02 12:04:09,2021-06-02 12:04:12,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",,,,2021-06-02 12:04:12,2021-06-02 12:04:16,"4,692s",PASSED
+delay(3),,,,2021-06-02 12:04:16,2021-06-02 12:04:19,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",,,,2021-06-02 12:04:19,2021-06-02 12:04:21,"2,002s",FAILED
+,,,,,,,
+Test Cases/85.Terminal.TransfDistGeoArbolExpandido Si,,,,2021-06-02 12:04:22,2021-06-02 12:04:47,"25,320s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",,,,2021-06-02 12:04:25,2021-06-02 12:04:47,"22,293s",FAILED

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+95.Terminal.RegistrarIpAlAbrir,Chrome 115.0.0.0,Proceso para permitir registrar IP de la terminal,,2023-08-18 08:13:54,2023-08-18 08:15:12,"1m - 17,501s",FAILED
+,,,,,,,
+Test Cases/95.Terminal.RegistrarIpAlAbrir,Chrome 115.0.0.0,,,2023-08-18 08:13:54,2023-08-18 08:15:12,"1m - 17,246s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:13:55,2023-08-18 08:14:05,"10,576s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 08:14:05,2023-08-18 08:14:06,"0,643s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:06,2023-08-18 08:14:09,"3,013s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 08:14:09,2023-08-18 08:14:10,"0,621s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:10,2023-08-18 08:14:13,"3,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 08:14:13,2023-08-18 08:14:14,"1,126s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:14,2023-08-18 08:14:17,"3,016s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.RegistrarIpAlAbrir"")",Chrome 115.0.0.0,Terminal.RegistrarIpAlAbrir,,2023-08-18 08:14:17,2023-08-18 08:14:18,"1,144s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 08:14:18,2023-08-18 08:14:18,"0,530s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:14:18,2023-08-18 08:14:20,"2,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 08:14:20,2023-08-18 08:14:21,"0,541s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:14:21,2023-08-18 08:14:23,"2,015s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Cambiamos a Si= Habilitado; No=No habilitado,,2023-08-18 08:14:23,2023-08-18 08:14:24,"0,521s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:14:24,2023-08-18 08:14:24,"0,633s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:14:24,2023-08-18 08:14:26,"2,012s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 08:14:26,2023-08-18 08:14:27,"0,537s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:27,2023-08-18 08:14:30,"3,014s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 08:14:30,2023-08-18 08:14:30,"0,656s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:30,2023-08-18 08:14:33,"3,003s",PASSED
+navigateToUrl(UrlTerminales),Chrome 115.0.0.0,,,2023-08-18 08:14:33,2023-08-18 08:14:34,"0,196s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:34,2023-08-18 08:14:37,"3,018s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/Oficinas/a_Seleccionar""))",Chrome 115.0.0.0,,,2023-08-18 08:14:37,2023-08-18 08:14:37,"0,560s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:14:37,2023-08-18 08:14:40,"3,003s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/a_Seleccionar""))",Chrome 115.0.0.0,,,2023-08-18 08:14:40,2023-08-18 08:15:12,"31,501s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 08:15:12,2023-08-18 08:15:12,"0,015s",PASSED

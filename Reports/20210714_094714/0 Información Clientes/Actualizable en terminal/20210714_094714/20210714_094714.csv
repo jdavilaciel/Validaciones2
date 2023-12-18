@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Actualizable en terminal,Chrome 91.0.4472.124,"Proceso mediante el cual se realiza la selección de campos que serán actualizables en la terminal, posteriormente se cambia los mismos en un registro guardado con anterioridad.",,2021-07-14 09:47:37,2021-07-14 09:49:47,"2m - 10,550s",FAILED
+,,,,,,,
+Test Cases/0 Información clientes/Actualizable en Terminal,Chrome 91.0.4472.124,,,2021-07-14 09:47:38,2021-07-14 09:49:47,"2m - 9,144s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 91.0.4472.124,,,2021-07-14 09:47:41,2021-07-14 09:48:08,"27,976s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:08,2021-07-14 09:48:10,"1,480s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:10,2021-07-14 09:48:13,"3,018s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Datos Complementarios""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:13,2021-07-14 09:48:14,"1,228s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:14,2021-07-14 09:48:17,"3,026s",PASSED
+"click(findTestObject(""Configuracion/Datos Complementarios/img_Informacion Clientes""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:17,2021-07-14 09:48:19,"1,956s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:19,2021-07-14 09:48:22,"3,016s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/select_OrigenDeCliente""), 1)",Chrome 91.0.4472.124,Terminal virtual D5,,2021-07-14 09:48:22,2021-07-14 09:48:24,"2,037s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:24,2021-07-14 09:48:27,"3,026s",PASSED
+"check(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/8Actualizable/chk_3Lugar de expedicion""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:27,2021-07-14 09:48:28,"1,166s",PASSED
+"check(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/8Actualizable/chk_4Primer nombre""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:28,2021-07-14 09:48:29,"0,961s",PASSED
+"check(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/8Actualizable/chk_5Segundo nombre""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:29,2021-07-14 09:48:30,"1,035s",PASSED
+"check(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/8Actualizable/chk_6Primer apellido""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:30,2021-07-14 09:48:31,"0,961s",PASSED
+"check(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/8Actualizable/chk_7Segundo apellido""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:31,2021-07-14 09:48:32,"0,988s",PASSED
+"click(findTestObject(""Configuracion/Datos Complementarios/Informacion Clientes/1 Parametros a mostrar del Cliente/Mostrar del Cliente/img_Actualizar""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:32,2021-07-14 09:48:34,"1,196s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:34,2021-07-14 09:48:37,"3,024s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:37,2021-07-14 09:48:39,"2,082s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:39,2021-07-14 09:48:42,"3,018s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:42,2021-07-14 09:48:44,"1,884s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:44,2021-07-14 09:48:47,"3,028s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:47,2021-07-14 09:48:49,"1,845s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:49,2021-07-14 09:48:52,"3,012s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 91.0.4472.124,,,2021-07-14 09:48:52,2021-07-14 09:48:54,"2,068s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:54,2021-07-14 09:48:57,"3,021s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 91.0.4472.124,Abrimos la Terminal,,2021-07-14 09:48:57,2021-07-14 09:48:58,"1,270s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:48:58,2021-07-14 09:49:01,"3,032s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01""))",Chrome 91.0.4472.124,,,2021-07-14 09:49:01,2021-07-14 09:49:02,"1,230s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:49:02,2021-07-14 09:49:05,"3,011s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",Chrome 91.0.4472.124,,,2021-07-14 09:49:05,2021-07-14 09:49:08,"2,632s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:49:08,2021-07-14 09:49:11,"3,023s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",Chrome 91.0.4472.124,,,2021-07-14 09:49:11,2021-07-14 09:49:12,"0,879s",PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-14 09:49:12,2021-07-14 09:49:15,"3,018s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos""))",Chrome 91.0.4472.124,,,2021-07-14 09:49:15,2021-07-14 09:49:47,"32,605s",FAILED

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="81.Sistema.Terminal.TipoDeControlBuscar" time="214.775" tests="2" failures="0" errors="0">
+   <testsuite name="81.Sistema.Terminal.TipoDeControlBuscar" tests="2" failures="0" errors="0" time="214.775" skipped="0" timestamp="2021-06-01 12:23:22" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/81.Sistema.Terminal.TipoDeControlBuscar">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210601_122302\\81.Sistema.Terminal.TipoDeControlBuscar\\20210601_122302"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210601_122302\\81.Sistema.Terminal.TipoDeControlBuscar\\20210601_122302\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210601_122302\\81.Sistema.Terminal.TipoDeControlBuscar\\20210601_122302\\1622568290874.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210601_122302\\81.Sistema.Terminal.TipoDeControlBuscar\\20210601_122302\\1622568381229.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Edge Chromiume 18"/>
+         <property name="hostAddress" value="169.254.12.236"/>
+         <property name="sessionId" value="DD5B8B73-1516-4138-8383-BC5DDCB01246"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Basico" time="98.541" classname="Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Basico" status="PASSED">
+         <system-out><![CDATA[2021-06-01 12:23:27 - [TEST_CASE][PASSED] - Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Basico: Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Basico
+
+2021-06-01 12:23:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-01 12:23:30 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-06-01 12:23:31 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-01 12:23:32 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2021-06-01 12:23:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-01 12:23:42 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-01 12:23:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-01 12:23:42 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-01 12:23:42 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-01 12:23:44 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-01 12:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-01 12:23:45 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-01 12:23:45 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-01 12:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-01 12:23:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:23:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:23:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-01 12:23:49 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-01 12:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-01 12:23:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:23:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-01 12:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-01 12:23:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:23:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-01 12:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-01 12:23:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema' is clicked on
+
+2021-06-01 12:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema' is clicked on
+
+2021-06-01 12:24:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-01 12:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-01 12:24:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-01 12:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-01 12:24:08 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-01 12:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-01 12:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-01 12:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-01 12:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "Sistema.Terminal.TipoDeControlBuscar"): Text 'Sistema.Terminal.TipoDeControlBuscar' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-01 12:24:12 - [MESSAGE][PASSED] - Text 'Sistema.Terminal.TipoDeControlBuscar' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-01 12:24:12 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-01 12:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-01 12:24:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-01 12:24:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-01 12:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-01 12:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-01 12:24:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-01 12:24:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-01 12:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-06-01 12:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-06-01 12:24:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), "Basico"): Keys 'Basico' sent to object: 'tempBody'
+
+2021-06-01 12:24:18 - [MESSAGE][WARNING] - Test object id is null
+
+2021-06-01 12:24:18 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-06-01 12:24:19 - [MESSAGE][PASSED] - Keys 'Basico' sent to object: 'tempBody'
+
+2021-06-01 12:24:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-01 12:24:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-01 12:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-01 12:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-01 12:24:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:25 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-06-01 12:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-06-01 12:24:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:28 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Operacion")): Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-06-01 12:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-06-01 12:24:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:32 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos Del Sistema")): Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-06-01 12:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-06-01 12:24:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:35 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/img_Terminales")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-06-01 12:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-06-01 12:24:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:39 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-06-01 12:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-06-01 12:24:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:43 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02' is clicked on
+
+2021-06-01 12:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02' is clicked on
+
+2021-06-01 12:24:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:47 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar' is clicked on
+
+2021-06-01 12:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar' is clicked on
+
+2021-06-01 12:24:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-06-01 12:24:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-01 12:24:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210601_122302\\81.Sistema.Terminal.TipoDeControlBuscar\\20210601_122302\\1622568290874.png]]
+
+2021-06-01 12:24:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-06-01 12:24:55 - [MESSAGE][WARNING] - Test object id is null
+
+2021-06-01 12:24:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-06-01 12:24:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-06-01 12:24:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:24:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:24:58 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-06-01 12:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-06-01 12:24:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:02 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-06-01 12:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-06-01 12:25:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:06 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Grilla" time="89.553" classname="Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Grilla" status="PASSED">
+         <system-out><![CDATA[2021-06-01 12:25:06 - [TEST_CASE][PASSED] - Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Grilla: Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Grilla
+
+2021-06-01 12:25:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-01 12:25:07 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-06-01 12:25:07 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-01 12:25:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-06-01 12:25:10 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2021-06-01 12:25:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-01 12:25:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-06-01 12:25:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-01 12:25:18 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-01 12:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-01 12:25:19 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-06-01 12:25:19 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-01 12:25:21 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-06-01 12:25:21 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-01 12:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-06-01 12:25:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-06-01 12:25:25 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-01 12:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-06-01 12:25:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-01 12:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Sistema' is clicked on
+
+2021-06-01 12:25:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/1Principal/img_Parametros Generales")): Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-01 12:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/1Principal/img_Parametros Generales' is clicked on
+
+2021-06-01 12:25:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema' is clicked on
+
+2021-06-01 12:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema' is clicked on
+
+2021-06-01 12:25:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-01 12:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave' is clicked on
+
+2021-06-01 12:25:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-01 12:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro' is hovered
+
+2021-06-01 12:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-01 12:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select' is clicked on
+
+2021-06-01 12:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-01 12:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene' is clicked on
+
+2021-06-01 12:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1"), "Sistema.Terminal.TipoDeControlBuscar"): Text 'Sistema.Terminal.TipoDeControlBuscar' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-01 12:25:44 - [MESSAGE][PASSED] - Text 'Sistema.Terminal.TipoDeControlBuscar' is set on object 'Object Repository/Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1'
+
+2021-06-01 12:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-01 12:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar' is clicked on
+
+2021-06-01 12:25:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-01 12:25:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-01 12:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-01 12:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar' is clicked on
+
+2021-06-01 12:25:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-01 12:25:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-01 12:25:49 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor"), STOP_ON_FAILURE): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-06-01 12:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor' is clicked on
+
+2021-06-01 12:25:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), "Grilla"): Keys 'Grilla' sent to object: 'tempBody'
+
+2021-06-01 12:25:50 - [MESSAGE][WARNING] - Test object id is null
+
+2021-06-01 12:25:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-06-01 12:25:50 - [MESSAGE][PASSED] - Keys 'Grilla' sent to object: 'tempBody'
+
+2021-06-01 12:25:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-06-01 12:25:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-06-01 12:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar")): Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-01 12:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar' is clicked on
+
+2021-06-01 12:25:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:25:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:25:56 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-06-01 12:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-06-01 12:25:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:00 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Operacion")): Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-06-01 12:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-06-01 12:26:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:03 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos Del Sistema")): Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-06-01 12:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-06-01 12:26:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:06 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/img_Terminales")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-06-01 12:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-06-01 12:26:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:10 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-06-01 12:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-06-01 12:26:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:13 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02' is clicked on
+
+2021-06-01 12:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02' is clicked on
+
+2021-06-01 12:26:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:17 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar' is clicked on
+
+2021-06-01 12:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar' is clicked on
+
+2021-06-01 12:26:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-06-01 12:26:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-01 12:26:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210601_122302\\81.Sistema.Terminal.TipoDeControlBuscar\\20210601_122302\\1622568381229.png]]
+
+2021-06-01 12:26:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-06-01 12:26:25 - [MESSAGE][WARNING] - Test object id is null
+
+2021-06-01 12:26:25 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-06-01 12:26:25 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2021-06-01 12:26:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:28 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-06-01 12:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar' is clicked on
+
+2021-06-01 12:26:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-01 12:26:32 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-06-01 12:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada' is clicked on
+
+2021-06-01 12:26:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-06-01 12:26:35 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-01 12:23:22 - [TEST_SUITE][PASSED] - 81.Sistema.Terminal.TipoDeControlBuscar: Test Cases/81.Sistema.Terminal.TipoDeControlBuscar Grilla]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

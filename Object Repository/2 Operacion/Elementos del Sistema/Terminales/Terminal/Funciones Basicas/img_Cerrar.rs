@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Cerrar</name>
+   <tag></tag>
+   <elementGuidId>58b8ecea-1f5c-4cb0-a9e3-6c781608a1e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '../../../img/Iconos/Terminal/btnCerrar.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cPHPri_lnkCerrarTerminal > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='cPHPri_lnkCerrarTerminal']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ce75f872-b7f4-4386-9803-a28d4308cdc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../img/Iconos/Terminal/btnCerrar.svg</value>
+      <webElementGuid>71de0683-524d-4ed3-9e05-5cd15a1898d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_lnkCerrarTerminal&quot;)/img[1]</value>
+      <webElementGuid>be5faffa-4098-459f-8085-330cd9d017a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='cPHPri_lnkCerrarTerminal']/img</value>
+      <webElementGuid>963eb64a-add5-4b24-8e53-a9b62fdd4d91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]/img</value>
+      <webElementGuid>5d5e868e-34c8-4b9c-ae1f-fd2a6967b3f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Actualizacion de Datos</name>
+   <tag></tag>
+   <elementGuidId>f3326cd9-e0fd-4412-8f95-15e98b2241f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='cPHPri_ucJerResolvSerEnAten_tVt0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Actualizacion de Datos' or . = 'Actualizacion de Datos')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cPHPri_ucJerResolvSerEnAten_tVt0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>253153bb-af56-4714-aabb-f777e07e7d35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('ctl00$cPHPri$ucJerResolvSerEnAten$tV','s14')</value>
+      <webElementGuid>174496e6-2dbd-4cb1-b88f-e659d6cf3a04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>TreeView_SelectNode(cPHPri_ucJerResolvSerEnAten_tV_Data, this,'cPHPri_ucJerResolvSerEnAten_tVt0');</value>
+      <webElementGuid>8dc4bcfa-8c31-4dd5-9efd-6047cdb443e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cPHPri_ucJerResolvSerEnAten_tVt0</value>
+      <webElementGuid>06f2f017-5c46-41eb-8f22-4b09ba98c41c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Actualizacion de Datos</value>
+      <webElementGuid>760870fe-dc9b-400a-88f1-060c73f191f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_ucJerResolvSerEnAten_tVt0&quot;)</value>
+      <webElementGuid>44b42061-2da1-4298-b8da-6944b3512400</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='cPHPri_ucJerResolvSerEnAten_tVt0']</value>
+      <webElementGuid>b7194c51-fc31-48c6-a7b8-0b8eee490522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cPHPri_ucJerResolvSerEnAten_tV']/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>e526e7b3-0d5e-4d2b-abd7-5aec6e4dc818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Actualizacion de Datos')]</value>
+      <webElementGuid>f4af33cb-92c9-4c5b-b74a-ee2dfd977e98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reclasificar'])[2]/following::a[3]</value>
+      <webElementGuid>afddaa2b-2dd2-49c4-8637-cb281762e8dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jerarquía de servicios'])[1]/following::a[4]</value>
+      <webElementGuid>e7f88321-d9d5-4f71-8030-e9b886b7d169</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facturacion'])[1]/preceding::a[1]</value>
+      <webElementGuid>b8858206-14f7-4088-9459-23cc132e66e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inscripciones'])[1]/preceding::a[2]</value>
+      <webElementGuid>81915bf3-899f-4fdc-9bc2-6dc42f860efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Actualizacion de Datos']/parent::*</value>
+      <webElementGuid>d7802428-93dc-48c0-a10d-d905c6ec9c7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('ctl00$cPHPri$ucJerResolvSerEnAten$tV','s14')&quot;)]</value>
+      <webElementGuid>dd9a12c3-83b7-4cf1-a11c-cc6d867ae8eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a</value>
+      <webElementGuid>cc95b537-2343-489c-9df5-6bf9aac3afc5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tipo Todos" time="236.165" tests="1" failures="0" errors="0">
+   <testsuite name="Tipo Todos" tests="1" failures="0" errors="0" time="236.165" skipped="0" timestamp="2021-07-22 15:43:44" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/0 Jornadas/Tipo Todos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986698195.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986742285.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986784314.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986830194.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.164"/>
+         <property name="hostAddress" value="169.254.142.112"/>
+         <property name="sessionId" value="3ce17444026e7befe0bf61b938eb3d6e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/0 Jornadas/Tipo Todos" time="209.412" classname="Test Cases/0 Jornadas/Tipo Todos" status="PASSED">
+         <system-out><![CDATA[2021-07-22 15:43:46 - [TEST_CASE][PASSED] - Test Cases/0 Jornadas/Tipo Todos: Test Cases/0 Jornadas/Tipo Todos
+
+2021-07-22 15:43:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-22 15:43:49 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-07-22 15:43:51 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-22 15:43:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-22 15:43:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-22 15:44:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-22 15:44:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-22 15:44:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-22 15:44:10 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-22 15:44:12 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-22 15:44:12 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-22 15:44:14 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-22 15:44:14 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-22 15:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-22 15:44:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-22 15:44:18 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:44:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Jornadas de Atencion")): Object: 'Object Repository/Configuracion/1Principal/img_Jornadas de Atencion' is clicked on
+
+2021-07-22 15:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Jornadas de Atencion' is clicked on
+
+2021-07-22 15:44:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Jornadas de Atencion/0Oficinas Emergente/a_Seleccionar")): Object: 'Object Repository/Configuracion/Jornadas de Atencion/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-07-22 15:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Jornadas de Atencion/0Oficinas Emergente/a_Seleccionar' is clicked on
+
+2021-07-22 15:44:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:36 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Jornadas de Atencion/2Lista de Jornadas/input_TextoABuscar"), "Todos"): Text 'Todos' is set on object 'Object Repository/Configuracion/Jornadas de Atencion/2Lista de Jornadas/input_TextoABuscar'
+
+2021-07-22 15:44:37 - [MESSAGE][PASSED] - Text 'Todos' is set on object 'Object Repository/Configuracion/Jornadas de Atencion/2Lista de Jornadas/input_TextoABuscar'
+
+2021-07-22 15:44:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Jornadas de Atencion/2Lista de Jornadas/a_Seleccionar")): Object: 'Object Repository/Configuracion/Jornadas de Atencion/2Lista de Jornadas/a_Seleccionar' is clicked on
+
+2021-07-22 15:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Jornadas de Atencion/2Lista de Jornadas/a_Seleccionar' is clicked on
+
+2021-07-22 15:44:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Configuracion/Jornadas de Atencion/2Edicion/select_Tipo"), "Todos", false): All options with label 'Todos' are selected in object 'Object Repository/Configuracion/Jornadas de Atencion/2Edicion/select_Tipo' 
+
+2021-07-22 15:44:47 - [MESSAGE][PASSED] - All options with label 'Todos' are selected in object 'Object Repository/Configuracion/Jornadas de Atencion/2Edicion/select_Tipo' 
+
+2021-07-22 15:44:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:50 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2021-07-22 15:44:50 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2021-07-22 15:44:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Jornadas de Atencion/2Edicion/img_Actualizar2")): Object: 'Object Repository/Configuracion/Jornadas de Atencion/2Edicion/img_Actualizar2' is clicked on
+
+2021-07-22 15:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Jornadas de Atencion/2Edicion/img_Actualizar2' is clicked on
+
+2021-07-22 15:44:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:44:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:44:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-22 15:45:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-22 15:45:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986698195.png]]
+
+2021-07-22 15:45:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:04 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-22 15:45:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-22 15:45:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:11 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:45:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Elementos del Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-22 15:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-22 15:45:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:22 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/1Principal/img_Terminales")): Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Terminales' is clicked on
+
+2021-07-22 15:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Terminales' is clicked on
+
+2021-07-22 15:45:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Terminales/a_Seleccionar")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Terminales/a_Seleccionar' is clicked on
+
+2021-07-22 15:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Terminales/a_Seleccionar' is clicked on
+
+2021-07-22 15:45:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/a_Seleccionar")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/a_Seleccionar' is clicked on
+
+2021-07-22 15:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Terminales/2Lista Terminales/a_Seleccionar' is clicked on
+
+2021-07-22 15:45:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:38 - [TEST_STEP][PASSED] - scrollToPosition(0, 1200): Browser is scrolled to position x = 0, y = 1200
+
+2021-07-22 15:45:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1200
+
+2021-07-22 15:45:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Configuracion/Elementos del Sistema/Terminales/3JornadasPorOficina/span_Todos")): Object 'Object Repository/Configuracion/Elementos del Sistema/Terminales/3JornadasPorOficina/span_Todos' is visible
+
+2021-07-22 15:45:42 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Elementos del Sistema/Terminales/3JornadasPorOficina/span_Todos' is visible
+
+2021-07-22 15:45:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-22 15:45:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-22 15:45:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986742285.png]]
+
+2021-07-22 15:45:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:48 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-22 15:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-22 15:45:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:45:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:45:54 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:45:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:00 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Elementos del Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-22 15:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-22 15:46:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/1Principal/img_Selectores")): Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Selectores' is clicked on
+
+2021-07-22 15:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Selectores' is clicked on
+
+2021-07-22 15:46:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Selectores/0Lista de Selectores/a_Seleccionar1")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Selectores/0Lista de Selectores/a_Seleccionar1' is clicked on
+
+2021-07-22 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Selectores/0Lista de Selectores/a_Seleccionar1' is clicked on
+
+2021-07-22 15:46:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 400): Browser is scrolled to position x = 0, y = 400
+
+2021-07-22 15:46:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 400
+
+2021-07-22 15:46:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Selectores/0Pestanas/span_Jornadas y Colas")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Selectores/0Pestanas/span_Jornadas y Colas' is clicked on
+
+2021-07-22 15:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Selectores/0Pestanas/span_Jornadas y Colas' is clicked on
+
+2021-07-22 15:46:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Configuracion/Elementos del Sistema/Selectores/2Jornada por Oficina/span_Todos")): Object 'Object Repository/Configuracion/Elementos del Sistema/Selectores/2Jornada por Oficina/span_Todos' is visible
+
+2021-07-22 15:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Elementos del Sistema/Selectores/2Jornada por Oficina/span_Todos' is visible
+
+2021-07-22 15:46:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-22 15:46:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-22 15:46:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986784314.png]]
+
+2021-07-22 15:46:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:30 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-22 15:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-22 15:46:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:36 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-22 15:46:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Elementos del Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-22 15:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-22 15:46:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/1Principal/img_Kioscos")): Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Kioscos' is clicked on
+
+2021-07-22 15:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Kioscos' is clicked on
+
+2021-07-22 15:46:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:54 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Kioscos/0Oficina_Emergente/a_Seleccionar")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Kioscos/0Oficina_Emergente/a_Seleccionar' is clicked on
+
+2021-07-22 15:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Kioscos/0Oficina_Emergente/a_Seleccionar' is clicked on
+
+2021-07-22 15:46:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:46:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:46:58 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Kioscos/2ListaDeKioscos/a_Seleccionar")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Kioscos/2ListaDeKioscos/a_Seleccionar' is clicked on
+
+2021-07-22 15:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Kioscos/2ListaDeKioscos/a_Seleccionar' is clicked on
+
+2021-07-22 15:46:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:47:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:47:02 - [TEST_STEP][PASSED] - scrollToPosition(0, 900): Browser is scrolled to position x = 0, y = 900
+
+2021-07-22 15:47:03 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 900
+
+2021-07-22 15:47:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:47:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:47:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Configuracion/Elementos del Sistema/Kioscos/3JornadasOficinas/td_Todos")): Object 'Object Repository/Configuracion/Elementos del Sistema/Kioscos/3JornadasOficinas/td_Todos' is visible
+
+2021-07-22 15:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/Configuracion/Elementos del Sistema/Kioscos/3JornadasOficinas/td_Todos' is visible
+
+2021-07-22 15:47:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:47:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-22 15:47:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-22 15:47:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-22 15:47:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210722_154321\\0 Jornadas\\Tipo Todos\\20210722_154321\\1626986830194.png]]
+
+2021-07-22 15:47:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-22 15:47:15 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-22 15:43:44 - [TEST_SUITE][PASSED] - Tipo Todos: Test Cases/0 Jornadas/Tipo Todos]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

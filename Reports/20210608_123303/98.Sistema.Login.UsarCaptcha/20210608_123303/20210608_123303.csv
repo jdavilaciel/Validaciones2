@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+98.Sistema.Login.UsarCaptcha,Edge Chromiume 18,Habilita la imagen captcha para un inicio de sesión,,2021-06-08 12:33:17,2021-06-08 12:34:15,"58,054s",FAILED
+,,,,,,,
+Test Cases/98.Sistema.Login.UsarCaptcha,Edge Chromiume 18,,,2021-06-08 12:33:21,2021-06-08 12:34:15,"53,910s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-08 12:33:23,2021-06-08 12:33:40,"16,841s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-06-08 12:33:40,2021-06-08 12:33:41,"0,688s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 12:33:41,2021-06-08 12:33:44,"3,002s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-06-08 12:33:44,2021-06-08 12:33:44,"0,477s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 12:33:44,2021-06-08 12:33:47,"3,001s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-06-08 12:33:47,2021-06-08 12:33:48,"0,618s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 12:33:48,2021-06-08 12:33:51,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios""))",Edge Chromiume 18,Cambiar pestaña,,2021-06-08 12:33:51,2021-06-08 12:33:51,"0,658s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 12:33:51,2021-06-08 12:33:54,"3,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-06-08 12:33:54,2021-06-08 12:33:55,"0,685s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-06-08 12:33:55,2021-06-08 12:33:56,"1,049s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-06-08 12:33:56,2021-06-08 12:33:57,"0,785s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-06-08 12:33:57,2021-06-08 12:33:58,"0,603s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Sistema.Login.UsarCaptcha"")",Edge Chromiume 18,Sistema.Login.UsarCaptcha,,2021-06-08 12:33:58,2021-06-08 12:33:59,"1,197s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-06-08 12:33:59,2021-06-08 12:33:59,"0,601s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-08 12:33:59,2021-06-08 12:34:01,"2,025s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-06-08 12:34:01,2021-06-08 12:34:02,"0,747s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-08 12:34:02,2021-06-08 12:34:04,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,Cambiamos a Si= Habilitado; No=No habilitado,,2021-06-08 12:34:04,2021-06-08 12:34:05,"0,503s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si""), STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-08 12:34:05,2021-06-08 12:34:05,"0,610s",PASSED
+delay(5),Edge Chromiume 18,,,2021-06-08 12:34:05,2021-06-08 12:34:10,"5,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-06-08 12:34:10,2021-06-08 12:34:11,"0,665s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-08 12:34:11,2021-06-08 12:34:14,"3,007s",PASSED
+"mouseOver(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Edge Chromiume 18,,,2021-06-08 12:34:14,2021-06-08 12:34:15,"0,707s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/a_Cerrar sesion""))",Edge Chromiume 18,,,2021-06-08 12:34:15,2021-06-08 12:34:15,"0,683s",FAILED

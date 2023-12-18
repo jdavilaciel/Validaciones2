@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+98.Sistema.Login.UsarCaptcha,Chrome 115.0.0.0,Habilita la imagen captcha para un inicio de sesión,,2023-08-18 08:15:25,2023-08-18 08:16:25,"59,900s",PASSED
+,,,,,,,
+Test Cases/98.Sistema.Login.UsarCaptcha,Chrome 115.0.0.0,,,2023-08-18 08:15:25,2023-08-18 08:16:25,"59,654s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:15:26,2023-08-18 08:15:36,"10,495s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 08:15:36,2023-08-18 08:15:37,"0,659s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:15:37,2023-08-18 08:15:40,"3,017s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 08:15:40,2023-08-18 08:15:40,"0,630s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:15:40,2023-08-18 08:15:43,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 08:15:43,2023-08-18 08:15:45,"1,169s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:15:45,2023-08-18 08:15:48,"3,011s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Sistema.Login.UsarCaptcha"")",Chrome 115.0.0.0,Sistema.Login.UsarCaptcha,,2023-08-18 08:15:48,2023-08-18 08:15:49,"1,220s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 08:15:49,2023-08-18 08:15:49,"0,536s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:15:49,2023-08-18 08:15:51,"2,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 08:15:51,2023-08-18 08:15:52,"0,550s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:15:52,2023-08-18 08:15:54,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Cambiamos a Si= Habilitado; No=No habilitado,,2023-08-18 08:15:54,2023-08-18 08:15:54,"0,541s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:15:54,2023-08-18 08:15:55,"0,603s",PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-18 08:15:55,2023-08-18 08:16:00,"5,014s",PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-18 08:16:00,2023-08-18 08:16:01,"0,725s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:16:01,2023-08-18 08:16:04,"3,008s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 08:16:04,2023-08-18 08:16:05,"0,720s",PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-18 08:16:05,2023-08-18 08:16:10,"5,005s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Chrome 115.0.0.0,,,2023-08-18 08:16:10,2023-08-18 08:16:10,"0,490s",PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-18 08:16:10,2023-08-18 08:16:15,"5,004s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/nuevos/a_Cerrar sesion""))",Chrome 115.0.0.0,,,2023-08-18 08:16:15,2023-08-18 08:16:16,"1,357s",PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-18 08:16:16,2023-08-18 08:16:21,"5,004s",PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-18 08:16:21,2023-08-18 08:16:22,"0,565s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:16:22,2023-08-18 08:16:25,"3,014s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 08:16:25,2023-08-18 08:16:25,"0,008s",PASSED

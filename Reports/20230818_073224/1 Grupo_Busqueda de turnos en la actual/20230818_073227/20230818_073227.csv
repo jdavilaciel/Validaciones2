@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 Grupo_Busqueda de turnos en la actual,Chrome 115.0.0.0,En el proceso se tiene un turno en Información. Se abre la Terminal PQRS al principio no se verá el turno (Grupo) y luego se deberá mostrar al cambiar a (Sala).,,2023-08-18 07:35:31,2023-08-18 07:37:01,"1m - 29,840s",FAILED
+,,,,,,,
+Test Cases/1 Grupo_ Busqueda de turnos en la actual,Chrome 115.0.0.0,,,2023-08-18 07:35:31,2023-08-18 07:37:01,"1m - 29,546s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:35:32,2023-08-18 07:35:43,"11,069s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:35:43,2023-08-18 07:35:43,"0,646s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:35:43,2023-08-18 07:35:46,"3,013s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Distribucion Geografica""))",Chrome 115.0.0.0,,,2023-08-18 07:35:46,2023-08-18 07:35:47,"0,635s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:35:47,2023-08-18 07:35:50,"3,008s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/1Principal/img_Grupos""))",Chrome 115.0.0.0,,,2023-08-18 07:35:50,2023-08-18 07:35:51,"0,749s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:35:51,2023-08-18 07:35:54,"3,011s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Grupos/0Oficinas Emergente/a_Seleccionar""))",Chrome 115.0.0.0,,,2023-08-18 07:35:54,2023-08-18 07:35:54,"0,503s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:35:54,2023-08-18 07:35:57,"3,017s",PASSED
+"setText(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/input_TextoABuscar""), ""PQRS"")",Chrome 115.0.0.0,Se escoge el grupo PQRS,,2023-08-18 07:35:57,2023-08-18 07:35:58,"0,920s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:35:58,2023-08-18 07:36:00,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Lista de Grupos/0General/a_Seleccionar""))",Chrome 115.0.0.0,,,2023-08-18 07:36:00,2023-08-18 07:36:01,"0,540s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:01,2023-08-18 07:36:04,"3,020s",PASSED
+"selectOptionByLabel(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Edicion/select_BusquedaTurnosEnLaActual""), ""Grupo"", false)",Chrome 115.0.0.0,,,2023-08-18 07:36:04,2023-08-18 07:36:05,"0,862s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:05,2023-08-18 07:36:08,"3,020s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Grupos/Botones/img_Actualizar""))",Chrome 115.0.0.0,,,2023-08-18 07:36:08,2023-08-18 07:36:08,"0,487s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:08,2023-08-18 07:36:11,"3,006s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,"Tenemos turno En Información, abrimos la terminal PQRS para la prueba",,2023-08-18 07:36:11,2023-08-18 07:36:12,"0,648s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:12,2023-08-18 07:36:15,"3,009s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 115.0.0.0,,,2023-08-18 07:36:15,2023-08-18 07:36:16,"0,788s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:16,2023-08-18 07:36:19,"3,017s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 115.0.0.0,,,2023-08-18 07:36:19,2023-08-18 07:36:19,"0,612s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:19,2023-08-18 07:36:22,"3,010s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 115.0.0.0,Escogemos oficina,,2023-08-18 07:36:22,2023-08-18 07:36:23,"0,501s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:23,2023-08-18 07:36:26,"3,016s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",Chrome 115.0.0.0,Abrimos Terminal,,2023-08-18 07:36:26,2023-08-18 07:36:26,"0,504s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:36:26,2023-08-18 07:36:29,"3,018s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar""))",Chrome 115.0.0.0,,,2023-08-18 07:36:29,2023-08-18 07:37:01,"31,550s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:37:01,2023-08-18 07:37:01,"0,008s",PASSED

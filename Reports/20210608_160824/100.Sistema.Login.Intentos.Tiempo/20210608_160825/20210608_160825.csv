@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+100.Sistema.Login.Intentos.Tiempo,Chrome 91.0.4472.77,Tiempo que tarda en habilitarse luego de bloquear por mal ingreso de clave o usuario,,2021-06-08 16:08:38,2021-06-08 16:10:19,"1m - 40,958s",PASSED
+,,,,,,,
+Test Cases/100.Sistema.Login.Intentos.Tiempo,Chrome 91.0.4472.77,,,2021-06-08 16:08:43,2021-06-08 16:10:19,"1m - 36,197s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 91.0.4472.77,,,2021-06-08 16:08:45,2021-06-08 16:09:03,"17,730s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:03,2021-06-08 16:09:04,"1,267s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:04,2021-06-08 16:09:07,"3,009s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:07,2021-06-08 16:09:09,"1,968s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:09,2021-06-08 16:09:12,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:12,2021-06-08 16:09:14,"1,655s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:14,2021-06-08 16:09:17,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios""))",Chrome 91.0.4472.77,Cambiar pestaña,,2021-06-08 16:09:17,2021-06-08 16:09:17,"0,580s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:17,2021-06-08 16:09:20,"3,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:20,2021-06-08 16:09:21,"0,829s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:21,2021-06-08 16:09:22,"1,099s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:22,2021-06-08 16:09:23,"0,732s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:23,2021-06-08 16:09:24,"0,902s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Sistema.Login.Intentos.Tiempo"")",Chrome 91.0.4472.77,Sistema.Login.Intentos.Tiempo,,2021-06-08 16:09:24,2021-06-08 16:09:25,"1,116s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:25,2021-06-08 16:09:25,"0,604s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-08 16:09:25,2021-06-08 16:09:27,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:27,2021-06-08 16:09:28,"0,771s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-08 16:09:28,2021-06-08 16:09:30,"2,005s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro HHMMSS/input_HHMMSS""), ""00:00:10"")",Chrome 91.0.4472.77,"Formato HH:MM:SS, para el ejemplo 00:00:10",,2021-06-08 16:09:30,2021-06-08 16:09:31,"1,225s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-08 16:09:31,2021-06-08 16:09:33,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:33,2021-06-08 16:09:35,"1,145s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:35,2021-06-08 16:09:38,"3,004s",PASSED
+"mouseOver(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:38,2021-06-08 16:09:38,"0,765s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/a_Cerrar sesion""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:38,2021-06-08 16:09:39,"0,782s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:39,2021-06-08 16:09:42,"3,010s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Usuario""), ""ciel"")",Chrome 91.0.4472.77,,,2021-06-08 16:09:42,2021-06-08 16:09:43,"0,811s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Clave""), ""digiturn"")",Chrome 91.0.4472.77,,,2021-06-08 16:09:43,2021-06-08 16:09:44,"0,821s",PASSED
+"click(findTestObject(""0Inicio Sesion/btn_IniciarSesion""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:44,2021-06-08 16:09:45,"0,867s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:45,2021-06-08 16:09:48,"3,005s",PASSED
+takeFullPageScreenshot(),Chrome 91.0.4472.77,,,2021-06-08 16:09:48,2021-06-08 16:09:49,"1,345s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:09:49,2021-06-08 16:09:52,"3,006s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Usuario""), ""ciel"")",Chrome 91.0.4472.77,,,2021-06-08 16:09:52,2021-06-08 16:09:53,"0,843s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Clave""), ""digiturn"")",Chrome 91.0.4472.77,,,2021-06-08 16:09:53,2021-06-08 16:09:54,"0,795s",PASSED
+"click(findTestObject(""0Inicio Sesion/btn_IniciarSesion""))",Chrome 91.0.4472.77,,,2021-06-08 16:09:54,2021-06-08 16:09:54,"0,471s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-08 16:09:54,2021-06-08 16:09:56,"2,004s",PASSED
+takeFullPageScreenshot(),Chrome 91.0.4472.77,,,2021-06-08 16:09:56,2021-06-08 16:09:57,"0,726s",PASSED
+delay(13),Chrome 91.0.4472.77,,,2021-06-08 16:09:57,2021-06-08 16:10:10,"13,007s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Usuario""), ""ciel"")",Chrome 91.0.4472.77,,,2021-06-08 16:10:10,2021-06-08 16:10:11,"0,817s",PASSED
+"setText(findTestObject(""0Inicio Sesion/input__Clave""), ""digiturno"")",Chrome 91.0.4472.77,,,2021-06-08 16:10:11,2021-06-08 16:10:12,"0,814s",PASSED
+"click(findTestObject(""0Inicio Sesion/btn_IniciarSesion""))",Chrome 91.0.4472.77,,,2021-06-08 16:10:12,2021-06-08 16:10:12,"0,563s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-08 16:10:12,2021-06-08 16:10:15,"3,006s",PASSED
+takeFullPageScreenshot(),Chrome 91.0.4472.77,,,2021-06-08 16:10:15,2021-06-08 16:10:17,"1,940s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-08 16:10:17,2021-06-08 16:10:19,"2,025s",PASSED

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+117.Usuarios.Contrasena.ExpRegular,Edge Chromiume 18,Establece la expresión regular que debe tener la contraseña.,,2021-06-15 10:28:23,2021-06-15 10:29:25,"1m - 1,404s",FAILED
+,,,,,,,
+Test Cases/117.Usuarios.Contrasena.ExpRegular,Edge Chromiume 18,,,2021-06-15 10:28:28,2021-06-15 10:29:25,"56,737s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-06-15 10:28:30,2021-06-15 10:28:49,"19,144s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-06-15 10:28:49,2021-06-15 10:28:50,"0,805s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:28:50,2021-06-15 10:28:53,"3,004s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-06-15 10:28:53,2021-06-15 10:28:53,"0,510s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:28:53,2021-06-15 10:28:56,"3,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-06-15 10:28:56,2021-06-15 10:28:56,"0,446s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:28:56,2021-06-15 10:28:59,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Usuarios""))",Edge Chromiume 18,Cambiar pestaña,,2021-06-15 10:28:59,2021-06-15 10:29:00,"0,691s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:29:00,2021-06-15 10:29:03,"3,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-06-15 10:29:03,2021-06-15 10:29:04,"0,709s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-06-15 10:29:04,2021-06-15 10:29:05,"0,996s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-06-15 10:29:05,2021-06-15 10:29:06,"0,894s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-06-15 10:29:06,2021-06-15 10:29:07,"0,729s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Usuarios.Contrasena.ExpRegular"")",Edge Chromiume 18,Usuarios.Contrasena.ExpRegular,,2021-06-15 10:29:07,2021-06-15 10:29:08,"1,354s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-06-15 10:29:08,2021-06-15 10:29:09,"0,650s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-15 10:29:09,2021-06-15 10:29:11,"2,014s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-06-15 10:29:11,2021-06-15 10:29:11,"0,716s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:29:11,2021-06-15 10:29:14,"3,014s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-06-15 10:29:14,2021-06-15 10:29:15,"0,543s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:29:15,2021-06-15 10:29:18,"3,019s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-06-15 10:29:18,2021-06-15 10:29:18,"0,530s",PASSED
+delay(3),Edge Chromiume 18,,,2021-06-15 10:29:18,2021-06-15 10:29:21,"3,005s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Edge Chromiume 18,,,2021-06-15 10:29:21,2021-06-15 10:29:22,"0,546s",PASSED
+delay(2),Edge Chromiume 18,,,2021-06-15 10:29:22,2021-06-15 10:29:24,"2,002s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/a_Cambiar Clave""))",Edge Chromiume 18,,,2021-06-15 10:29:24,2021-06-15 10:29:25,"0,703s",FAILED

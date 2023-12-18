@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Valor_up</name>
+   <tag></tag>
+   <elementGuidId>950f0fd2-aeab-4194-ad1b-1d8829e3e7fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[2]/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-icon.k-i-arrow-60-up</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>afacce17-9e25-4125-a88a-a18beb1e8055</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>ec7aa24d-0e73-423f-a3c1-35754fff9b99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-arrow-60-up</value>
+      <webElementGuid>e7964b88-282e-4012-aea9-8d98c2ed8d87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;k-webkit k-webkit115&quot;]/body[1]/div[@class=&quot;k-widget k-window k-state-focused&quot;]/div[@class=&quot;k-popup-edit-form k-window-content k-content&quot;]/div[@class=&quot;k-edit-form-container&quot;]/div[@class=&quot;k-edit-field&quot;]/span[@class=&quot;k-widget k-numerictextbox k-textbox&quot;]/span[@class=&quot;k-numeric-wrap k-state-default&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-link k-link-increase&quot;]/span[@class=&quot;k-icon k-i-arrow-60-up&quot;]</value>
+      <webElementGuid>ee762aeb-6c61-4b14-9f64-609386b00d66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span/span</value>
+      <webElementGuid>387a2dea-31d5-442a-b506-739cabc7dd16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+114.Terminal.TiempoLimiteModal,Chrome 115.0.0.0,Se coloca tiempo en segundos para que desaparezca una ventana modal del sistema.,,2023-08-18 07:49:24,2023-08-18 07:50:50,"1m - 25,535s",FAILED
+,,,,,,,
+Test Cases/114.Terminal.TiempoLimiteModal,Chrome 115.0.0.0,,,2023-08-18 07:49:25,2023-08-18 07:50:50,"1m - 25,309s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:49:25,2023-08-18 07:49:36,"11,060s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:49:36,2023-08-18 07:49:37,"0,665s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:49:37,2023-08-18 07:49:40,"3,010s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 07:49:40,2023-08-18 07:49:40,"0,597s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:49:40,2023-08-18 07:49:43,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 07:49:43,2023-08-18 07:49:44,"1,159s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:49:44,2023-08-18 07:49:47,"3,006s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.TiempoLimiteModal"")",Chrome 115.0.0.0,Terminal.TiempoLimiteModal,,2023-08-18 07:49:47,2023-08-18 07:49:49,"1,203s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 07:49:49,2023-08-18 07:49:49,"0,555s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:49:49,2023-08-18 07:49:51,"2,001s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 07:49:51,2023-08-18 07:49:52,"0,528s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:49:52,2023-08-18 07:49:54,"2,012s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro HHMMSS/input_HHMMSS""), ""00:00:10"")",Chrome 115.0.0.0,Tiempo en segundos para determinar en cuanto desaparece la ventana modal,,2023-08-18 07:49:54,2023-08-18 07:49:55,"1,166s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:49:55,2023-08-18 07:49:57,"2,025s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 07:49:57,2023-08-18 07:49:58,"0,705s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:49:58,2023-08-18 07:50:01,"3,011s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:50:01,2023-08-18 07:50:01,"0,620s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:50:01,2023-08-18 07:50:04,"3,003s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 115.0.0.0,,,2023-08-18 07:50:04,2023-08-18 07:50:05,"0,623s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:50:05,2023-08-18 07:50:08,"3,009s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 115.0.0.0,,,2023-08-18 07:50:08,2023-08-18 07:50:08,"0,627s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:50:08,2023-08-18 07:50:11,"3,018s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 115.0.0.0,Escogemos oficina,,2023-08-18 07:50:11,2023-08-18 07:50:12,"0,513s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:50:12,2023-08-18 07:50:15,"3,021s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",Chrome 115.0.0.0,Abrimos Terminal,,2023-08-18 07:50:15,2023-08-18 07:50:16,"0,499s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:50:16,2023-08-18 07:50:19,"3,010s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Buscar""))",Chrome 115.0.0.0,,,2023-08-18 07:50:19,2023-08-18 07:50:50,"31,317s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:50:50,2023-08-18 07:50:50,"0,016s",PASSED

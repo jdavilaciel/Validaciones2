@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+46.CrearUsuario.CrearTerminales,Chrome 115.0.0.0,Proceso con las opciones de Si y No,,2023-08-18 07:59:11,2023-08-18 08:02:52,"3m - 40,793s",FAILED
+,,,,,,,
+Test Cases/46.CrearUsuario.CrearTerminales No,Chrome 115.0.0.0,,,2023-08-18 07:59:12,2023-08-18 08:01:02,"1m - 50,709s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:59:12,2023-08-18 07:59:22,"10,536s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:59:22,2023-08-18 07:59:23,"0,663s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:23,2023-08-18 07:59:26,"3,015s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 07:59:26,2023-08-18 07:59:27,"0,652s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:27,2023-08-18 07:59:30,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 07:59:30,2023-08-18 07:59:31,"1,251s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:31,2023-08-18 07:59:34,"3,017s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""CrearUsuario.CrearTerminales"")",Chrome 115.0.0.0,CrearUsuario.CrearTerminales,,2023-08-18 07:59:34,2023-08-18 07:59:35,"1,037s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 07:59:35,2023-08-18 07:59:36,"0,508s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:59:36,2023-08-18 07:59:38,"2,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 07:59:38,2023-08-18 07:59:38,"0,531s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:59:38,2023-08-18 07:59:40,"2,020s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,si o no,,2023-08-18 07:59:40,2023-08-18 07:59:41,"0,519s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_No""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:59:41,2023-08-18 07:59:41,"0,567s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:59:41,2023-08-18 07:59:43,"2,005s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 07:59:43,2023-08-18 07:59:44,"0,563s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:44,2023-08-18 07:59:47,"3,003s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:59:47,2023-08-18 07:59:47,"0,629s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:47,2023-08-18 07:59:50,"3,007s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,para crear usuario,,2023-08-18 07:59:50,2023-08-18 07:59:51,"0,598s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:51,2023-08-18 07:59:54,"3,003s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/img_Usuarios""))",Chrome 115.0.0.0,,,2023-08-18 07:59:54,2023-08-18 07:59:55,"0,669s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:55,2023-08-18 07:59:58,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios""))",Chrome 115.0.0.0,,,2023-08-18 07:59:58,2023-08-18 07:59:58,"0,668s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:59:58,2023-08-18 08:00:01,"3,011s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario""), ""juan"")",Chrome 115.0.0.0,datos usuario a crear,,2023-08-18 08:00:01,2023-08-18 08:00:02,"1,017s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar""), ""Juan"")",Chrome 115.0.0.0,,,2023-08-18 08:00:02,2023-08-18 08:00:03,"0,908s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo""), ""juan@gmail.com"")",Chrome 115.0.0.0,,,2023-08-18 08:00:03,2023-08-18 08:00:04,"0,974s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular""), ""3197654321"")",Chrome 115.0.0.0,,,2023-08-18 08:00:04,2023-08-18 08:00:05,"1,015s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia""), 1)",Chrome 115.0.0.0,Seleccionar Oficina ciel,,2023-08-18 08:00:05,2023-08-18 08:00:07,"1,306s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:00:07,2023-08-18 08:00:10,"3,014s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:00:10,2023-08-18 08:00:11,"1,274s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:00:11,2023-08-18 08:00:14,"3,013s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:00:14,2023-08-18 08:00:15,"1,283s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:00:15,2023-08-18 08:00:18,"3,016s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:00:18,2023-08-18 08:00:19,"1,236s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:00:19,2023-08-18 08:00:22,"3,010s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:00:22,2023-08-18 08:00:24,"1,229s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:00:24,2023-08-18 08:00:27,"3,001s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Escoger Oficina Bogota y luego Ciel,,2023-08-18 08:00:27,2023-08-18 08:00:27,"0,467s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:00:27,2023-08-18 08:00:30,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas""), STOP_ON_FAILURE)",Chrome 115.0.0.0,filtrar,,2023-08-18 08:00:30,2023-08-18 08:01:02,"32,129s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 08:01:02,2023-08-18 08:01:02,"0,000s",PASSED
+,,,,,,,
+Test Cases/46.CrearUsuario.CrearTerminales Si,Chrome 115.0.0.0,,,2023-08-18 08:01:02,2023-08-18 08:02:52,"1m - 49,831s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:01:03,2023-08-18 08:01:12,"9,816s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 08:01:12,2023-08-18 08:01:13,"0,621s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:13,2023-08-18 08:01:16,"3,018s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 08:01:16,2023-08-18 08:01:17,"0,657s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:17,2023-08-18 08:01:20,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 08:01:20,2023-08-18 08:01:21,"1,086s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:21,2023-08-18 08:01:24,"3,011s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""CrearUsuario.CrearTerminales"")",Chrome 115.0.0.0,CrearUsuario.CrearTerminales,,2023-08-18 08:01:24,2023-08-18 08:01:25,"1,071s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 08:01:25,2023-08-18 08:01:25,"0,500s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:01:25,2023-08-18 08:01:27,"2,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 08:01:27,2023-08-18 08:01:28,"0,522s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:01:28,2023-08-18 08:01:30,"2,010s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,si o no,,2023-08-18 08:01:30,2023-08-18 08:01:31,"0,535s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_Si""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:01:31,2023-08-18 08:01:31,"0,606s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 08:01:31,2023-08-18 08:01:33,"2,000s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 08:01:33,2023-08-18 08:01:34,"0,698s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:34,2023-08-18 08:01:37,"3,017s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 08:01:37,2023-08-18 08:01:38,"0,636s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:38,2023-08-18 08:01:41,"3,016s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,para crear usuario,,2023-08-18 08:01:41,2023-08-18 08:01:41,"0,603s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:41,2023-08-18 08:01:44,"3,002s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/img_Usuarios""))",Chrome 115.0.0.0,,,2023-08-18 08:01:44,2023-08-18 08:01:45,"0,619s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:45,2023-08-18 08:01:48,"3,014s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/Usuarios/1Principal/img_Agregar Usuarios""))",Chrome 115.0.0.0,,,2023-08-18 08:01:48,2023-08-18 08:01:48,"0,669s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:48,2023-08-18 08:01:51,"3,016s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Usuario""), ""juan2"")",Chrome 115.0.0.0,datos usuario a crear,,2023-08-18 08:01:51,2023-08-18 08:01:52,"0,982s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Nombre a mostrar""), ""Juan2"")",Chrome 115.0.0.0,,,2023-08-18 08:01:52,2023-08-18 08:01:53,"0,969s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Correo""), ""juan2@gmail.com"")",Chrome 115.0.0.0,,,2023-08-18 08:01:53,2023-08-18 08:01:54,"1,062s",PASSED
+"setText(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/1Informacion Principal/input_Celular""), ""3192222222"")",Chrome 115.0.0.0,,,2023-08-18 08:01:54,2023-08-18 08:01:55,"0,983s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia""), 1)",Chrome 115.0.0.0,Seleccionar Oficina ciel,,2023-08-18 08:01:55,2023-08-18 08:01:57,"1,274s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:57,2023-08-18 08:02:00,"3,026s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Departamentos""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:02:00,2023-08-18 08:02:01,"1,189s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:02:01,2023-08-18 08:02:04,"3,009s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Ciudades""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:02:04,2023-08-18 08:02:05,"1,235s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:02:05,2023-08-18 08:02:08,"3,015s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Oficinas""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:02:08,2023-08-18 08:02:09,"1,246s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:02:09,2023-08-18 08:02:12,"3,011s",PASSED
+"selectOptionByIndex(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/select_Colombia""), 1)",Chrome 115.0.0.0,,,2023-08-18 08:02:12,2023-08-18 08:02:14,"1,198s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:02:14,2023-08-18 08:02:17,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/chk_Bogota""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Escoger Oficina Bogota y luego Ciel,,2023-08-18 08:02:17,2023-08-18 08:02:17,"0,515s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:02:17,2023-08-18 08:02:20,"3,004s",PASSED
+"click(findTestObject(""Configuracion/Seguridad/Usuarios/Agregar Usuarios/Agregar Usuario1/btn_FiltrarOficinas""), STOP_ON_FAILURE)",Chrome 115.0.0.0,filtrar,,2023-08-18 08:02:20,2023-08-18 08:02:52,"31,979s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 08:02:52,2023-08-18 08:02:52,"0,000s",PASSED

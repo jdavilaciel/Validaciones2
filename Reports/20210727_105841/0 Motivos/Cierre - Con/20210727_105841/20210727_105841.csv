@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cierre - Con,Chrome 92.0.4515.107,Proceso mediante el cual se escogen los motivos de cierre en una oficina y posteriormente se abre la terminal y luego se cierre y se ven los motivos de cierre.,,2021-07-27 10:59:03,2021-07-27 11:01:48,"2m - 44,726s",PASSED
+,,,,,,,
+Test Cases/0 Motivos/Cierre - Con,Chrome 92.0.4515.107,,,2021-07-27 10:59:05,2021-07-27 11:01:48,"2m - 43,207s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 92.0.4515.107,,,2021-07-27 10:59:07,2021-07-27 10:59:35,"27,964s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 92.0.4515.107,,,2021-07-27 10:59:35,2021-07-27 10:59:37,"2,330s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 10:59:37,2021-07-27 10:59:40,"3,017s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Elementos del Sistema""))",Chrome 92.0.4515.107,,,2021-07-27 10:59:40,2021-07-27 10:59:41,"1,399s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 10:59:41,2021-07-27 10:59:44,"3,025s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/1Principal/img_Motivos""))",Chrome 92.0.4515.107,,,2021-07-27 10:59:44,2021-07-27 10:59:46,"1,783s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 10:59:46,2021-07-27 10:59:49,"3,021s",PASSED
+"click(findTestObject(""Configuracion/Elementos del Sistema/Motivos/span_Motivos""))",Chrome 92.0.4515.107,Mostramos los motivos creados,,2021-07-27 10:59:49,2021-07-27 10:59:51,"1,369s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 10:59:51,2021-07-27 10:59:54,"3,022s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-27 10:59:54,2021-07-27 10:59:56,"2,731s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 10:59:56,2021-07-27 10:59:59,"3,051s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 92.0.4515.107,,,2021-07-27 10:59:59,2021-07-27 11:00:03,"3,504s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:03,2021-07-27 11:00:06,"3,034s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 92.0.4515.107,,,2021-07-27 11:00:06,2021-07-27 11:00:08,"2,368s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:08,2021-07-27 11:00:11,"3,019s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Distribucion Geografica""))",Chrome 92.0.4515.107,,,2021-07-27 11:00:11,2021-07-27 11:00:15,"3,355s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:15,2021-07-27 11:00:18,"3,076s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/1Principal/img_Oficinas""))",Chrome 92.0.4515.107,,,2021-07-27 11:00:18,2021-07-27 11:00:21,"3,462s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:21,2021-07-27 11:00:24,"3,026s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/2Lista de Oficinas/a_Seleccionar""))",Chrome 92.0.4515.107,,,2021-07-27 11:00:24,2021-07-27 11:00:26,"1,390s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:26,2021-07-27 11:00:29,"3,010s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/1Pestanas/span_Motivos""))",Chrome 92.0.4515.107,Agregamos Motivos de Cierre,,2021-07-27 11:00:29,2021-07-27 11:00:31,"2,751s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:31,2021-07-27 11:00:34,"3,029s",PASSED
+"setText(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar""), ""Cierre"")",Chrome 92.0.4515.107,,,2021-07-27 11:00:34,2021-07-27 11:00:36,"1,700s",PASSED
+"sendKeys(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar""), Keys.chord(ENTER))",Chrome 92.0.4515.107,,,2021-07-27 11:00:36,2021-07-27 11:00:37,"1,002s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:37,2021-07-27 11:00:40,"3,027s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/a__SeleccionarTodo""))",Chrome 92.0.4515.107,,,2021-07-27 11:00:40,2021-07-27 11:00:41,"1,132s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:41,2021-07-27 11:00:44,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/img_Nuevo""))",Chrome 92.0.4515.107,,,2021-07-27 11:00:44,2021-07-27 11:00:46,"1,280s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:46,2021-07-27 11:00:49,"3,029s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-27 11:00:49,2021-07-27 11:00:53,"4,471s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:00:53,2021-07-27 11:00:56,"3,031s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 92.0.4515.107,Abrimos la terminal,,2021-07-27 11:00:56,2021-07-27 11:01:00,"3,610s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:00,2021-07-27 11:01:03,"3,017s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:03,2021-07-27 11:01:06,"2,902s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:06,2021-07-27 11:01:09,"3,018s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:09,2021-07-27 11:01:12,"2,901s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:12,2021-07-27 11:01:15,"3,023s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:15,2021-07-27 11:01:18,"3,013s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:18,2021-07-27 11:01:21,"3,014s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:21,2021-07-27 11:01:22,"1,378s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:22,2021-07-27 11:01:25,"3,025s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:25,2021-07-27 11:01:26,"1,194s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:26,2021-07-27 11:01:29,"3,063s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-27 11:01:29,2021-07-27 11:01:35,"5,674s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:35,2021-07-27 11:01:38,"3,010s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:38,2021-07-27 11:01:39,"1,389s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:39,2021-07-27 11:01:42,"3,026s",PASSED
+takeFullPageScreenshot(),Chrome 92.0.4515.107,,,2021-07-27 11:01:42,2021-07-27 11:01:44,"1,222s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada""))",Chrome 92.0.4515.107,,,2021-07-27 11:01:44,2021-07-27 11:01:45,"1,259s",PASSED
+delay(3),Chrome 92.0.4515.107,,,2021-07-27 11:01:45,2021-07-27 11:01:48,"3,021s",PASSED

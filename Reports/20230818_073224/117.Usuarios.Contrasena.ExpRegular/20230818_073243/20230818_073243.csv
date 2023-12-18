@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+117.Usuarios.Contrasena.ExpRegular,Chrome 115.0.0.0,Establece la expresión regular que debe tener la contraseña.,,2023-08-18 07:51:03,2023-08-18 07:51:56,"52,551s",PASSED
+,,,,,,,
+Test Cases/117.Usuarios.Contrasena.ExpRegular,Chrome 115.0.0.0,,,2023-08-18 07:51:03,2023-08-18 07:51:56,"52,309s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:51:04,2023-08-18 07:51:14,"10,502s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:51:14,2023-08-18 07:51:15,"0,651s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:15,2023-08-18 07:51:18,"3,010s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 07:51:18,2023-08-18 07:51:19,"0,667s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:19,2023-08-18 07:51:22,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 07:51:22,2023-08-18 07:51:23,"1,187s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:23,2023-08-18 07:51:26,"3,017s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Usuarios.Contrasena.ExpRegular"")",Chrome 115.0.0.0,Usuarios.Contrasena.ExpRegular,,2023-08-18 07:51:26,2023-08-18 07:51:27,"1,200s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 07:51:27,2023-08-18 07:51:27,"0,526s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:51:27,2023-08-18 07:51:29,"2,008s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 07:51:29,2023-08-18 07:51:30,"0,513s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:30,2023-08-18 07:51:33,"3,003s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 07:51:33,2023-08-18 07:51:34,"0,523s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:34,2023-08-18 07:51:37,"3,011s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:51:37,2023-08-18 07:51:37,"0,653s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:37,2023-08-18 07:51:40,"3,007s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/img_MenuUsuarioRayas""))",Chrome 115.0.0.0,,,2023-08-18 07:51:40,2023-08-18 07:51:41,"0,508s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:51:41,2023-08-18 07:51:43,"2,013s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/nuevos/a_Cambiar Clave""))",Chrome 115.0.0.0,,,2023-08-18 07:51:43,2023-08-18 07:51:44,"0,857s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:51:44,2023-08-18 07:51:46,"2,009s",PASSED
+"setText(findTestObject(""0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ContrasenaActual""), ""digiturno"")",Chrome 115.0.0.0,,,2023-08-18 07:51:46,2023-08-18 07:51:47,"0,983s",PASSED
+"setText(findTestObject(""0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_NuevaContrasena""), ""digi"")",Chrome 115.0.0.0,,,2023-08-18 07:51:47,2023-08-18 07:51:47,"0,948s",PASSED
+"setText(findTestObject(""0Inicio Sesion/Menu Tres Rayas/CambiarClave/input_ConfirmarContrasenaNueva""), ""digi"")",Chrome 115.0.0.0,,,2023-08-18 07:51:47,2023-08-18 07:51:48,"0,956s",PASSED
+"click(findTestObject(""0Inicio Sesion/Menu Tres Rayas/CambiarClave/img_CambiarContrasena""))",Chrome 115.0.0.0,,,2023-08-18 07:51:48,2023-08-18 07:51:49,"0,504s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:49,2023-08-18 07:51:52,"3,009s",PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-18 07:51:52,2023-08-18 07:51:53,"0,680s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:51:53,2023-08-18 07:51:56,"3,009s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:51:56,2023-08-18 07:51:56,"0,006s",PASSED

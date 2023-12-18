@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+21.Selector.AbrirSelectorPopUp,Chrome 115.0.0.0,Proceso para abrir el selector 0=PopUp y 1=emergente,,2023-08-18 07:52:08,2023-08-18 07:55:01,"2m - 52,944s",FAILED
+,,,,,,,
+Test Cases/21.Selector.AbrirSelectorPopUp1,Chrome 115.0.0.0,,,2023-08-18 07:52:08,2023-08-18 07:53:35,"1m - 27,194s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:52:09,2023-08-18 07:52:19,"10,552s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:52:19,2023-08-18 07:52:20,"0,682s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:52:20,2023-08-18 07:52:23,"3,015s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 07:52:23,2023-08-18 07:52:24,"0,668s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:52:24,2023-08-18 07:52:27,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 07:52:27,2023-08-18 07:52:28,"1,164s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:52:28,2023-08-18 07:52:31,"3,016s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Selector.Abrir"")",Chrome 115.0.0.0,Buscar la selector Popup,,2023-08-18 07:52:31,2023-08-18 07:52:32,"1,126s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 07:52:32,2023-08-18 07:52:32,"0,501s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:52:32,2023-08-18 07:52:34,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 07:52:34,2023-08-18 07:52:35,"0,596s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:52:35,2023-08-18 07:52:37,"2,003s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Cambiamos a 1= ventana emergente,,2023-08-18 07:52:37,2023-08-18 07:52:37,"0,529s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/li_1""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:52:37,2023-08-18 07:52:38,"0,612s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:52:38,2023-08-18 07:52:40,"2,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 07:52:40,2023-08-18 07:52:41,"0,685s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:52:41,2023-08-18 07:52:44,"3,010s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:52:44,2023-08-18 07:52:44,"0,646s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:52:44,2023-08-18 07:52:47,"3,013s",PASSED
+"callTestCase(findTestCase(""0 Generar Turno Ventana Emergente""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,Para abrir el selector y generar un turno,,2023-08-18 07:52:47,2023-08-18 07:53:35,"48,005s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:53:35,2023-08-18 07:53:35,"0,000s",PASSED
+,,,,,,,
+Test Cases/21.Selector.AbrirSelectorPopUp0,Chrome 115.0.0.0,,,2023-08-18 07:53:35,2023-08-18 07:55:01,"1m - 25,487s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:53:36,2023-08-18 07:53:46,"9,799s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 115.0.0.0,,,2023-08-18 07:53:46,2023-08-18 07:53:46,"0,596s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:53:46,2023-08-18 07:53:49,"3,018s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 115.0.0.0,,,2023-08-18 07:53:49,2023-08-18 07:53:50,"0,606s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:53:50,2023-08-18 07:53:53,"3,016s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 115.0.0.0,,,2023-08-18 07:53:53,2023-08-18 07:53:54,"1,145s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:53:54,2023-08-18 07:53:57,"3,009s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Selector.Abrir"")",Chrome 115.0.0.0,Buscar la selector Popup,,2023-08-18 07:53:57,2023-08-18 07:53:58,"0,974s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 115.0.0.0,,,2023-08-18 07:53:58,2023-08-18 07:53:58,"0,523s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:53:58,2023-08-18 07:54:00,"2,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 115.0.0.0,,,2023-08-18 07:54:00,2023-08-18 07:54:01,"0,551s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:54:01,2023-08-18 07:54:03,"2,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 115.0.0.0,Cambiamos a  0=PopUp,,2023-08-18 07:54:03,2023-08-18 07:54:04,"0,507s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/li_0""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:54:04,2023-08-18 07:54:04,"0,577s",PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-18 07:54:04,2023-08-18 07:54:06,"2,013s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Chrome 115.0.0.0,,,2023-08-18 07:54:06,2023-08-18 07:54:07,"0,715s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:54:07,2023-08-18 07:54:10,"3,003s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Chrome 115.0.0.0,,,2023-08-18 07:54:10,2023-08-18 07:54:10,"0,613s",PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 07:54:10,2023-08-18 07:54:13,"3,009s",PASSED
+"callTestCase(findTestCase(""0 Generar Turno PopUp""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 07:54:13,2023-08-18 07:55:01,"47,524s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-18 07:55:01,2023-08-18 07:55:01,"0,000s",PASSED

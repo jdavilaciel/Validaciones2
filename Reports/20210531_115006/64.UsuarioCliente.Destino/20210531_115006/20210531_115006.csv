@@ -1,0 +1,124 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+64.UsuarioCliente.Destino,Edge Chromiume 18,"INdica el destino del usuario cliente. 0=turno, 1=servicio. Con 0 al colocar datos del usuario éstos se conservarán al realizar una nueva transacción.",,2021-05-31 11:50:19,2021-05-31 11:54:11,"3m - 51,500s",PASSED
+,,,,,,,
+Test Cases/64.UsuarioCliente.Destino 0Turno,Edge Chromiume 18,,,2021-05-31 11:50:24,2021-05-31 11:52:22,"1m - 58,379s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-05-31 11:50:26,2021-05-31 11:50:44,"18,262s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-05-31 11:50:44,2021-05-31 11:50:45,"0,622s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:50:45,2021-05-31 11:50:48,"3,013s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-05-31 11:50:48,2021-05-31 11:50:48,"0,496s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:50:48,2021-05-31 11:50:51,"3,009s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-05-31 11:50:51,2021-05-31 11:50:52,"0,471s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:50:52,2021-05-31 11:50:55,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Edge Chromiume 18,Cambiar pestaña,,2021-05-31 11:50:55,2021-05-31 11:50:55,"0,623s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:50:55,2021-05-31 11:50:58,"3,008s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-05-31 11:50:58,2021-05-31 11:50:59,"0,661s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-05-31 11:50:59,2021-05-31 11:51:00,"0,946s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-05-31 11:51:00,2021-05-31 11:51:01,"0,689s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-05-31 11:51:01,2021-05-31 11:51:01,"0,628s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""UsuarioCliente.Destino"")",Edge Chromiume 18,UsuarioCliente.Destino,,2021-05-31 11:51:01,2021-05-31 11:51:02,"1,220s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-05-31 11:51:02,2021-05-31 11:51:03,"0,798s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-31 11:51:03,2021-05-31 11:51:05,"2,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-05-31 11:51:05,2021-05-31 11:51:06,"0,696s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-31 11:51:06,2021-05-31 11:51:08,"2,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,0 =el turno es asignado al mismo cliente aunque se haga una nueva transacción,,2021-05-31 11:51:08,2021-05-31 11:51:09,"0,525s",PASSED
+"sendKeys(findTestObject(null), ""0"")",Edge Chromiume 18,,,2021-05-31 11:51:09,2021-05-31 11:51:09,"0,621s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-31 11:51:09,2021-05-31 11:51:11,"2,004s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-05-31 11:51:11,2021-05-31 11:51:12,"0,730s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:12,2021-05-31 11:51:15,"3,017s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-05-31 11:51:15,2021-05-31 11:51:16,"0,704s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:16,2021-05-31 11:51:19,"3,001s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Edge Chromiume 18,,,2021-05-31 11:51:19,2021-05-31 11:51:19,"0,485s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:19,2021-05-31 11:51:22,"3,006s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",Edge Chromiume 18,,,2021-05-31 11:51:22,2021-05-31 11:51:24,"1,941s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:24,2021-05-31 11:51:27,"3,013s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Edge Chromiume 18,,,2021-05-31 11:51:27,2021-05-31 11:51:28,"0,808s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:28,2021-05-31 11:51:31,"3,010s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Edge Chromiume 18,Escogemos oficina,,2021-05-31 11:51:31,2021-05-31 11:51:31,"0,485s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:31,2021-05-31 11:51:34,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",Edge Chromiume 18,Abrimos Terminal,,2021-05-31 11:51:34,2021-05-31 11:51:35,"0,588s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:35,2021-05-31 11:51:38,"3,006s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",Edge Chromiume 18,,,2021-05-31 11:51:38,2021-05-31 11:51:39,"0,543s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:39,2021-05-31 11:51:42,"3,009s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",Edge Chromiume 18,,,2021-05-31 11:51:42,2021-05-31 11:51:42,"0,522s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:42,2021-05-31 11:51:45,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos""))",Edge Chromiume 18,,,2021-05-31 11:51:45,2021-05-31 11:51:46,"0,627s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:46,2021-05-31 11:51:49,"3,006s",PASSED
+"selectOptionByIndex(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cliente/select_TipoIdentificacion""), 2)",Edge Chromiume 18,Agregamos información del cliente,,2021-05-31 11:51:49,2021-05-31 11:51:50,"1,088s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:50,2021-05-31 11:51:53,"3,005s",PASSED
+"setText(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cliente/input_Identificacion""), ""636711"")",Edge Chromiume 18,,,2021-05-31 11:51:53,2021-05-31 11:51:54,"1,048s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:54,2021-05-31 11:51:57,"3,010s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cliente/botones/img_Buscar""))",Edge Chromiume 18,,,2021-05-31 11:51:57,2021-05-31 11:51:57,"0,445s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:51:57,2021-05-31 11:52:00,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Nueva Transaccion""))",Edge Chromiume 18,,,2021-05-31 11:52:00,2021-05-31 11:52:01,"0,694s",PASSED
+delay(3),Edge Chromiume 18,Nueva Transacción,,2021-05-31 11:52:01,2021-05-31 11:52:04,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/imgNuevaTransaccion/a_Radicaciones""))",Edge Chromiume 18,,,2021-05-31 11:52:04,2021-05-31 11:52:04,"0,445s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:04,2021-05-31 11:52:07,"3,008s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/imgNuevaTransaccion/subservicios/a_Certificado rad""))",Edge Chromiume 18,,,2021-05-31 11:52:07,2021-05-31 11:52:08,"0,464s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:08,2021-05-31 11:52:11,"3,004s",PASSED
+takeFullPageScreenshot(),Edge Chromiume 18,,,2021-05-31 11:52:11,2021-05-31 11:52:12,"1,096s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:12,2021-05-31 11:52:15,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar""))",Edge Chromiume 18,,,2021-05-31 11:52:15,2021-05-31 11:52:15,"0,432s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:15,2021-05-31 11:52:18,"3,006s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada""))",Edge Chromiume 18,,,2021-05-31 11:52:18,2021-05-31 11:52:19,"0,499s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:19,2021-05-31 11:52:22,"3,010s",PASSED
+,,,,,,,
+Test Cases/64.UsuarioCliente.Destino 1Servicio,Edge Chromiume 18,,,2021-05-31 11:52:22,2021-05-31 11:54:11,"1m - 48,804s",PASSED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2021-05-31 11:52:23,2021-05-31 11:52:37,"14,397s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Edge Chromiume 18,,,2021-05-31 11:52:37,2021-05-31 11:52:38,"0,678s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:38,2021-05-31 11:52:41,"3,009s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Edge Chromiume 18,,,2021-05-31 11:52:41,2021-05-31 11:52:41,"0,422s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:41,2021-05-31 11:52:44,"3,002s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Edge Chromiume 18,,,2021-05-31 11:52:44,2021-05-31 11:52:45,"0,444s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:45,2021-05-31 11:52:48,"3,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Edge Chromiume 18,Cambiar pestaña,,2021-05-31 11:52:48,2021-05-31 11:52:49,"0,661s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:52:49,2021-05-31 11:52:52,"3,003s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Edge Chromiume 18,,,2021-05-31 11:52:52,2021-05-31 11:52:52,"0,739s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Edge Chromiume 18,,,2021-05-31 11:52:52,2021-05-31 11:52:53,"0,709s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Edge Chromiume 18,,,2021-05-31 11:52:53,2021-05-31 11:52:54,"0,689s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Edge Chromiume 18,,,2021-05-31 11:52:54,2021-05-31 11:52:54,"0,597s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""UsuarioCliente.Destino"")",Edge Chromiume 18,UsuarioCliente.Destino,,2021-05-31 11:52:54,2021-05-31 11:52:55,"1,138s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Edge Chromiume 18,,,2021-05-31 11:52:55,2021-05-31 11:52:56,"0,478s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-31 11:52:56,2021-05-31 11:52:58,"2,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Edge Chromiume 18,,,2021-05-31 11:52:58,2021-05-31 11:52:59,"0,641s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-31 11:52:59,2021-05-31 11:53:01,"2,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Edge Chromiume 18,0 =el turno es asignado al mismo cliente aunque se haga una nueva transacción,,2021-05-31 11:53:01,2021-05-31 11:53:01,"0,490s",PASSED
+"sendKeys(findTestObject(null), ""1"")",Edge Chromiume 18,,,2021-05-31 11:53:01,2021-05-31 11:53:02,"0,576s",PASSED
+delay(2),Edge Chromiume 18,,,2021-05-31 11:53:02,2021-05-31 11:53:04,"2,001s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Guardar""))",Edge Chromiume 18,,,2021-05-31 11:53:04,2021-05-31 11:53:04,"0,661s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:04,2021-05-31 11:53:07,"3,002s",PASSED
+"click(findTestObject(""1Inicio/a_Inicio""))",Edge Chromiume 18,,,2021-05-31 11:53:07,2021-05-31 11:53:08,"0,425s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:08,2021-05-31 11:53:11,"3,011s",PASSED
+"click(findTestObject(""1Inicio/img_Operacion""))",Edge Chromiume 18,,,2021-05-31 11:53:11,2021-05-31 11:53:11,"0,410s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:11,2021-05-31 11:53:14,"3,003s",PASSED
+"click(findTestObject(""2 Operacion/Elementos Del Sistema""))",Edge Chromiume 18,,,2021-05-31 11:53:14,2021-05-31 11:53:15,"0,379s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:15,2021-05-31 11:53:18,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/img_Terminales""))",Edge Chromiume 18,,,2021-05-31 11:53:18,2021-05-31 11:53:18,"0,421s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:18,2021-05-31 11:53:21,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL""))",Edge Chromiume 18,Escogemos oficina,,2021-05-31 11:53:21,2021-05-31 11:53:21,"0,404s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:21,2021-05-31 11:53:24,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal PQRS A02""))",Edge Chromiume 18,Abrimos Terminal,,2021-05-31 11:53:24,2021-05-31 11:53:25,"0,409s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:25,2021-05-31 11:53:28,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar""))",Edge Chromiume 18,,,2021-05-31 11:53:28,2021-05-31 11:53:28,"0,417s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:28,2021-05-31 11:53:31,"3,009s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado""))",Edge Chromiume 18,,,2021-05-31 11:53:31,2021-05-31 11:53:32,"0,530s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:32,2021-05-31 11:53:35,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos""))",Edge Chromiume 18,,,2021-05-31 11:53:35,2021-05-31 11:53:35,"0,667s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:35,2021-05-31 11:53:38,"3,005s",PASSED
+"selectOptionByIndex(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cliente/select_TipoIdentificacion""), 2)",Edge Chromiume 18,Agregamos información del cliente,,2021-05-31 11:53:38,2021-05-31 11:53:39,"0,929s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:39,2021-05-31 11:53:42,"3,003s",PASSED
+"setText(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cliente/input_Identificacion""), ""636711"")",Edge Chromiume 18,,,2021-05-31 11:53:42,2021-05-31 11:53:44,"1,175s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:44,2021-05-31 11:53:47,"3,001s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Cliente/botones/img_Buscar""))",Edge Chromiume 18,,,2021-05-31 11:53:47,2021-05-31 11:53:47,"0,440s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:47,2021-05-31 11:53:50,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/img_Nueva Transaccion""))",Edge Chromiume 18,,,2021-05-31 11:53:50,2021-05-31 11:53:50,"0,442s",PASSED
+delay(3),Edge Chromiume 18,Nueva Transacción,,2021-05-31 11:53:50,2021-05-31 11:53:53,"3,003s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/imgNuevaTransaccion/a_Radicaciones""))",Edge Chromiume 18,,,2021-05-31 11:53:53,2021-05-31 11:53:54,"0,410s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:54,2021-05-31 11:53:57,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Adicionales/imgNuevaTransaccion/subservicios/a_Certificado rad""))",Edge Chromiume 18,,,2021-05-31 11:53:57,2021-05-31 11:53:57,"0,434s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:53:57,2021-05-31 11:54:00,"3,005s",PASSED
+takeFullPageScreenshot(),Edge Chromiume 18,,,2021-05-31 11:54:00,2021-05-31 11:54:01,"0,720s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:54:01,2021-05-31 11:54:04,"3,005s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Cerrar""))",Edge Chromiume 18,,,2021-05-31 11:54:04,2021-05-31 11:54:04,"0,375s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:54:04,2021-05-31 11:54:07,"3,004s",PASSED
+"click(findTestObject(""2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgCerrar/btn_FindeJornada""))",Edge Chromiume 18,,,2021-05-31 11:54:07,2021-05-31 11:54:08,"0,426s",PASSED
+delay(3),Edge Chromiume 18,,,2021-05-31 11:54:08,2021-05-31 11:54:11,"3,003s",PASSED

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Espera</name>
+   <tag></tag>
+   <elementGuidId>aac37a5f-b9d7-4a42-9fab-e361ae63c121</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Espera [1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;ventanaModalContenido&quot;]/div[@class=&quot;ventanaModalContenidoDinamico&quot;]/div[@id=&quot;cPHPri_pnBuscarTurno&quot;]/div[2]/div[@class=&quot;buscarTurno&quot;]/div[1]/div[@id=&quot;gbpPrincipal&quot;]/div[@id=&quot;cPHPri_gridTurnosXEstado_TabContainer&quot;]/div[@id=&quot;cPHPri_gridTurnosXEstado_TabContainer_header&quot;]/span[@id=&quot;cPHPri_gridTurnosXEstado_TabContainer_tabTurnosEspera_tab&quot;]/span[@class=&quot;ajax__tab_outer&quot;]/span[@class=&quot;ajax__tab_inner&quot;]/a[@id=&quot;__tab_cPHPri_gridTurnosXEstado_TabContainer_tabTurnosEspera&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

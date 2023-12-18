@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suspension - Sin" time="222.125" tests="1" failures="1" errors="0">
+   <testsuite name="Suspension - Sin" tests="1" failures="1" errors="0" time="222.125" skipped="0" timestamp="2021-07-28 09:13:56" hostname="BILIKI - DESKTOP-HH1RJM2" id="Test Suites/0 Motivos/Suspension - Sin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334"/>
+         <property name="logFiles" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\execution0.log"/>
+         <property name="attachments" value="E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481683969.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481737616.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481825898.png, E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481826413.png"/>
+         <property name="hostName" value="BILIKI - DESKTOP-HH1RJM2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 92.0.4515.107"/>
+         <property name="hostAddress" value="169.254.142.112"/>
+         <property name="sessionId" value="3a6e9ae041fff9bec1b852b1e40aa518"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/0 Motivos/Suspension - Sin" time="189.13" classname="Test Cases/0 Motivos/Suspension - Sin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/0 Motivos/Suspension - Sin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-28 09:13:57 - [TEST_CASE][FAILED] - Test Cases/0 Motivos/Suspension - Sin: Test Cases/0 Motivos/Suspension - Sin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-28 09:13:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Inicio Sesion sin variables"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-28 09:14:00 - [TEST_CASE][PASSED] - Test Cases/Inicio Sesion sin variables: Test Cases/Inicio Sesion sin variables
+
+2021-07-28 09:14:02 - [TEST_STEP][PASSED] - openBrowser("http://Localhost:8810"): Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-28 09:14:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-28 09:14:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-28 09:14:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://Localhost:8810'
+
+2021-07-28 09:14:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-28 09:14:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-28 09:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Usuario"), "ciel"): Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-28 09:14:19 - [MESSAGE][PASSED] - Text 'ciel' is set on object 'Object Repository/0Inicio Sesion/input__Usuario'
+
+2021-07-28 09:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("0Inicio Sesion/input__Clave"), "digiturno"): Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-28 09:14:21 - [MESSAGE][PASSED] - Text 'digiturno' is set on object 'Object Repository/0Inicio Sesion/input__Clave'
+
+2021-07-28 09:14:21 - [TEST_STEP][PASSED] - click(findTestObject("0Inicio Sesion/btn_IniciarSesion")): Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-28 09:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/0Inicio Sesion/btn_IniciarSesion' is clicked on
+
+2021-07-28 09:14:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inicio Sesion sin variables' successfully
+
+2021-07-28 09:14:25 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-28 09:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-28 09:14:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Elementos del Sistema")): Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-28 09:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Elementos del Sistema' is clicked on
+
+2021-07-28 09:14:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/1Principal/img_Motivos")): Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Motivos' is clicked on
+
+2021-07-28 09:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/1Principal/img_Motivos' is clicked on
+
+2021-07-28 09:14:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Elementos del Sistema/Motivos/span_Motivos")): Object: 'Object Repository/Configuracion/Elementos del Sistema/Motivos/span_Motivos' is clicked on
+
+2021-07-28 09:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Elementos del Sistema/Motivos/span_Motivos' is clicked on
+
+2021-07-28 09:14:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:43 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-28 09:14:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-28 09:14:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481683969.png]]
+
+2021-07-28 09:14:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:49 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-28 09:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-28 09:14:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:14:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:14:56 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Configuracion")): Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-28 09:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Configuracion' is clicked on
+
+2021-07-28 09:14:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/1Principal/img_Distribucion Geografica")): Object: 'Object Repository/Configuracion/1Principal/img_Distribucion Geografica' is clicked on
+
+2021-07-28 09:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/1Principal/img_Distribucion Geografica' is clicked on
+
+2021-07-28 09:15:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/1Principal/img_Oficinas")): Object: 'Object Repository/Configuracion/Distribucion Geografica/1Principal/img_Oficinas' is clicked on
+
+2021-07-28 09:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/1Principal/img_Oficinas' is clicked on
+
+2021-07-28 09:15:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:13 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Oficinas/2Lista de Oficinas/a_Seleccionar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/2Lista de Oficinas/a_Seleccionar' is clicked on
+
+2021-07-28 09:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/2Lista de Oficinas/a_Seleccionar' is clicked on
+
+2021-07-28 09:15:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/1Pestanas/span_Motivos")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/1Pestanas/span_Motivos' is clicked on
+
+2021-07-28 09:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/1Pestanas/span_Motivos' is clicked on
+
+2021-07-28 09:15:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar"), "Suspensión"): Text 'Suspensión' is set on object 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar'
+
+2021-07-28 09:15:25 - [MESSAGE][PASSED] - Text 'Suspensión' is set on object 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar'
+
+2021-07-28 09:15:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar'
+
+2021-07-28 09:15:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/input_TextoABuscar'
+
+2021-07-28 09:15:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/a__SeleccionarTodo")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/a__SeleccionarTodo' is clicked on
+
+2021-07-28 09:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/Checks/a__SeleccionarTodo' is clicked on
+
+2021-07-28 09:15:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/img_Eliminar")): Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/img_Eliminar' is clicked on
+
+2021-07-28 09:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuracion/Distribucion Geografica/Oficinas/3Otras Configuraciones/3Motivos/img_Eliminar' is clicked on
+
+2021-07-28 09:15:34 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-07-28 09:15:34 - [MESSAGE][PASSED] - Alert accepted
+
+2021-07-28 09:15:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-07-28 09:15:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-07-28 09:15:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481737616.png]]
+
+2021-07-28 09:15:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:44 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/a_Inicio")): Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-28 09:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/a_Inicio' is clicked on
+
+2021-07-28 09:15:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:50 - [TEST_STEP][PASSED] - click(findTestObject("1Inicio/img_Operacion")): Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-28 09:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1Inicio/img_Operacion' is clicked on
+
+2021-07-28 09:15:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:15:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:15:56 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos Del Sistema")): Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-28 09:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos Del Sistema' is clicked on
+
+2021-07-28 09:15:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:02 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/img_Terminales")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-28 09:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/img_Terminales' is clicked on
+
+2021-07-28 09:16:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:08 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-28 09:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Selectores/00Oficinas/a_Bogota - CIEL' is clicked on
+
+2021-07-28 09:16:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:12 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-28 09:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/1Terminales menos WorkFlow/a_Terminal Informacion A01' is clicked on
+
+2021-07-28 09:16:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:16 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-28 09:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Llamar' is clicked on
+
+2021-07-28 09:16:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:25 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-28 09:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Ocupado' is clicked on
+
+2021-07-28 09:16:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:29 - [TEST_STEP][PASSED] - click(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos")): Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-28 09:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/imgOcupado/a_Actualizacion de Datos' is clicked on
+
+2021-07-28 09:16:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-28 09:16:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-28 09:16:34 - [TEST_STEP][FAILED] - verifyElementNotVisible(findTestObject("2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender")): Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-07-28 09:17:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='cPHPri_lnkSuspender']/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-28 09:17:06 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+)
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481825898.png]]
+
+2021-07-28 09:17:06 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|E:\\CIEL INGENIERIA\\KATALON\\Validaciones\\Reports\\20210728_091334\\0 Motivos\\Suspension - Sin\\20210728_091334\\1627481826413.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-28 09:13:57 - [TEST_CASE][FAILED] - Test Cases/0 Motivos/Suspension - Sin: Test Cases/0 Motivos/Suspension - Sin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-28 09:13:56 - [TEST_SUITE][FAILED] - Suspension - Sin: Test Cases/0 Motivos/Suspension - Sin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-07-28 09:13:56 - [TEST_SUITE][FAILED] - Suspension - Sin: Test Cases/0 Motivos/Suspension - Sin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Suspension - Sin.run(Suspension - Sin:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627481614231.run(TempTestSuite1627481614231.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/2 Operacion/Elementos del Sistema/Terminales/Terminal/Funciones Basicas/img_Suspender' located by '//a[@id='cPHPri_lnkSuspender']/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

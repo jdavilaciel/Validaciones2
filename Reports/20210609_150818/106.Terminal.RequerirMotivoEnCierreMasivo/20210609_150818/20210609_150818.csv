@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+106.Terminal.RequerirMotivoEnCierreMasivo,Chrome 91.0.4472.77,Al colocar paraámetro en No Permitirá cerrar la terminal con el boton cambvio de estado a cerrado sin solicitar motivo de cierre.,,2021-06-09 15:08:44,2021-06-09 15:10:15,"1m - 31,085s",FAILED
+,,,,,,,
+Test Cases/106.Terminal.RequerirMotivoEnCierreMasivo,Chrome 91.0.4472.77,,,2021-06-09 15:08:49,2021-06-09 15:10:15,"1m - 26,357s",FAILED
+"callTestCase(findTestCase(""Inicio Sesion sin variables""), [:], STOP_ON_FAILURE)",Chrome 91.0.4472.77,,,2021-06-09 15:08:51,2021-06-09 15:09:10,"19,820s",PASSED
+"click(findTestObject(""1Inicio/img_Configuracion""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:10,2021-06-09 15:09:15,"4,345s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 15:09:15,2021-06-09 15:09:18,"3,007s",PASSED
+"click(findTestObject(""Configuracion/1Principal/img_Sistema""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:18,2021-06-09 15:09:19,"1,306s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 15:09:19,2021-06-09 15:09:22,"3,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/1Principal/img_Parametros Generales""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:22,2021-06-09 15:09:24,"2,064s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 15:09:24,2021-06-09 15:09:27,"3,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Pestanas/a_Elementos de sistema""))",Chrome 91.0.4472.77,Cambiar pestaña,,2021-06-09 15:09:27,2021-06-09 15:09:28,"0,791s",PASSED
+delay(3),Chrome 91.0.4472.77,,,2021-06-09 15:09:28,2021-06-09 15:09:31,"3,007s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_0filtro llave""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:31,2021-06-09 15:09:32,"0,734s",PASSED
+"mouseOver(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtros LLave/span_1Filtro""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:32,2021-06-09 15:09:33,"1,011s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/span_select""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:33,2021-06-09 15:09:33,"0,769s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/li_Contiene""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:33,2021-06-09 15:09:34,"0,642s",PASSED
+"setText(findTestObject(""Configuracion/Sistema/Parametros Generales/Filtro 1er valor/input_Texto a buscar1""), ""Terminal.RequerirMotivoEnCierreMasivo"")",Chrome 91.0.4472.77,Terminal.RequerirMotivoEnCierreMasivo,,2021-06-09 15:09:34,2021-06-09 15:09:35,"1,240s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/botones filtro/btn_Filtrar""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:35,2021-06-09 15:09:36,"0,644s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-09 15:09:36,2021-06-09 15:09:38,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/a_Editar""))",Chrome 91.0.4472.77,,,2021-06-09 15:09:38,2021-06-09 15:09:39,"0,725s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-09 15:09:39,2021-06-09 15:09:41,"2,008s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro Valor/input_Valor""), STOP_ON_FAILURE)",Chrome 91.0.4472.77,Cambiamos a Si= Habilitado; No=No habilitado,,2021-06-09 15:09:41,2021-06-09 15:09:41,"0,666s",PASSED
+delay(2),Chrome 91.0.4472.77,,,2021-06-09 15:09:41,2021-06-09 15:09:43,"2,006s",PASSED
+"click(findTestObject(""Configuracion/Sistema/Parametros Generales/Cambiar Parametro SI NO/li_No""), STOP_ON_FAILURE)",Chrome 91.0.4472.77,,,2021-06-09 15:09:43,2021-06-09 15:10:15,"31,793s",FAILED

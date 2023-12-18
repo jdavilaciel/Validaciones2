@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Buscar</name>
+   <tag></tag>
+   <elementGuidId>bfac2008-05f3-41af-8fbe-2feccb3ad2ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '../../../img/Iconos/Terminal/btnBuscar_2.png']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cPHPri_lnkBuscarTurno > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='cPHPri_lnkBuscarTurno']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>abeb8e4f-0b2f-423b-abd7-e79ece4642aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../img/Iconos/Terminal/btnBuscar.svg</value>
+      <webElementGuid>1d02a15f-5e78-461b-b9b6-16506ea590a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cPHPri_lnkBuscarTurno&quot;)/img[1]</value>
+      <webElementGuid>c5705bbd-0702-4e1f-b996-46417a349d3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='cPHPri_lnkBuscarTurno']/img</value>
+      <webElementGuid>0736c308-46de-40df-9ab6-8bb17d09aeb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a[4]/img</value>
+      <webElementGuid>50bd2b75-6e2e-4f61-9cce-232eb22b85a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
